@@ -7,7 +7,7 @@ header:
     image: "/assets/images/beach.jpg"
 ---
 
-{% include_cached base_path %}
+<!-- {% include_cached base_path %}
 {% include_cached group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
@@ -16,4 +16,4 @@ header:
   {% for post in posts %}
     {% include_cached archive-single.html %}
   {% endfor %}
-{% endfor %}
+{% endfor %} -->
