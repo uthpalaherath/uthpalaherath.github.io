@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-    image: "/assets/images/bio-photo.jpg"
+    image: "/assets/images/beach.jpg"
 ---
 
 Hi! My name is Uthpala and I'm originally from the tiny tropical island of Sri Lanka. I'm currently a PhD candidate in Computational Condensed Matter Physics in the Department of Physics and Astronomy at West Virginia University. 
