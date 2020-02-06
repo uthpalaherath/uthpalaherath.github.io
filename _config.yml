@@ -109,21 +109,21 @@ analytics:
 author:
   name             : "Uthpala Herath"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am a computational condensed matter physics student. "
+  bio              : "A physicist from a tropical island"
   location         : "Morgantown, WV"
-  email            : "ukh0001@mix.wvu.edu"
+  #email            : "ukh0001@mix.wvu.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:ukh0001@mix.wvu.edu
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      url: "https://twitter.com/uthpala_h"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -140,9 +140,9 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      url: "https://twitter.com/uthpala_h"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -300,4 +300,4 @@ defaults:
       type: pages
     values:
       layout: single
-      autho_profile: true
+      author_profile: true
