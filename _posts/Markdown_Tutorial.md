@@ -2,7 +2,6 @@
 title: Generating Latex and Pdf documents with Markdown
 bibliography: references.bib
 abstract: In this tutorial we explore how to generate visually appealing documents with Markdown and then convert them into Latex for further processing or export them as Pdf. All the required files are found in the same directory where this Pdf is located in. 
-theme: "Warsaw"
 ---
 
 # Introduction
@@ -64,7 +63,7 @@ Here's a list of the programs/libraries we use in this tutorial. You're free to 
 
   
 
-  ![What writing Markdown in Typora looks like.](./images/image-20200128174047615.png){#fig:typora}
+  ![What writing Markdown in Typora looks like.](../images/image-20200128174047615.png){#fig:typora}
 
   
 
@@ -137,7 +136,7 @@ The header contains the title, name of the bibtex file, abstract and so on. I ha
 
 Images in Markdown look like Fig. @fig:figurelabel. To make things look better, you can modify the latex file and use sub-figures and so on. 
 
-![The caption of the image.](./images/image.jpg){#fig:figurelabel}
+![The caption of the image.](../images/image.jpg){#fig:figurelabel}
 
 
 
