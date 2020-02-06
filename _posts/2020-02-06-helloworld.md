@@ -8,3 +8,7 @@ mathjax: "true"
 # Hello World
 
 This is a test page. 
+
+$$ 
+\alpha = 2 \beta
+$$
