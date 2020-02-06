@@ -7,13 +7,13 @@ header:
     image: "/assets/images/beach.jpg"
 ---
 
-{% include_cached base_path %}
-{% include_cached group-by-array collection=site.posts field="tags" %}
+<h1>Archive of posts from {{ page.date | date: "%B %Y" }}</h1>
 
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
+<ul class="posts">
+{% for post in page.posts %}
+  <li>
+    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
 {% endfor %}
+</ul>

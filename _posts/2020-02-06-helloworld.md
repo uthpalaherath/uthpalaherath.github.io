@@ -2,7 +2,7 @@
 title: "Hello World"
 data: 2020-02-06
 excerpt: "Testing"
-mathjax: "true"
+mathjax: true
 ---
 
 # Hello World
