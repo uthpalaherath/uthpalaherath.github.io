@@ -1,7 +1,7 @@
 ---
-title: "Posts"
+title: "Blogs"
 layout: archive
-permalink: /post/
+permalink: /blogs/
 author_profile: true
 header:
     image: "/assets/images/beach.jpg"
