@@ -1,6 +1,5 @@
 ---
-title: Glazer notation for Octahedral Tilting in Perovskites
-bibliography: ref-glazer.bib
+title: "Glazer notation for Octahedral Tilting in Perovskites"
 mathjax :true
 ---
 
