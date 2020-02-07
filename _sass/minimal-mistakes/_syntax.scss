@@ -20,6 +20,20 @@ figure.highlight {
   }
 }
 
+#container {
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
+}
+
+.highlight {
+  margin: 0;
+  padding: 1em;
+  font-family: $monospace;
+  font-size: $type-size-7;
+  line-height: 1.8;
+}
+
 .highlight table {
   margin-bottom: 0;
   font-size: 1em;
