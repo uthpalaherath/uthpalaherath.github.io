@@ -20,7 +20,7 @@ title                    : "The Tropical Physicist"
 title_separator          : "-"
 subtitle                 : "The life of a computational condensed matter physicist in a (coco)nutshell." 
 name                     : "Uthpala Herath"
-description              : "Hi! Welcome to my homepage."
+description              : "This repo holds the files for my website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -291,7 +291,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
 
