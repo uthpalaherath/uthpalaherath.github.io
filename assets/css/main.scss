@@ -21,3 +21,12 @@ html {
         font-size: 18px; // originally 22px
     }
 }
+
+@media #{$large} {
+   @include grid(12,9);
+@include suffix(12,1);
+        }
+  @media #{$x-large} {
+            @include grid(12,8);
+@include suffix(12,1);
+        }
