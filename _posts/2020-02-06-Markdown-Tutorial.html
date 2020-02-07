@@ -75,7 +75,7 @@
     code span.vs { color: #4070a0; } /* VerbatimString */
     code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="/Users/Uthpala/Dropbox/pandoc-templates/pandoc.css" />
+  <link rel="stylesheet" href="pandoc.css" />
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -92,7 +92,7 @@
 <header id="title-block-header">
 <h1 class="title">Generating Latex and Pdf documents with Markdown</h1>
 </header>
-<h1 data-number="1" id="introduction" data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<h1 id="introduction">Introduction</h1>
 <p>Throughout the last couple of years I’ve been trying to figure out the best way to keep my notes organized. For notes I take on paper, I keep them in folders for each project or class. Sometimes I keep physical note books for that as well. Here, we will focus on the most recent method I started using to organize my <strong>digital notes</strong>. I have tried a multitude of programs ranging from plain text files to softwares like the ever so popular Evernote.<span class="citation" data-cites="Evernote"><sup>1</sup></span> However, none of them worked for me. Text files aren’t capable of keeping images and tables etc. but that’s what they are there for - to save plain text. Evernote fares much better in that aspect since it can store images, tables and all that. However, the main issues with Evernote is that it cannot handle advance formatting such as Latex formulas and it also doesn’t allow exporting the documents to other formats. Markdown, on the other hand, can do all that and much more.</p>
 <p>Markdown is a simple text syntax that is very portable and has rich formatting. You could use any text editor to write Markdown and you can save it anywhere. It is very straightforward and easy to learn. For example, hashtags define titles and control their sizes. “# Title” gives a title. “## Subtitle” would be a little smaller, “### Sub-subtitle” would be even smaller and so on. Typing in a “-” , “+” or "*" before any item automatically generates bulleted lists. You could use numbers instead for numbered lists in a similar manner. I won’t dive into how to write in Markdown in this tutorial but here’s a good webpage that teaches you how to do that: <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" class="uri">https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</a>. Just remember to save your file in the <strong>.md</strong> format.</p>
 <p>One of the major reasons I switched to Markdown is the ability to write in-line formulas. Markdown follows a syntax similar to Latex where “$$” is used to enclose the formula. This format is preserved when Markdown is exported to a Latex file.</p>
@@ -128,7 +128,7 @@ n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda
 </table>
 </div>
 <p>What we are going to learn here is how to create Markdown documents that would help us do scientific writing and then export it to .tex for further latex processing. In section <a href="#prerequisites">2</a> we will discuss what we need for this.</p>
-<h1 data-number="2" id="prerequisites" data-number="2"><span class="header-section-number">2</span> Prerequisites</h1>
+<h1 id="prerequisites">Prerequisites</h1>
 <p>Here’s a list of the programs/libraries we use in this tutorial. You’re free to use similar programs if that works better for you. The tutorial is based on what I did on Ubuntu 16.04 and I followed identical steps for my Mac. I’m certain it will work for Windows as well.</p>
 <ul>
 <li><p>Typora -</p>
@@ -139,7 +139,7 @@ n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda
 <p>Typora also allows you to use your everyday shortcuts like Ctrl + B, Ctrl + U for syntax formatting and automatically writes the relevant Markdown syntax. Writing Markdown in Typora is a smooth experience. It has a folder tree to easily access your notes. A snapshot of my Typora setup is shown in Fig. <a href="#fig:typora">1</a>.</p>
 <div id="fig:typora" class="fignos">
 <figure>
-<img src="/images/Markdown-Tutorial/1.png" alt="" /><figcaption><span>Figure 1:</span> What writing Markdown in Typora looks like.</figcaption>
+<img src="images/Markdown-Tutorial/image-20200128174047615.png" alt="" /><figcaption><span>Figure 1:</span> What writing Markdown in Typora looks like.</figcaption>
 </figure>
 </div></li>
 <li><p>Pandoc -</p>
@@ -150,7 +150,7 @@ n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda
 <li><p>Latex -</p>
 <p>Once your Markdown file is converted to a .tex file, you may want to fine tune it a bit in either Overleaf or if you want Latex on your computer you can install it from <a href="https://www.latex-project.org/get/" class="uri">https://www.latex-project.org/get/</a>. I recommend the program Texmaker.</p></li>
 </ul>
-<h1 data-number="3" id="writing-in-markdown" data-number="3"><span class="header-section-number">3</span> Writing in Markdown</h1>
+<h1 id="writing-in-markdown">Writing in Markdown</h1>
 <p>Let’s see what an example Markdown document for our purposes would look like.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1"></a>---</span>
 <span id="cb4-2"><a href="#cb4-2"></a>title: Generating Latex and Pdf documents with Markdown</span>
@@ -197,14 +197,14 @@ n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda
 <p>Images in Markdown look like Fig. <a href="#fig:figurelabel">1</a>. To make things look better, you can modify the latex file and use sub-figures and so on.</p>
 <div id="fig:figurelabel" class="fignos">
 <figure>
-<img src="/images/Markdown-Tutorial/image.jpg" alt="" /><figcaption><span>Figure 1:</span> The caption of the image.</figcaption>
+<img src="images/Markdown-Tutorial/image.jpg" alt="" /><figcaption><span>Figure 1:</span> The caption of the image.</figcaption>
 </figure>
 </div>
 <p>References are used just like in Latex. You create a .bib file with all the bibtex entries and refer to each of them with the <code>@</code> symbol. In latex this is converted to <code>\citep</code>.</p>
 <p>E.g. -</p>
 <pre><code> PyProcar [@HERATH2019107080] </code></pre>
 <p>gives PyProcar<span class="citation" data-cites="HERATH2019107080"><sup>2</sup></span></p>
-<h1 data-number="4" id="converting-markdown-to-latex" data-number="4"><span class="header-section-number">4</span> Converting Markdown to Latex</h1>
+<h1 id="converting-markdown-to-latex">Converting Markdown to Latex</h1>
 <p>Once we’re done writing our Markdown document, say <strong>example.md</strong>, we have to convert it into Latex. This is where Pandoc comes in. The settings file is in <code>~/.pandoc/templates/default.latex</code>. You can create it if it’s not there. This tells Pandoc how to convert the Markdown file into Latex. I have my modified default.latex file in the same directory as this tutorial. You should take a look at the section (shown below) where I have my name and affiliation and change yours accordingly.</p>
 <pre><code>...
 % Customized details
@@ -226,7 +226,6 @@ West Virginia University,\protect\\ Morgantown, WV 26505-6315, USA}}
 </ol>
 <p>This document itself, Markdown_Tutorial.md can be used as an example to test the above scripts.</p>
 <p>Well, I hope you enjoy Markdown as much as I do. It could be used as a good starting point to gather data and figures and keep all that in one place which is updated regularly until it’s ready for publication. If a report is required along the way, you can generate a professional looking Latex Pdf document with the scripts mentioned above.</p>
-<h1 class="unnumbered" data-number="" id="references" class="unnumbered" data-number="">References</h1>
 <div id="refs" class="references" role="doc-bibliography">
 <div id="ref-Evernote">
 <p>1. Best note taking app - organize your notes with evernote. <a href="https://evernote.com/">https://evernote.com/</a> (2020).</p>
