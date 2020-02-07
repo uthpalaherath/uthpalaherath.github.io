@@ -63,7 +63,7 @@ Here's a list of the programs/libraries we use in this tutorial. You're free to 
 
   
 
-  ![What writing Markdown in Typora looks like.](images/1.png){#fig:typora}
+  ![What writing Markdown in Typora looks like.](images/Markdown-Tutorial/1.png){#fig:typora}
 
   
 
@@ -136,7 +136,7 @@ The header contains the title, name of the bibtex file, abstract and so on. I ha
 
 Images in Markdown look like Fig. @fig:figurelabel. To make things look better, you can modify the latex file and use sub-figures and so on. 
 
-![The caption of the image.](images/image.jpg){#fig:figurelabel}
+![The caption of the image.](images/Markdown-Tutorial/image.jpg){#fig:figurelabel}
 
 
 
