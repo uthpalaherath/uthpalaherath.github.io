@@ -63,7 +63,7 @@ Here's a list of the programs/libraries we use in this tutorial. You're free to 
 
   
 
-  ![What writing Markdown in Typora looks like.](/images/image-20200128174047615.png){#fig:typora}
+  ![What writing Markdown in Typora looks like.](images/1.png){#fig:typora}
 
   
 
@@ -136,7 +136,7 @@ The header contains the title, name of the bibtex file, abstract and so on. I ha
 
 Images in Markdown look like Fig. @fig:figurelabel. To make things look better, you can modify the latex file and use sub-figures and so on. 
 
-![The caption of the image.](/images/image.jpg){#fig:figurelabel}
+![The caption of the image.](images/image.jpg){#fig:figurelabel}
 
 
 
@@ -190,3 +190,5 @@ Next, we are going to use the scripts ``maketex`` and ``makepdf`` I wrote to gen
 This document itself, Markdown_Tutorial.md can be used as an example to test the above scripts.
 
 Well, I hope you enjoy Markdown as much as I do. It could be used as a good starting point to gather data and figures and keep all that in one place which is updated regularly until it's ready for publication. If a report is required along the way, you can generate a professional looking Latex Pdf document with the scripts mentioned above. 
+
+# References
