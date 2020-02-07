@@ -9,29 +9,15 @@ figure.highlight {
   background: $base00;
   color: $base05;
   font-family: $monospace;
-  font-size: $type-size-4;
+  font-size: $type-size-6;
   line-height: 1.8;
   border-radius: $border-radius;
 
   > pre,
   pre.highlight {
     margin: 0;
-    padding: 0.5em;
+    padding: 1em;
   }
-}
-
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-
-.highlight {
-  margin: 0;
-  padding: 1em;
-  font-family: $monospace;
-  font-size: $type-size-7;
-  line-height: 1.8;
 }
 
 .highlight table {
