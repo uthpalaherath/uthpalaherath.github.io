@@ -17,7 +17,7 @@ bibliography: ref-glazer.bib
 
   
   
-  ![The structure of the Perovskite ABX$_3$](./images/Glazer-Notation/c8na00416a-f3_hi-res.png){#fig:perovskitestructure height=25%}
+  ![The structure of the Perovskite ABX$_3$](/images/Glazer-Notation/c8na00416a-f3_hi-res.png){#fig:perovskitestructure height=25%}
 
 
 
@@ -39,7 +39,7 @@ bibliography: ref-glazer.bib
 
 
 
-![Octahedral tilting and its effects](./images/Glazer-Notation/c8tc02976h-f10_hi-res.png){#fig:tilting}
+![Octahedral tilting and its effects](/images/Glazer-Notation/c8tc02976h-f10_hi-res.png){#fig:tilting}
 
 ---
 
@@ -83,7 +83,7 @@ Table: The Glazer notations for the halide perovskite structures in Fig. 3. {#tb
 
 
 
-![Glazer notation table [@shojaei_stability_2018]](./images/Glazer-Notation/image-20200203140523807.png){#fig:glazertable}
+![Glazer notation table [@shojaei_stability_2018]](/images/Glazer-Notation/image-20200203140523807.png){#fig:glazertable}
 
 
 
@@ -93,8 +93,8 @@ Table: The Glazer notations for the halide perovskite structures in Fig. 3. {#tb
 
 # Supplemental Slides
 
-![Glazer Notation](./images/Glazer-Notation/41535_2016_Article_BFnpjquantmats201617_Fig1_HTML.jpg){#fig:glazer}
+![Glazer Notation](/images/Glazer-Notation/41535_2016_Article_BFnpjquantmats201617_Fig1_HTML.jpg){#fig:glazer}
 
 
 
-![Glazer](./images/Glazer-Notation/Shown-here-is-A-the-general-perovskite-structure-of-formula-unit-ABX-3-see-text-in.png){#fig:glazer2}
+![Glazer](/images/Glazer-Notation/Shown-here-is-A-the-general-perovskite-structure-of-formula-unit-ABX-3-see-text-in.png){#fig:glazer2}
