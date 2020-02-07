@@ -67,7 +67,7 @@ $$ {#eq:eqn}
 
 ---
 
-![Tilt phases of AB$X_3$ halides. A-light brown, B-green, X-dark brown [@shojaei_stability_2018]](./images/Glazer-Notation/image-20200203144305076.png){#fig:tiltphases height=45%}
+![Tilt phases of AB$X_3$ halides. A-light brown, B-green, X-dark brown [@shojaei_stability_2018]](/images/Glazer-Notation/image-20200203144305076.png){#fig:tiltphases height=45%}
 
 | Structure | Glazer notation                |
 | :-------: | :----------------------------- |
@@ -98,3 +98,6 @@ Table: The Glazer notations for the halide perovskite structures in Fig. 3. {#tb
 
 
 ![Glazer](/images/Glazer-Notation/Shown-here-is-A-the-general-perovskite-structure-of-formula-unit-ABX-3-see-text-in.png){#fig:glazer2}
+
+# References
+
