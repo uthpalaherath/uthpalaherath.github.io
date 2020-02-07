@@ -17,7 +17,7 @@ bibliography: ref-glazer.bib
 
   
   
-  ![The structure of the Perovskite ABX$_3$](/images/Glazer-Notation/c8na00416a-f3_hi-res.png){#fig:perovskitestructure height=25%}
+  ![The structure of the Perovskite ABX$_3$](images/Glazer-Notation/c8na00416a-f3_hi-res.png){#fig:perovskitestructure height=25%}
 
 
 
@@ -39,7 +39,7 @@ bibliography: ref-glazer.bib
 
 
 
-![Octahedral tilting and its effects](/images/Glazer-Notation/c8tc02976h-f10_hi-res.png){#fig:tilting}
+![Octahedral tilting and its effects](images/Glazer-Notation/c8tc02976h-f10_hi-res.png){#fig:tilting}
 
 ---
 
