@@ -155,6 +155,7 @@ samp,
 pre {
   font-family: $monospace,$serif;
   font-size: 0.9em;
+  background: $code-background-color;
 }
 
 pre {
@@ -169,7 +170,7 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: 0.9em;
-  background: $code-background-color;
+  background: $code-background-color-dark;
   border-radius: $border-radius;
 
   &:before,
