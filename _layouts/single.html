@@ -32,9 +32,9 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong>{{ site.data.ui-text[site.locale].date_label | default: "" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
         {% endif %}
-        {% if page.read_time %}
+        <!--{% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-          {% endif %}
+          {% endif %}-->
         </header>
       {% endunless %}
 
