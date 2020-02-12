@@ -27,11 +27,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0.7em 0 0.7em;
-  line-height: 1.4;
+  margin: 2em 0 0.5em;
+  line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
-  color: $base00;
 }
 
 h1 {
@@ -65,8 +64,7 @@ small,
 }
 
 p {
-  margin-bottom: 1.2em;
-  
+  margin-bottom: 1.3em;
 }
 
 u,
@@ -109,13 +107,11 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 2em;
+  margin: 2em 1em 2em 0;
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid $base00;
-  font-size: 0.85em;
-  text-align: justify;
+  border-left: 0.25em solid $primary-color;
 
   cite {
     font-style: italic;
@@ -157,8 +153,9 @@ code,
 kbd,
 samp,
 pre {
-  font-family: $monospace, $serif;
-  font-size: 0.95em;
+  font-family: $monospace,$serif;
+  font-size: 0.9em;
+  background: $lighter-gray;
 }
 
 pre {
@@ -173,7 +170,7 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: 0.9em;
-  background: $code-background-color;
+  background: $lighter-gray;
   border-radius: $border-radius;
 
   &:before,
@@ -189,24 +186,21 @@ hr {
   display: block;
   margin: 1em 0;
   border: 0;
-  border-top: 2px solid $border-color;
+  border-top: 1px solid $border-color;
 }
 
 /* lists */
 
 ul li,
 ol li {
-  margin-bottom: 0.6em;
+  margin-bottom: 0.5em;
 }
 
 li ul,
 li ol {
-  margin-top: 0.6em;
+  margin-top: 0.5em;
 }
 
-ul li {
-  list-style-type: circle;
-}
 /*
    Media and embeds
    ========================================================================== */
@@ -221,12 +215,12 @@ figure {
   -webkit-box-align: start;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin: 0.5em 0;
+  margin: 2em 0;
 
   img,
   iframe,
   .fluid-width-video-wrapper {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
   }
 
   img {
