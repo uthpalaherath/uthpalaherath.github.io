@@ -132,7 +132,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/uthpala.h"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/uthpalaherath/"
 
 # Site Footer
@@ -151,7 +151,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/uthpala.h"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/uthpalaherath/"
 
 
