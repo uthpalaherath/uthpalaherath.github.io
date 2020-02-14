@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Using Markdown with Pandoc</title>
+  <title>An introduction to creating professional looking documents with Markdown and Pandoc</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -89,12 +89,17 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Using Markdown with Pandoc</h1>
+<h1 class="title">An introduction to creating professional looking documents with Markdown and Pandoc</h1>
 <p class="subtitle">In this tutorial we explore how to generate visually appealing documents with Markdown and then convert them into Latex for further processing or export them as Pdf. All the required files are found in the same directory where this Pdf is located in.</p>
 </header>
 <h1 data-number="1" id="introduction" data-number="1"><span class="header-section-number">1</span> Introduction</h1>
 <p>Throughout the last couple of years I’ve been trying to figure out the best way to keep my notes organized. For notes I take on paper, I keep them in folders for each project or class. Sometimes I keep physical note books for that as well. Here, we will focus on the most recent method I started using to organize my <strong>digital notes</strong>. I have tried a multitude of programs ranging from plain text files to softwares like the ever so popular Evernote.<span class="citation" data-cites="Evernote"><sup>1</sup></span> However, none of them worked for me. Text files aren’t capable of keeping images and tables etc. but that’s what they are there for - to save plain text. Evernote fares much better in that aspect since it can store images, tables and all that. However, the main issues with Evernote is that it cannot handle advance formatting such as Latex formulas and it also doesn’t allow exporting the documents to other formats. Markdown, on the other hand, can do all that and much more.</p>
-<p>Markdown is a simple text syntax that is very portable and has rich formatting. You could use any text editor to write Markdown and you can save it anywhere. It is very straightforward and easy to learn. For example, hashtags define titles and control their sizes. “# Title” gives a title. “## Subtitle” would be a little smaller, “### Sub-subtitle” would be even smaller and so on. Typing in a “-” , “+” or "*" before any item automatically generates bulleted lists. You could use numbers instead for numbered lists in a similar manner. I won’t dive into how to write in Markdown in this tutorial but here’s a good webpage that teaches you how to do that: <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" class="uri">https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</a>. Just remember to save your file in the <strong>.md</strong> format.</p>
+<p>Markdown is a simple text syntax that is very portable and has rich formatting. You could use any text editor to write Markdown and you can save it anywhere. It is very straightforward and easy to learn. For example, hashtags define titles and control their sizes. “# Title” gives a title. “## Subtitle” would be a little smaller, “### Sub-subtitle” would be even smaller and so on. Typing in a “-” , “+” or "*" before any item automatically generates bulleted lists. You could use numbers instead for numbered lists in a similar manner. I won’t dive into how to write in Markdown in this tutorial but here are two tutorials that teache you how to do that:</p>
+<ol type="1">
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" class="uri">https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</a>.</li>
+<li><a href="http://support.typora.io/Markdown-Reference/" class="uri">http://support.typora.io/Markdown-Reference/</a></li>
+</ol>
+<p>Just remember to save your file in the <strong>.md</strong> format.</p>
 <p>One of the major reasons I switched to Markdown is the ability to write in-line formulas. Markdown follows a syntax similar to Latex where “$$” is used to enclose the formula. This format is preserved when Markdown is exported to a Latex file.</p>
 <p><u>Examples:</u></p>
 <ul>
@@ -144,11 +149,12 @@ n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda
 </div></li>
 <li><p>Pandoc -</p>
 <p>This allows for the conversion between formats. You can get it from <a href="https://pandoc.org/installing.html" class="uri">https://pandoc.org/installing.html</a>. We also need to install the plugins to render numbering and labeling for figures, tables, equations and sections. This is installed with pip.</p>
-<pre><code>pip install pandoc-fignos pandoc-tablenos pandoc-eqnos pandoc-secnos</code></pre></li>
+<pre><code>pip install pandoc-fignos pandoc-tablenos pandoc-eqnos pandoc-secnos</code></pre>
+<p>Another thing we need to be careful about is which pandoc the system is using since anaconda has its own outdated version of it. If this is the case rename the anaconda version to something else so that the system only uses the generic version of pandoc.</p></li>
 <li><p>Dropbox or equivalent -</p>
 <p>Unlike softwares like Evernote that store notes on their own servers in their own format, Markdown files can be saved anywhere in your storage since they are just like another text file. However, I prefer them to sync between computers so I use Dropbox. I have a directory called <code>Notebooks</code> in which I create folders for each project where I create the <code>.md</code> files for each note.</p></li>
 <li><p>Latex -</p>
-<p>Once your Markdown file is converted to a .tex file, you may want to fine tune it a bit in either Overleaf or if you want Latex on your computer you can install it from <a href="https://www.latex-project.org/get/" class="uri">https://www.latex-project.org/get/</a>. I recommend the program Texmaker.</p></li>
+<p>The conversion between .tex to .pdf requires pdflatex which comes with the latex installation. Also, once your Markdown file is converted to a .tex file, you may want to fine tune it a bit in either Overleaf or if you want Latex on your computer you can install it from <a href="https://www.latex-project.org/get/" class="uri">https://www.latex-project.org/get/</a>. I recommend the program Texmaker.</p></li>
 </ul>
 <h1 data-number="3" id="writing-in-markdown" data-number="3"><span class="header-section-number">3</span> Writing in Markdown</h1>
 <p>Let’s see what an example Markdown document for our purposes would look like.</p>
@@ -205,7 +211,7 @@ n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda
 <pre><code> PyProcar [@HERATH2019107080] </code></pre>
 <p>gives PyProcar<span class="citation" data-cites="HERATH2019107080"><sup>2</sup></span></p>
 <h1 data-number="4" id="converting-markdown-to-latex" data-number="4"><span class="header-section-number">4</span> Converting Markdown to Latex</h1>
-<p>Once we’re done writing our Markdown document, say <strong>example.md</strong>, we have to convert it into Latex. This is where Pandoc comes in. The settings file is in <code>~/.pandoc/templates/default.latex</code>. You can create it if it’s not there. This tells Pandoc how to convert the Markdown file into Latex. I have my modified default.latex file in the same directory as this tutorial. You should take a look at the section (shown below) where I have my name and affiliation and change yours accordingly.</p>
+<p>Once we’re done writing our Markdown document, say <strong>example.md</strong>, we have to convert it into Latex. This is where Pandoc comes in. The settings file is in <code>~/.pandoc/templates/default.latex</code>. You can create it if it’s not there. This tells Pandoc how to convert the Markdown file into Latex. I have my modified default.latex file in the same directory as this tutorial, but for an updated version get it from my github fork <a href="https://github.com/uthpalaherath/pandoc-templates">here</a>. You should take a look at the section (shown below) where I have my name and affiliation and change yours accordingly.</p>
 <pre><code>...
 % Customized details
 \author[]{Uthpala Herath}
@@ -213,7 +219,7 @@ n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda
 West Virginia University,\protect\\ Morgantown, WV 26505-6315, USA}}
 ...</code></pre>
 <p>If not, you can always set it in the Markdown header.</p>
-<p>Next, we are going to use the scripts <code>maketex</code> and <code>makepdf</code> I wrote to generate the Latex file and a pdf respectively. Remember to keep them in a location where you can run them globally.</p>
+<p>Next, we are going to use the scripts <code>maketex</code> and <code>makepdf</code> I wrote to generate the Latex file and a pdf respectively. The updated versions of these can be found in my github fork. Remember to keep them in a location where you can run them globally.</p>
 <ol type="1">
 <li><p>maketex -</p>
 <p>This converts the .md file to a .tex file so that it can be used as a starting point for a better Latex document which can be shared with collaborators on Overleaf.</p>
@@ -223,6 +229,10 @@ West Virginia University,\protect\\ Morgantown, WV 26505-6315, USA}}
 <p>This converts the .md file first to a .tex file and then generates a Pdf from that.</p>
 <p>Usage:</p>
 <pre><code>makepdf example.md</code></pre></li>
+<li><p>makebeamer -</p>
+<p>This converts the .md file into a beamer (presentation slides) pdf. Remember to add a theme in your YAML front matter such as <code>theme: Warsaw</code>.</p>
+<p>Usage:</p>
+<pre><code>makebeamer example.md</code></pre></li>
 </ol>
 <p>This document itself, Markdown_Tutorial.md can be used as an example to test the above scripts.</p>
 <p>Well, I hope you enjoy Markdown as much as I do. It could be used as a good starting point to gather data and figures and keep all that in one place which is updated regularly until it’s ready for publication. If a report is required along the way, you can generate a professional looking Latex Pdf document with the scripts mentioned above.</p>
