@@ -141,10 +141,10 @@ n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda
 <div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">def</span> Create_dmft_params(p,pC,N_atoms,atm_idx,sym_idx):</span>
 <span id="cb2-2"><a href="#cb2-2"></a>    <span class="co">#print &gt;&gt; f, len(sym_idx[atm_idx[0]]) # This becomes:</span></span>
 <span id="cb2-3"><a href="#cb2-3"></a>    <span class="bu">print</span> <span class="op">&gt;&gt;</span> f, <span class="bu">len</span>(sym_idx[atm_idx[<span class="dv">0</span>]])<span class="op">/</span>p[<span class="st">&#39;nspin&#39;</span>]</span></code></pre></div>
-<p>Typora also allows you to use your everyday shortcuts like Ctrl + B, Ctrl + U for syntax formatting and automatically writes the relevant Markdown syntax. Writing Markdown in Typora is a smooth experience. It has a folder tree to easily access your notes. A snapshot of my Typora setup is shown in Fig. <a href="#fig:typora">1</a>.</p>
+<p>Typora also allows you to use your everyday shortcuts like Ctrl + B, Ctrl + U for syntax formatting and automatically writes the relevant Markdown syntax. Writing Markdown in Typora is a smooth experience. It has a folder tree to easily access your notes. A snapshot of my Typora setup is shown in Fig. <a href="#fig:typora">2.1</a>.</p>
 <div id="fig:typora" class="fignos">
 <figure>
-<img src="/images/Markdown-Tutorial/image-20200128174047615.png" alt="" /><figcaption><span>Figure 1:</span> What writing Markdown in Typora looks like.</figcaption>
+<img src="/images/Markdown-Tutorial/image-20200128174047615.png" data-tag="2.1" alt="" /><figcaption><span>Figure 2.1:</span> What writing Markdown in Typora looks like.</figcaption>
 </figure>
 </div></li>
 <li><p>Pandoc -</p>
@@ -200,10 +200,10 @@ n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda
 <span id="cb4-40"><a href="#cb4-40"></a>$$ {#eq:equationlabel}</span></code></pre></div>
 <hr />
 <p>The header contains the title, name of the bibtex file, abstract and so on. I have hard coded the author and affiliation in the <code>default.latex</code> file but one may use tags such as <strong>date</strong>, <strong>author</strong>, <strong>affiliation</strong> etc. You can look for <strong>YAML Front Matter</strong> for more details.</p>
-<p>Images in Markdown look like Fig. <a href="#fig:figurelabel">1</a>. To make things look better, you can modify the latex file and use sub-figures and so on.</p>
+<p>Images in Markdown look like Fig. <a href="#fig:figurelabel">3.1</a>. To make things look better, you can modify the latex file and use sub-figures and so on.</p>
 <div id="fig:figurelabel" class="fignos">
 <figure>
-<img src="/images/Markdown-Tutorial/image.jpg" alt="" /><figcaption><span>Figure 1:</span> The caption of the image.</figcaption>
+<img src="/images/Markdown-Tutorial/image.jpg" data-tag="3.1" alt="" /><figcaption><span>Figure 3.1:</span> The caption of the image.</figcaption>
 </figure>
 </div>
 <p>References are used just like in Latex. You create a .bib file with all the bibtex entries and refer to each of them with the <code>@</code> symbol. In latex this is converted to <code>\citep</code>.</p>
