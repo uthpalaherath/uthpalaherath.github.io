@@ -7,7 +7,8 @@ header:
     overlay_color: "#000"
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
-feature_row:
+
+feature_row1:
   - image_path: /assets/images/pyprocar.jpg
     alt: "PyProcar"
     title: "PyProcar: A Python library for electronic structure pre/post-processing
@@ -15,6 +16,8 @@ feature_row:
     url: "https://github.com/romerogroup/pyprocar/"
     btn_label: "Code"
     btn_class: "btn--primary"	
+
+feature_row2:
   - image_path: /assets/images/dmftwdft.png
     alt: "DMFTwDFT"
     title: "DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages"
@@ -27,5 +30,5 @@ feature_row:
 Here's a summary of some projects I've been working on. Some of them are with research collaboratos from around the world. They range from Density Functional Theory (DFT) pre and post processing tools to handy scripts that make everyday life smoother. 
 Please feel free to contact me about any of them. 
 
-
-{% include feature_row %}
+{% include feature_row id="feature_row1" type="left" %}
+{% include feature_row id="feature_row2" type="left" %}
