@@ -310,6 +310,7 @@ defaults:
     values:
       author_profile: true 
       excerpt: ""
+      layout: single
 
 # collections
 collections:
