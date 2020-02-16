@@ -303,16 +303,15 @@ defaults:
       layout: single
       author_profile: true
 
-  # portfolio
+  # _portfolio
   - scope:
       path: ""
       type: portfolio
     values:
-      author_profile: true 
-      excerpt: ""
       layout: single
+      author_profile: true
+      share: true
 
-# collections
 collections:
   portfolio:
     output: true
