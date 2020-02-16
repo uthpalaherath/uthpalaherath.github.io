@@ -1,8 +1,8 @@
 ---
-permalink: /projects/
+permalink: /codes/
 layout: single
 classes: wide
-title: Projects
+title: Codes
 header:
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
