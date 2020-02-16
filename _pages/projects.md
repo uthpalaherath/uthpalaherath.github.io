@@ -1,4 +1,5 @@
 ---
+permalink: /projects/
 layout: single
 classes: wide
 title: “Projects”
@@ -6,7 +7,6 @@ header:
     overlay_color: "#000"
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
-permalink: /projects/
 feature_row:
   - image_path: /assets/images/pyprocar.jpg
     alt: "PyProcar"
