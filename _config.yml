@@ -310,8 +310,6 @@ defaults:
     values:
       author_profile: true 
       excerpt: ""
-      sidebar:
-        nav: "portfolio"
 
 # collections
 collections:
