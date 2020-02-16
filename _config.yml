@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "The Tropical Physicist"
+title                    : "Uthpala Herath"
 title_separator          : "-"
-subtitle                 : "My research life in a (coco)nutshell." 
+subtitle                 : "" 
 name                     : "Uthpala Herath"
-description              : "My research life in a (coco)nutshell."
+description              : ""
 url                      : "https://uthpalaherath.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
