@@ -8,6 +8,8 @@ main:
     url: /year-archive/
   - title: "Publications"
     url: /publications/
+  - title: "Projects"
+    url: /projects/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
