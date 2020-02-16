@@ -5,7 +5,7 @@ header:
     overlay_color: "#000"
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
-permalink: /portfolio/index.html
+permalink: /portfolio/
 
 feature_row:
   - image_path: /assets/images/pyprocar.jpg
