@@ -10,7 +10,7 @@ header:
 feature_row1:
   - image_path: "/assets/images/pyprocar.jpg"
     alt: "PyProcar"
-    title: "PyProcar: A Python library for electronic structure pre/post-processing
+    title: "PyProcar: A Python library for electronic structure pre/post-processing"
     excerpt: "PyProcar is a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations."
     url: "https://github.com/romerogroup/pyprocar/"
     btn_label: "Code"
