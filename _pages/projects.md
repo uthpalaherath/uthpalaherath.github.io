@@ -23,8 +23,6 @@ Please feel free to contact me about any of them.
 
 **Read more:** [Article](https://www.sciencedirect.com/science/article/pii/S0010465519303935)
 
----
-
 ## DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages
 
 <img src="/assets/images/dmftwdft.png">
