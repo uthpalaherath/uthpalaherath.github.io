@@ -1,7 +1,7 @@
 ---
 title: Posts archive
 permalink: /year-archive/
-layout: posts
+layout: archive 
 author_profile: true
 header:
     overlay_color: "#000"
@@ -10,7 +10,7 @@ header:
 excerpt: 
 ---
 
-Here's a list of posts I've been writing about a variety of topics just for my own amusement. 
+Here's a list of posts I've been writing about a variety of topics just for my own amusement. Feel free to comment. 
 
 <ul>
   {% for post in site.posts %}
