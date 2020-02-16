@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Uthpala Herath"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "PhD candidate in computational < br /> condensed matter physics"
+  bio              : "PhD candidate in computational <br /> condensed matter physics"
   location         : "Morgantown, WV"
   #email            : "ukh0001@mix.wvu.edu"
   links:
