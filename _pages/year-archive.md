@@ -4,5 +4,7 @@ permalink: /year-archive/
 layout: posts
 author_profile: true
 header:
-    image: "/assets/images/beach.jpg"
+    overlay_color: "#000"
+    overlay_image: "/assets/images/beach.jpg"
+    caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---

@@ -2,11 +2,11 @@
 permalink: /publications/
 title: “Publications"
 author_profile: true
-header: 
-    image: "/assets/images/beach.jpg"
+header:
+    overlay_color: "#000"
+    overlay_image: "/assets/images/beach.jpg"
+    caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
-
-# Publications
 
 1. Herath, U., Tavadze, P., He, X., Bousquet, E., Singh, S., Muñoz, F. & Romero, A. **PyProcar: A Python library for electronic structure pre/post-processing.** *Computer Physics Communications* 107080 (2019).
 
