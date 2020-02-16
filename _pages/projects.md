@@ -18,7 +18,7 @@ feature_row1:
     btn_class: "btn--primary"
     url2: "https://www.sciencedirect.com/science/article/pii/S0010465519303935"
     btn_label2: "Read more"
-    btn_class: "btn--primary" 
+    btn_class2: "btn--primary" 
     tags: 
         - dft
         - python
@@ -34,7 +34,7 @@ feature_row2:
     btn_class: "btn--primary"
     url2: "https://arxiv.org/abs/2002.00068"
     btn_label2: "Read more"
-    btn_class: "btn--primary"
+    btn_class2: "btn--primary"
     tags: 
     - manybodyphysics
     - materialsphysics 
