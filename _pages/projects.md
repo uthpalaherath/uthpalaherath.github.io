@@ -11,7 +11,7 @@ feature_row1:
   - image_path: /assets/images/pyprocar.jpg
     alt: "PyProcar"
     title: "PyProcar: A Python library for electronic structure pre/post-processing
-    excerpt: "PyProcar is a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations."
+    text: "PyProcar is a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations."
     url: "https://github.com/romerogroup/pyprocar/"
     btn_label: "Code"
     btn_class: "btn--primary"
@@ -24,7 +24,7 @@ feature_row2:
   - image_path: /assets/images/dmftwdft.png
     alt: "DMFTwDFT"
     title: "DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages"
-    excerpt: "An open-source computational package (and a library) combining DMFT with various DFT codes interfaced through the Wannier90 package."
+    text: "An open-source computational package (and a library) combining DMFT with various DFT codes interfaced through the Wannier90 package."
     url: "https://github.com/DMFTwDFT-project/DMFTwDFT"
     btn_label: "Code"
     btn_class: "btn--primary"
