@@ -303,16 +303,18 @@ defaults:
       layout: single
       author_profile: true
 
-  # _portfolio
+  # portfolio
   - scope:
       path: ""
       type: portfolio
     values:
-      layout: single
-      author_profile: true
-      share: true
+      author_profile: true 
+      excerpt: ""
+      sidebar:
+        nav: "portfolio"
 
+# collections
 collections:
   portfolio:
     output: true
-    permalink: /:collection/:path/
+
