@@ -15,7 +15,6 @@ feature_row:
     url: "https://github.com/romerogroup/pyprocar/"
     btn_label: "Code"
     btn_class: "btn--primary"	
-
   - image_path: /assets/images/dmftwdft.png
     alt: "DMFTwDFT"
     title: "DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages"
