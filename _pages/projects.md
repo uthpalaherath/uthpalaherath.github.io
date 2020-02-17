@@ -14,6 +14,7 @@ feature_row1:
     excerpt: "PyProcar is a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations."
     url: "https://github.com/romerogroup/pyprocar/"
     btn_label: "Code"
+	btn_class: ".btn--primary"
     
 
 feature_row2:
@@ -23,6 +24,7 @@ feature_row2:
     excerpt: "An open-source computational package (and a library) combining DMFT with various DFT codes interfaced through the Wannier90 package."
     url: "https://github.com/DMFTwDFT-project/DMFTwDFT"
     btn_label: "Code"
+	btn_class: ".btn--primary"
     
 ---
 
