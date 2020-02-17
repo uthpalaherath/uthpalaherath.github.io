@@ -18,7 +18,7 @@ feature_row1:
     
 
 feature_row2:
-  - image_path: “/assets/images/dmftwdft.png"
+  - image_path: “/assets/images/dmftwdft.jpg"
     alt: "DMFTwDFT"
     title: "DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages"
     excerpt: "An open-source computational package (and a library) combining DMFT with various DFT codes interfaced through the Wannier90 package."
