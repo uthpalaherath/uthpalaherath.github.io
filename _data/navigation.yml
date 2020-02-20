@@ -8,5 +8,7 @@ main:
     url: /year-archive/
   - title: "Publications"
     url: /publications/
+  - title: "Presentations"
+    url: /presentations/
   - title: "Projects"
     url: /projects/
