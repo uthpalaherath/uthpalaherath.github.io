@@ -134,7 +134,12 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/uthpalaherath/"
-
+    - label: "Research Gate"
+      icon: "ai ai-researchgate-square ai-3x"
+      url: "https://www.researchgate.net/profile/Uthpala_Herath2"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar-square ai-3x"
+      url: "https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en"
 # Site Footer
 footer:
   links:
@@ -153,6 +158,12 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/uthpalaherath/"
+    - label: "Research Gate"
+      icon: "ai ai-researchgate-square ai-3x"
+      url: "https://www.researchgate.net/profile/Uthpala_Herath2"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar-square ai-3x"
+      url: "https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en"
 
 
 # Reading Files
