@@ -112,7 +112,7 @@ author:
   bio              : "PhD candidate in computational <br /> condensed matter physics"
   location         : "Morgantown, WV"
   #email            : "ukh0001@mix.wvu.edu"
- 
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
