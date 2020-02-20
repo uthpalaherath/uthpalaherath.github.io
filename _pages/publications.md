@@ -17,6 +17,6 @@ excerpt:
 
 - **POSTER:**  Herath, U., Park, H., Romero, A., **Development of computational methods for the characterization of novel strongly correlated materials**, *International Summer School on Computational Quantum Materials - Sherbrooke, Québec, Canada (June, 2018)*
 
-- **POSTER:** Herath, U,. Tu, W., **The Effect of Magnetic Field Line Curvature Scattering on the Rapid Loss of Ring Current Ions**, *Geospace Environment Modeling (GEM) conference - Portsmouth, VA (July, 2017)*
+- **POSTER:** Herath, U., Tu, W., **The Effect of Magnetic Field Line Curvature Scattering on the Rapid Loss of Ring Current Ions**, *Geospace Environment Modeling (GEM) conference - Portsmouth, VA (July, 2017)*
 
 - Herath, A., Herath, U.K., **Developing an Expert System for Plant Pest Diagnosis**, *publication descriptionAnnals of the Sri Lanka Department of Agriculture Vol.15:381 (Aug, 2012)*
