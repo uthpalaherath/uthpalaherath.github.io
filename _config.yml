@@ -138,7 +138,7 @@ author:
       icon: "/assets/icons/researchgate.png"
       url: "https://www.researchgate.net/profile/Uthpala_Herath2"
     - label: "Google Scholar"
-      icon: "/assets/icons/google-scholar.png"
+      icon: "ai ai-google-scholar-square ai-3x"
       url: "https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en"
 # Site Footer
 footer:
@@ -162,7 +162,7 @@ footer:
       icon: "/assets/icons/researchgate.png"
       url: "https://www.researchgate.net/profile/Uthpala_Herath2"
     - label: "Google Scholar"
-      icon: "/assets/icons/google-scholar.png"
+      icon: "ai ai-google-scholar-square ai-3x"
       url: "https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en"
 
 
