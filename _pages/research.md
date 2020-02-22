@@ -1,7 +1,7 @@
 ---
 title: Research
 permalink: /research/
-class: wide
+classes: wide
 header:
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
