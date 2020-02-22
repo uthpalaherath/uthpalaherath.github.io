@@ -7,8 +7,8 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 
-<img src="{{ "/assets/images/aps2019.jpg" | absolute_url }}"
-width="50%" hspace="20" align="right">
+<img src="{{ "/assets/images/aps2019.jpg" | absolute_url }}”
+scale=“50%” align="right">
 
 <figcaption>Me at the 2019 APS March meeting in Boston </figcaption>
 
