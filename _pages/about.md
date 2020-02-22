@@ -7,10 +7,11 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 
-<figure>
-    <img src="{{ "/assets/images/aps2019.jpg" | absolute_url }}" align="right" style="height:50%;width:auto;max-width:auto;" >
-    <figcaption>Me at the 2019 APS March meeting in Boston</figcaption>
-</figure>
+
+<figure style="width: 30%" class="align-right">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aps2019.jpg" alt="">
+  <figcaption>Me at the 2019 APS March meeting in Boston</figcaption>
+</figure> 
 
 
 I'm currently a PhD candidate in Computational Condensed Matter Physics under the guidance of Dr. Aldo Romero at the Department of Physics and Astronomy at West Virginia University.
