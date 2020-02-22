@@ -7,7 +7,7 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 
-Here I will give a brief description about the research I'm involved with. 
+Here's a brief description about the research I'm involved with. 
 
 ### Strongly Correlated Materials 
 
