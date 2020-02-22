@@ -8,7 +8,7 @@ header:
 ---
 
 
-<figure style="width: 30%" class="align-right">
+<figure style="width: 20%" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aps2019.jpg" alt="">
   <figcaption>Me at the 2019 APS March meeting in Boston</figcaption>
 </figure> 
