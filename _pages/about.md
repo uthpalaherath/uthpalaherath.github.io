@@ -1,10 +1,16 @@
 ---
 title: About
 permalink: /about/
+classes: wide
 header:
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
+
+<img src="{{ "/assets/images/aps2019.jpg" | absolute_url }}"
+width="50%" hspace="20" align="right">
+
+<figcaption>Me at the 2019 APS March meeting in Boston </figcaption>
 
 I'm currently a PhD candidate in Computational Condensed Matter Physics under the guidance of Dr. Aldo Romero at the Department of Physics and Astronomy at West Virginia University.
 
@@ -14,5 +20,5 @@ My research focuses on the computational modeling of state-of-the-art novel mate
 
 ### Previous research
 
-Before I started research in condensed matter physics, I was in a research group that performed computational modeling of Earth's radiation belts in which I studied different loss mechanisms of Ring Current ions. It was here where I was first introduced to employing high performance computing (HPC) to solve physics problems.
+Before I started research in condensed matter physics, I was in a research group that performed computational modeling of Earth's radiation belts in which I studied different loss mechanisms of Ring Current ions. It was here where I was first introduced to employing high performance computing (HPC) to solve physics problems. You can find more info on that [here](/presentations/).
 
