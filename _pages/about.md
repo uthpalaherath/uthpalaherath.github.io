@@ -8,12 +8,10 @@ header:
 ---
 
 
-<figure style="width: 20%" class="align-right">
+<figure style="width: 25%" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aps2019.jpg" alt="">
   <figcaption>Me at the 2019 APS March meeting in Boston</figcaption>
 </figure> 
-
-
 I'm currently a PhD candidate in Computational Condensed Matter Physics under the guidance of Dr. Aldo Romero at the Department of Physics and Astronomy at West Virginia University.
 
 ### About my research
