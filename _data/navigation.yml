@@ -2,10 +2,12 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about/
   - title: "Archive"
     url: /year-archive/
+  - title: "About"
+    url: /about/ 
+  - title: "Research"
+    url: /research/ 
   - title: "Publications"
     url: /publications/
   - title: "Presentations"
