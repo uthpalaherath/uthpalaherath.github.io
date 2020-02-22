@@ -15,7 +15,7 @@ The electronic correlations in materials drive a variety of fascinating phenomen
 
 ### Dynamical Mean Field Theory
 
-<figure style="width: 80%" class="align-left">
+<figure style="width: 50%" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/dmftwdft.png" alt="">
   <figcaption>The spectral function of SrVO3 calculated from DMFT</figcaption>
 </figure> 
