@@ -31,15 +31,21 @@ After finishing high school, I volunteered in a research project conducted by th
 ### Education
 
 - Doctor of Philosophy (Physics)
+  
   Department of Physics and Astronomy
+
   West Virginia University (2015-Present)
-
+  
 - Master of Science (Physics)
+  
   Department of Physics and Astronomy
-  West Virginia University (2018)
 
+  West Virginia University (2018)
+  
 - Bachelor of Science (Major in Physics- Honors)
+  
   Minor: Pure and Applied Mathematics
+  
   University of Peradeniya, Peradeniya, Sri Lanka (08/2010 - 12/2014)
 
 ### Computational skills
