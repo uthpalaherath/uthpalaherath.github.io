@@ -7,6 +7,7 @@ header:
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
+### Posts by <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i>  Tags [here](/tags)
 
 Here's a list of posts I've been writing about a variety of topics just for my own amusement. Feel free to comment. 
 
