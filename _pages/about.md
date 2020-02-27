@@ -67,4 +67,5 @@ I was born in the tiny tropical island of Sri Lanka. My family moved to the US w
 
 Growing up I always admired science and its ability to explain how the universe works. So in high school, I took Physics, Pure and Applied Math and Chemistry for the G.C.E. Advanced Level examinations. I also started learning programming which I found intriguing. It was this fascination that later led me to do research in computational physics in grad school. 
 
-I love being outdoors, especially hiking. I live in the Wild and Wonderful state of West Virginia with its abundance of rivers and hiking trails that lead to overlooks with majestic views of the Appalacian mountain range. I like reading. Books by Dan Brown and Sydney Sheldon are among my favorites. I also play video games ([Witcher 3](https://thewitcher.com/en/) is one the best games ever!) on my PS4.  
+I love being outdoors, especially hiking. I live in the Wild and Wonderful state of West Virginia with its abundance of rivers and hiking trails that lead to overlooks with majestic views of the Appalacian mountain range. I like reading. Books by Dan Brown and Sydney Sheldon are among my favorites. I also play video games ([Witcher 3](https://thewitcher.com/en/) is one the best games ever!) on my PS4.  As for sports I’m a fan of [cricket](https://en.wikipedia.org/wiki/Cricket) and rugby. 
+
