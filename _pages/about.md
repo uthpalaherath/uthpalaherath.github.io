@@ -43,7 +43,7 @@ After finishing high school, I volunteered in a research project conducted by th
 ### Computational skills
 
 - High Performance Computing
-- Density Functional Calculations with VASP, Siesta, Elk, Abinit 
+- Density Functional Theory calculations with VASP, Siesta, Elk, Abinit 
 - Parallelization of programs using OpenMP and MPI
 - Sun/Oracle Certified Programmer for the Java SE Platform
 - C, C++, Fortran, bash, Python, Java, Matlab, SQL, git
