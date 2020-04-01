@@ -10,11 +10,7 @@ tags:
   - gradschool
 ---
 
-```
-This is a tutorial on creating visually appealing documents with Markdown and then converting them into Latex for further processing or exporting them as Pdf's. It uses the packages Pandoc and Pdflatex. 
-```
-
-
+*This is a tutorial on creating visually appealing documents with Markdown and then converting them into Latex for further processing or exporting them as Pdf's. It uses the packages Pandoc and Pdflatex.*
 
 # Introduction
 

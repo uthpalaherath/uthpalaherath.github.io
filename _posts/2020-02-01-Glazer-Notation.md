@@ -10,11 +10,7 @@ tags:
   - gradschool
 ---
 
-```
-This tutorial explains how Glazer notation is used to identify Perovskites of different symmetries based on their atomic positioning. 
-```
-
-
+*This tutorial explains how Glazer notation is used to identify Perovskites of different symmetries based on their atomic positioning.*
 
 # What are Perovskites?
 
