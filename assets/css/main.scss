@@ -10,14 +10,14 @@
 html {
 
     @include breakpoint($medium) {
-        font-size: 13px; // originally 18px
+        font-size: 18px; // originally 18px
     }
 
     @include breakpoint($large) {
-        font-size: 15px; // originally 20px
+        font-size: 20px; // originally 20px
     }
 
     @include breakpoint($x-large) {
-        font-size: 18px; // originally 22px
+        font-size: 22px; // originally 22px
     }
 }
