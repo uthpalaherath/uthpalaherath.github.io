@@ -18,7 +18,7 @@ Perovskites are structures that take the form ABX$_3$ structure (E.g.- SrVO$$_3$
 
 
 
-![The structure of the Perovskite ABX$_3$](/images/Glazer-Notation/c8na00416a-f3_hi-res.png){height=25%}
+![The structure of the Perovskite ABX$_3$](/images/Glazer-Notation/c8na00416a-f3_hi-res.png)
 
 
 
@@ -27,6 +27,8 @@ Perovskites are structures that take the form ABX$_3$ structure (E.g.- SrVO$$_3$
 ## Octahedral tilting
 
 Goldschmidt’s Tolerance Factor given from the following equation predicts the stability of perovskites.
+
+
 $$
 t=\frac{r_{\mathrm{A}}+r_{\mathrm{X}}}{\sqrt{2\left(r_{\mathrm{B}}+r_{\mathrm{X}}\right)}}
 $$
@@ -54,7 +56,7 @@ $$
 
 - The superscript indicates zero-tilt (0), in-phase-tilt (+) or anti-phase-tilt (-) of subsequent layers of octahedra.
 
-- There exists 15 tilt systems for perovskites. The following is an example.![Tilt phases of AB$X_3$ halides. A-light brown, B-green, X-dark brown [@shojaei_stability_2018]](/images/Glazer-Notation/image-20200203144305076.png){height=45%}
+- There exists 15 tilt systems for perovskites. The following is an example.![Tilt phases of AB$X_3$ halides. A-light brown, B-green, X-dark brown [@shojaei_stability_2018]](/images/Glazer-Notation/image-20200203144305076.png)
 
 | Structure | Glazer notation                |
 | :-------: | :----------------------------- |
