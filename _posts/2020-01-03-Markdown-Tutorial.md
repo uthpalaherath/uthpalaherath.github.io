@@ -27,7 +27,7 @@ One of the major reasons I switched to Markdown is the ability to write in-line 
 
 <u>Examples:</u>
 
-- \$LaNiO_3\$ gives $LaNiO_3$
+- \$LaNiO_3\$ gives $$LaNiO_3$$
 
 - ```
   $$ 
