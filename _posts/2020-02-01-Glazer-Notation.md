@@ -23,12 +23,9 @@ Perovskites are structures that take the form ABX$$_3$$ structure (E.g.- SrVO$$_
 
 
 
-
-
-## Octahedral tilting
+#Octahedral tilting
 
 Goldschmidt’s Tolerance Factor given from the following equation predicts the stability of perovskites.
-
 
 $$
 t=\frac{r_{\mathrm{A}}+r_{\mathrm{X}}}{\sqrt{2\left(r_{\mathrm{B}}+r_{\mathrm{X}}\right)}}
@@ -43,7 +40,7 @@ The following figure displays octahedral tilting and its effects[^1].
 
 
 
-## Notation
+#Notation
 
 $$
 a^0b^+c^-
