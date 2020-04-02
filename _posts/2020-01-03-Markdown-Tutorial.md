@@ -178,7 +178,7 @@ West Virginia University,\protect\\ Morgantown, WV 26505-6315, USA}}
 
 If not, you can always set it in the Markdown header. 
 
-Next, we are going to use the scripts ``maketex`` and ``makepdf`` I wrote to generate the Latex file and a pdf respectively. The updated versions of these can be found in the /scripts directory of my fork. Remember to keep them in a location where you can run them globally. 
+Next, we are going to use the scripts ``maketex`` and ``makepdf`` I wrote to generate the Latex file and a pdf respectively. The updated versions of these can be found in the /scripts directory of my fork. Remember to keep them in a location where you can run them globally.
 
 1. maketex -
 

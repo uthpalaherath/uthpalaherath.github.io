@@ -3,6 +3,7 @@ title: Glazer notation for Octahedral Tilting in Perovskites
 excerpt: This tutorial explains how Glazer notation is used to identify Perovskites of different symmetries based on their atomic positioning.
 excerpt: Classification of Perovskites of different symmetries based on their atomic positioning.
 date: 2020-02-01
+toc: true
 tags:
   - tutorials
   - physics
@@ -14,7 +15,7 @@ tags:
 
 # What are Perovskites?
 
-Perovskites are structures that take the form ABX$_3$ structure (E.g.- SrVO$$_3$$, CaTiO$$_3$$, CsSnI$$_3$$). The B cation has 6 fold coordination, surrounded by an octahedron of corner sharing anions. The A cation has 12 fold coordination surrounded by 12 anions. Most transition metallic ions are perovskite compounds. Some interesting properties of Perovskites include Ferroelectricity, colossal magnetoresistance, High T superconductivity etc.
+Perovskites are structures that take the form ABX$$_3$$ structure (E.g.- SrVO$$_3$$, CaTiO$$_3$$, CsSnI$$_3$$). The B cation has 6 fold coordination, surrounded by an octahedron of corner sharing anions. The A cation has 12 fold coordination surrounded by 12 anions. Most transition metallic ions are perovskite compounds. Some interesting properties of Perovskites include Ferroelectricity, colossal magnetoresistance, High T superconductivity etc.
 
 
 
@@ -48,14 +49,9 @@ $$
 a^0b^+c^-
 $$
 
-
-
 - The sequence of the symbols corresponds to the crystallographic axes i.e. first symbol = tilt along a [100] etc.
-
 - Identical characters indicate the same amplitude of tilt.
-
 - The superscript indicates zero-tilt (0), in-phase-tilt (+) or anti-phase-tilt (-) of subsequent layers of octahedra.
-
 - There exists 15 tilt systems for perovskites. The following is an example.![Tilt phases of AB$X_3$ halides. A-light brown, B-green, X-dark brown [@shojaei_stability_2018]](/images/Glazer-Notation/image-20200203144305076.png)
 
 | Structure | Glazer notation                |
@@ -63,7 +59,7 @@ $$
 |     a     | a$$^0$$a$$^0$$a$$^0$$ (cubic)        |
 |     b     | a$$^0$$a$$^0$$c$$^+$$ (tetragonal)   |
 |     c     | a$$^0$$a$$^0$$c$$^-$$ (tetragonal)   |
-|     d     | a$$^+$$a$$^+$a$$^+$$ (cubic)        |
+|     d     | a$$^+$$a$$^+$$a$$^+$$ (cubic)      |
 |     e     | a$$^+$$b$$^-$$b$$^-$$ (orthorhombic) |
 
 Table: The Glazer notations for the halide perovskite structures in the previous figure.
