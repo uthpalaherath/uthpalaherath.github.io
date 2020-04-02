@@ -68,15 +68,9 @@ Here's a list of the programs/libraries we use in this tutorial. You're free to 
       print >> f, len(sym_idx[atm_idx[0]])/p['nspin']
   ```
 
-  
-
   Typora also allows you to use your everyday shortcuts like Ctrl + B, Ctrl + U for syntax formatting and automatically writes the relevant Markdown syntax. Writing Markdown in Typora is a smooth experience. It has a folder tree to easily access your notes. A snapshot of my Typora setup is shown below. 
 
-  
-
   ![What writing Markdown in Typora looks like.](/images/Markdown-Tutorial/image-20200128174047615.png)
-
-  
 
 - Pandoc - 
 
