@@ -154,7 +154,7 @@ kbd,
 samp,
 pre {
   font-family: $monospace;
-  font-size: 0.9em;
+  font-size: 0.95em;
 
 }
 
@@ -169,8 +169,8 @@ figcaption > code,
 td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: 1.0em;
-  background: $code-background-color;
+  font-size: 0.95em;
+  background: $lighter-gray;
   border-radius: $border-radius;
 
   &:before,
