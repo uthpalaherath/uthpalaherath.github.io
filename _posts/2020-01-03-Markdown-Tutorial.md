@@ -27,17 +27,18 @@ One of the major reasons I switched to Markdown is the ability to write in-line 
 
 <u>Examples:</u>
 
-- \$LaNiO_3\$ gives $$LaNiO_3$$
+• \$LaNiO_3\$ gives $$LaNiO_3$$
 
-- ```
-  $$ 
-  n_{\vec{k} i j}=\sum_{\lambda} U_{\vec{k} i \lambda}^{DMFT}
-  \cdot w_{\vec{k} \lambda} \cdot U_{\vec{k} j \lambda}^{DMFT*} 
-  $$ {#eq:equationlabel}
-  ```
+• The following code block
 
-  gives
+```
+$$ 
+n_{\vec{k} i j}=\sum_{\lambda} U_{\vec{k} i \lambda}^{DMFT}
+\cdot w_{\vec{k} \lambda} \cdot U_{\vec{k} j \lambda}^{DMFT*} 
+$$ {#eq:equationlabel}
+```
 
+gives
 $$
 n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda} \cdot U_{\vec{k} j \lambda}^{DMFT*}
 $$
@@ -58,37 +59,37 @@ What we are going to learn here is how to create Markdown  documents that would 
 
 Here's a list of the programs/libraries we use in this tutorial. You're free to use similar programs if that works better for you. The tutorial is based on what I did on Ubuntu 16.04 and I followed identical steps for my Mac. I'm certain it will work for Windows as well. 
 
-- Typora - 
+• Typora - 
 
-  Even though Markdown can be written using any text editor, I prefer Typora since it converts the Markdown syntax in real time. You can get it from <https://www.typora.io/>. It also allows the creation of tables without needing complex syntax. Another cool feature is that you can copy and paste or drag and drop images right onto the markdown document. The images are saved in a directory where the markdown file is stored so that you have access to the images in one place. Typora also lets you write code with syntax highlighting. A Python code would look like this:
+Even though Markdown can be written using any text editor, I prefer Typora since it converts the Markdown syntax in real time. You can get it from <https://www.typora.io/>. It also allows the creation of tables without needing complex syntax. Another cool feature is that you can copy and paste or drag and drop images right onto the markdown document. The images are saved in a directory where the markdown file is stored so that you have access to the images in one place. Typora also lets you write code with syntax highlighting. A Python code would look like this:
 
-  ```python
-  def Create_dmft_params(p,pC,N_atoms,atm_idx,sym_idx):
-      #print >> f, len(sym_idx[atm_idx[0]]) # This becomes:
-      print >> f, len(sym_idx[atm_idx[0]])/p['nspin']
-  ```
+```python
+def Create_dmft_params(p,pC,N_atoms,atm_idx,sym_idx):
+    #print >> f, len(sym_idx[atm_idx[0]]) # This becomes:
+    print >> f, len(sym_idx[atm_idx[0]])/p['nspin']
+```
 
-  Typora also allows you to use your everyday shortcuts like Ctrl + B, Ctrl + U for syntax formatting and automatically writes the relevant Markdown syntax. Writing Markdown in Typora is a smooth experience. It has a folder tree to easily access your notes. A snapshot of my Typora setup is shown below. 
+Typora also allows you to use your everyday shortcuts like Ctrl + B, Ctrl + U for syntax formatting and automatically writes the relevant Markdown syntax. Writing Markdown in Typora is a smooth experience. It has a folder tree to easily access your notes. A snapshot of my Typora setup is shown below. 
 
-  ![What writing Markdown in Typora looks like.](/images/Markdown-Tutorial/image-20200128174047615.png)
+![What writing Markdown in Typora looks like.](/images/Markdown-Tutorial/image-20200128174047615.png)
 
-- Pandoc - 
+• Pandoc - 
 
-  This allows for the conversion between formats. You can get it from <https://pandoc.org/installing.html>. We also need to install the plugins to render numbering and labeling for figures, tables, equations and sections. This is installed with pip. 
+This allows for the conversion between formats. You can get it from <https://pandoc.org/installing.html>. We also need to install the plugins to render numbering and labeling for figures, tables, equations and sections. This is installed with pip. 
 
-  ```
-  pip install pandoc-fignos pandoc-tablenos pandoc-eqnos pandoc-secnos
-  ```
+```
+pip install pandoc-fignos pandoc-tablenos pandoc-eqnos pandoc-secnos
+```
 
-  Another thing we need to be careful about is which pandoc the system is using since anaconda has its own outdated version of it. If this is the case rename the anaconda version to something else so that the system only uses the generic version of pandoc. 
+Another thing we need to be careful about is which pandoc the system is using since anaconda has its own outdated version of it. If this is the case rename the anaconda version to something else so that the system only uses the generic version of pandoc. 
 
-- Dropbox or equivalent - 
+• Dropbox or equivalent - 
 
-  Unlike softwares like Evernote that store notes on their own servers in their own format, Markdown files can be saved anywhere in your storage since they are just like another text file. However, I prefer them to sync between computers so I use Dropbox. I have a directory called ``Notebooks`` in which I create folders for each project where I create the ``.md`` files for each note. 
+Unlike softwares like Evernote that store notes on their own servers in their own format, Markdown files can be saved anywhere in your storage since they are just like another text file. However, I prefer them to sync between computers so I use Dropbox. I have a directory called ``Notebooks`` in which I create folders for each project where I create the ``.md`` files for each note. 
 
-- Latex - 
+• Latex - 
 
-  The conversion between .tex to .pdf requires pdflatex which comes with the latex installation. Also, once your Markdown file is converted to a .tex file, you may want to fine tune it a bit in either Overleaf or if you want Latex on your computer you can install it from <https://www.latex-project.org/get/>. I recommend the program Texmaker. 
+The conversion between .tex to .pdf requires pdflatex which comes with the latex installation. Also, once your Markdown file is converted to a .tex file, you may want to fine tune it a bit in either Overleaf or if you want Latex on your computer you can install it from <https://www.latex-project.org/get/>. I recommend the program Texmaker. 
 
 # Writing in Markdown
 
@@ -174,35 +175,35 @@ If not, you can always set it in the Markdown header.
 
 Next, we are going to use the scripts ``maketex`` and ``makepdf`` I wrote to generate the Latex file and a pdf respectively. The updated versions of these can be found in the /scripts directory of my fork. Remember to keep them in a location where you can run them globally.
 
-1. maketex -
+(1).  maketex -
 
-   This converts the .md file to a .tex file so that it can be used as a starting point for a better Latex document which can be shared with collaborators on Overleaf. 
+This converts the .md file to a .tex file so that it can be used as a starting point for a better Latex document which can be shared with collaborators on Overleaf. 
 
-   Usage:
+Usage:
 
-   ```
-   maketex example.md example.tex
-   ```
+```
+maketex example.md example.tex
+```
 
-2. makepdf -
+(2). makepdf -
 
-   This converts the .md file first to a .tex file and then generates a Pdf from that. 
+This converts the .md file first to a .tex file and then generates a Pdf from that. 
 
-   Usage:
+Usage:
 
-   ```
-   makepdf example.md
-   ```
+```
+makepdf example.md
+```
 
-3. makebeamer - 
+(3). makebeamer - 
 
-   This converts the .md file into a beamer (presentation slides) pdf. Remember to add a theme in your YAML front matter such as ``theme: Warsaw``. 
+This converts the .md file into a beamer (presentation slides) pdf. Remember to add a theme in your YAML front matter such as ``theme: Warsaw``. 
 
-   Usage:
+Usage:
 
-   ```
-   makebeamer example.md
-   ```
+```
+makebeamer example.md
+```
 
 This web page itself was created using Markdown. The script ``makehtml`` comes in handy to achieve that. 
 
