@@ -155,7 +155,6 @@ samp,
 pre {
   font-family: $monospace;
   font-size: 0.95em;
-  background: $lighter-gray;
 
 }
 
@@ -171,7 +170,7 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: 0.95em;
-  background: $lighter-gray;
+  background: $code-background-color;
   border-radius: $border-radius;
 
   &:before,
