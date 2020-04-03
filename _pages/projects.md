@@ -8,7 +8,7 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 
 feature_row1:
-  - image_path: "/assets/images/pyprocar.jpg"
+  - image_path: "/assets/images/pyprocar.png"
     alt: "PyProcar"
     title: "PyProcar: A Python library for electronic structure pre/post-processing"
     excerpt: "PyProcar is a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations."
