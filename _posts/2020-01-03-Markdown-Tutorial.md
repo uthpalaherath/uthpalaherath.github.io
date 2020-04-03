@@ -39,6 +39,8 @@ $$ {#eq:equationlabel}
 ```
 
 gives
+
+
 $$
 n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda} \cdot U_{\vec{k} j \lambda}^{DMFT*}
 $$

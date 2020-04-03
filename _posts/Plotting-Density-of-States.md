@@ -14,3 +14,4 @@ tags:
 *This is a tutorial on plotting Partial Density of States for VASP DFT calculations using a script I wrote a couple months ago.*
 
 As a *computational* condensed matter physicist who doesn’t require a lab to do research, 
+

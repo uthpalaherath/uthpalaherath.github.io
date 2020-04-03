@@ -59,7 +59,7 @@ $$
 |     d     | a$$^+$$a$$^+$$a$$^+$$ (cubic)      |
 |     e     | a$$^+$$b$$^-$$b$$^-$$ (orthorhombic) |
 
-Table: The Glazer notations for the halide perovskite structures in the previous figure.
+Table 1: The Glazer notations for the halide perovskite structures in the previous figure.
 
 The following table summarizes the different types of tilting possible for different space groups[^2].
 
