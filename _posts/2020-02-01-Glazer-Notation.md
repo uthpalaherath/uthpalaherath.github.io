@@ -19,11 +19,9 @@ header:
 
 Perovskites are structures that take the form ABX$$_3$$ structure (E.g.- SrVO$$_3$$, CaTiO$$_3$$, CsSnI$$_3$$). The B cation has 6 fold coordination, surrounded by an octahedron of corner sharing anions. The A cation has 12 fold coordination surrounded by 12 anions. Most transition metallic ions are perovskite compounds. Some interesting properties of Perovskites include Ferroelectricity, colossal magnetoresistance, High T superconductivity etc.
 
-
-
 ![The structure of the Perovskite ABX$_3$](/images/Glazer-Notation/c8na00416a-f3_hi-res.png)
 
-
+<sup>**Image source**: Ladi et al.[^1] </sup>
 
 # Octahedral tilting
 
@@ -36,7 +34,7 @@ $$
 
 where, r$$_A$$, r$$_B$$ and r$$_X$$ are the ionic radii of the ions. t = 1 is a perfect cubic perovskite. Tilting occurs at lower t values where the A cation is small. Based on the relative sizes of the ions, defects, temperature effects the locations of the ions are shifted resulting in a tilting of the octahedral. E.g.- In CaTiO$$_3$$ octahedral tilting distortion lowers the coordination number of the A-site cation Ca$$^{2+}$$ from 12 to 8. This affects the system's physical, magnetic, electric properties.
 
-The following figure displays octahedral tilting and its effects[^1].
+The following figure displays octahedral tilting and its effects[^2].
 
 ![Octahedral tilting and its effects](/images/Glazer-Notation/c8tc02976h-f10_hi-res.png)
 
@@ -63,11 +61,12 @@ $$
 
 Table 1: The Glazer notations for the halide perovskite structures in the previous figure.
 
-The following table summarizes the different types of tilting possible for different space groups[^2].
+The following table summarizes the different types of tilting possible for different space groups[^3].
 
 ![Glazer notation table [@shojaei_stability_2018]](/images/Glazer-Notation/image-20200203140523807.png)
 
 # References
 
-[^1]: Butler, K. (2018). The chemical forces underlying octahedral tilting in halide perovskites*J. Mater. Chem. C, 6*, 12045-12051.
-[^2]: Shojaei, F. & Yin, W.-J. Stability trend of tilted perovskites. *arXiv:1803.05604 [cond-mat]* (2018).
+[^1]: Yi, Z., Ladi, N., Shai, X., Li, H., Shen, Y., & Wang, M. (2019). Will organic–inorganic hybrid halide lead perovskites be eliminated from optoelectronic applications?*Nanoscale Adv., 1*, 1276-1289.
+[^2]: Butler, K. (2018). The chemical forces underlying octahedral tilting in halide perovskites*J. Mater. Chem. C, 6*, 12045-12051.
+[^3]: Shojaei, F. & Yin, W.-J. Stability trend of tilted perovskites. *arXiv:1803.05604 [cond-mat]* (2018).
