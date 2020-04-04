@@ -96,7 +96,7 @@ plotDOS.py atomic -show
 
 To see both the total and the atomic contributions on the same plot you may add the ``-total`` flag to the above command. 
 
-![atomic_total](images/Plotting-Density-of-States/dos_atomic_total.png)
+![atomic_total](/images/Plotting-Density-of-States/dos_atomic_total.png)
 
 ## Orbital projected DOS
 
