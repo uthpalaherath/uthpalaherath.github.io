@@ -116,7 +116,7 @@ The ``-total`` flag works here as well if one wishes to see the total contributi
 
 ## d-orbital projected DOS
 
-In certain materials like strongly correlated systems where d orbitals play a vital role in conductivity and other properties, it is important to study the decomposed d-orbital projected DOS. i.e.  the individual effects of the e$$_g$$ and t$$_{2g}$$ when the degeneracy of the d orbital is broken.  Let’s consider the same example as above and investigate how the Ni d-orbitals behave. 
+In certain materials like strongly correlated systems where d orbitals play a vital role in conductivity and other properties, it is important to study the decomposed d-orbital projected DOS. i.e.  the individual effects of the e$$_g$$ and t$$_{2g}$$ orbitals when the degeneracy of the d orbital is broken.  Let’s consider the same example as above and investigate how the Ni d-orbitals behave. 
 
 Run:
 
@@ -139,7 +139,7 @@ plotDOS.py orbital_d -l 3 4 5 -show
 Imagine you have to perform such DOS calculations for a large set of calculations. You could use a simple bash command to achieve that. Assuming each of those calculations are in a seperate directory numbered as LaNiO3-1, LaNiO3-2 ….. LaNiO3-100, run:
 
 ```bash
-for i in {1..100};do cd $i && plotDOS.py orbital_d -atom Ni && cd ..;done
+for i in {1..100};do cd LaNiO3-$i && plotDOS.py orbital_d -atom Ni && cd ..;done
 ```
 
 This would cd into each directory and run the script and repeat it for all the directories. 
