@@ -10,6 +10,8 @@ tags:
   - condensedmatterphysics
   - densityfunctionaltheory
   - python
+header:
+  teaser: /images/Plotting-Density-of-States/dos_atomic_total.png
 ---
 
 *This is a tutorial on plotting total and partial Density of States for electronic structure calculations performed with the DFT code VASP.*
@@ -156,6 +158,5 @@ Be safe and stay home!
 [^2]: <http://electrons.wikidot.com/density-of-states>
 [^3]: <https://www.vasp.at>
 [^4]: <http://www.p4vasp.at>
-
 [^5]: <https://github.com/materialsproject/pymatgen>
 

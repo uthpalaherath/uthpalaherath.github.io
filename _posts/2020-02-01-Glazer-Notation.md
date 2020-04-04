@@ -9,6 +9,8 @@ tags:
   - physics
   - condensedmatterphysics
   - gradschool
+header:
+  teaser: /images/Glazer-Notation/c8na00416a-f3_hi-res.png
 ---
 
 *This tutorial explains how Glazer notation is used to identify Perovskites of different symmetries based on their atomic positioning.*
