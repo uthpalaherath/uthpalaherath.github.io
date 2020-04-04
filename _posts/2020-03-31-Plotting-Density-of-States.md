@@ -153,8 +153,9 @@ Be safe and stay home!
 # References
 
 [^1]: COrona VIrus Disease of 2019
-[^2]: http://electrons.wikidot.com/density-of-states
-[^3]: https://www.vasp.at
-[^4]: http://www.p4vasp.at
-[^5]: https://github.com/materialsproject/pymatgen
+[^2]: <http://electrons.wikidot.com/density-of-states>
+[^3]: <https://www.vasp.at>
+[^4]: <http://www.p4vasp.at>
+
+[^5]: <https://github.com/materialsproject/pymatgen>
 
