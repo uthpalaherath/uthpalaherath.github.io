@@ -30,7 +30,7 @@ For this tutorial we will plot the DOS of the paramagnetic metal LaNiO$$_3$$. It
 
 ![LaNiO3](/images/Plotting-Density-of-States/pristine-5953481.png)  
 
-La, Ni and O are represented with green, gray and red, respectiely. In terms of a POSCAR format that would look like:
+La, Ni and O are represented with green, gray and red, respectively. In terms of a POSCAR format that would look like:
 
 ```
  La Ni O| SG: R-3c 167 PG: -3m BL: R | sym_eps: 0.019194 (WICKOFF R-3c #167)
@@ -58,7 +58,7 @@ La, Ni and O are represented with green, gray and red, respectiely. In terms of 
     0.78138994333333   0.11472327666667   0.41666666666667  O
 ```
 
-The script we will use is called ``plotDOS.py`` and can be found in [this repository](https://github.com/uthpalaherath/MatSciScripts). The following command will give you a list of options. 
+The script we will use is called ``plotDOS.py`` and can be found in [this repository](https://github.com/uthpalaherath/MatSciScripts). The following command will give you a list of options when run from the calculation directory.
 
 ```bash
 plotDOS.py -h

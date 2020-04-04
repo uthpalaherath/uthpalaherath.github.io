@@ -21,7 +21,7 @@ Perovskites are structures that take the form ABX$$_3$$ structure (E.g.- SrVO$$_
 
 ![The structure of the Perovskite ABX$_3$](/images/Glazer-Notation/c8na00416a-f3_hi-res.png)
 
-<sup>**Image source**: Ladi et al.[^1] </sup>
+<sup>**Image source**: Yi et al.[^1] </sup>
 
 # Octahedral tilting
 
