@@ -28,15 +28,15 @@ After finishing high school, I volunteered in a research project conducted by th
 
 ### Education
 
-- Doctor of Philosophy (Physics) <br />
+• Doctor of Philosophy (Physics) <br />
   Department of Physics and Astronomy <br />
   West Virginia University (2015-Present)
   
-- Master of Science (Physics) <br />
+• Master of Science (Physics) <br />
   Department of Physics and Astronomy <br />
   West Virginia University (2018)
   
-- Bachelor of Science (Major in Physics- Honors) <br />
+• Bachelor of Science (Major in Physics- Honors) <br />
   Minor: Pure and Applied Mathematics <br />
   University of Peradeniya, Peradeniya, Sri Lanka (08/2010 - 12/2014)
 
@@ -45,10 +45,9 @@ After finishing high school, I volunteered in a research project conducted by th
 - High Performance Computing
 - Density Functional Theory calculations with VASP, Siesta, Elk, Abinit 
 - Parallelization of programs using OpenMP and MPI
-- Sun/Oracle Certified Programmer for the Java SE Platform
 - C, C++, Fortran, bash, Python, Java, Matlab, SQL, git
 - Linux, Latex, Adobe Photoshop, Adobe Premiere, Adobe After Effects    
-
+- Sun/Oracle Certified Programmer for the Java SE Platform
 
 ### Teaching experience
 
