@@ -31,4 +31,16 @@ Here's a list of research projects I'm currently working on. A detailed descript
 - MDWC -A Molecular Dynamics simulation library
 - Employing Virtual Crystal Approximation (VCA) with DMFT to study strongly correlated alloys/defects
 
+### Publications
 
+- Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, and Aldo H. Romero. **PyProcar: A Python library for electronic structure pre/post-processing**. *Computer Physics Communications 251 (2020): 107080*.
+[doi:10.1016/j.cpc.2019.107080](https://www.sciencedirect.com/science/article/pii/S0010465519303935)
+- Singh, V., Herath, U., Wah, B., Liao, X., Romero, A., Park, H., **DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages.** *Submitted to Computer Physics Communications (2020).*
+[arXiv:2002.00068](https://arxiv.org/abs/2002.00068)
+- Herath, A., Herath, U.K., **Developing an Expert System for Plant Pest Diagnosis**, *Annals of the Sri Lanka Department of Agriculture Vol.15:381 (Aug, 2012).*
+
+### Presentations
+
+- **TALK:** Herath, U.,  Park, H., Romero, A.,  **An ab-initio DFT+DMFT study of the effect of oxygen vacancies on structural, electronic and magnetic properties of rare-earth nickelate perovskites (RNiO3)**, *APS March Meeting, Boston, MA (March, 2019)*
+- **POSTER:**  Herath, U., Park, H., Romero, A., **Development of computational methods for the characterization of novel strongly correlated materials**, *International Summer School on Computational Quantum Materials - Sherbrooke, Québec, Canada (June, 2018)*
+- **POSTER:** Herath, U., Tu, W., **The Effect of Magnetic Field Line Curvature Scattering on the Rapid Loss of Ring Current Ions**, *Geospace Environment Modeling (GEM) conference - Portsmouth, VA (July, 2017)*
