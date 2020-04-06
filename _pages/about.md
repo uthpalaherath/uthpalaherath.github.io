@@ -31,11 +31,9 @@ After finishing high school, I volunteered in a research project conducted by th
 -   Doctor of Philosophy (Physics) <br />
     Department of Physics and Astronomy <br />
     West Virginia University (2015-Present)
-
 -   Master of Science (Physics) <br />
     Department of Physics and Astronomy <br />
     West Virginia University (2018)
-
 -   Bachelor of Science (Major in Physics- Honors) <br />
     Minor: Pure and Applied Mathematics <br />
     University of Peradeniya, Peradeniya, Sri Lanka (08/2010 - 12/2014)
