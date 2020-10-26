@@ -9,8 +9,8 @@ header:
 
 
 <figure style="width: 25%" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aps2019.jpg" alt="">
-  <figcaption>Me at the 2019 APS March meeting in Boston</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/DollySods.jpg" alt="">
+  <figcaption>Me in the wild.</figcaption>
 </figure> 
 I'm a PhD candidate in Computational Condensed Matter Physics under the guidance of Dr. Aldo Romero at the Department of Physics and Astronomy at West Virginia University. 
 
@@ -56,8 +56,8 @@ In grad school at West Virginia University, I was a TA for Physics 112 in which 
 ### A bit about myself 
 
 <figure style="width: 25%" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/DollySods2020.jpg" alt="">
-  <figcaption>One of my favorite backpacking locations- Dolly Sods Wilderness</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/coopersrock.jpg" alt="">
+  <figcaption>One of my favorite hiking locations- Coopers Rock State Forest</figcaption>
 </figure> 
 
 I was born in the tiny tropical island of Sri Lanka. My family moved to the US when I was about three years old so I grew up in Lincoln, NE (Go Cornhuskers!) until we moved back to Sri Lanka. I completed my bachelors degree majoring in physics and minoring in math at the University of Peradeniya. During my undergraduate degree I was involved in a variety of extra curricular activities including the Physics Society, the Astronomy Society, the Ceylon Drama Society and charity organizations.
