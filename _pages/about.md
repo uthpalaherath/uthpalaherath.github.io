@@ -56,13 +56,13 @@ In grad school at West Virginia University, I was a TA for Physics 112 in which 
 ### A bit about myself 
 
 <figure style="width: 25%" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/coopersrock.jpg" alt="">
-  <figcaption>One of my favorite hiking locations- Coopers Rock State Forest</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/DollySods2020.jpg" alt="">
+  <figcaption>One of my favorite backpacking locations- Dolly Sods Wilderness</figcaption>
 </figure> 
 
 I was born in the tiny tropical island of Sri Lanka. My family moved to the US when I was about three years old so I grew up in Lincoln, NE (Go Cornhuskers!) until we moved back to Sri Lanka. I completed my bachelors degree majoring in physics and minoring in math at the University of Peradeniya. During my undergraduate degree I was involved in a variety of extra curricular activities including the Physics Society, the Astronomy Society, the Ceylon Drama Society and charity organizations.
 
 Growing up I always admired science and its ability to explain how the universe works. So in high school, I took Physics, Pure and Applied Math and Chemistry for the G.C.E. Advanced Level examinations. I also started learning programming which I found intriguing. It was this fascination that later led me to do research in computational physics in grad school. 
 
-I love being outdoors, especially hiking. I live in the Wild and Wonderful state of West Virginia with its abundance of rivers and hiking trails that lead to overlooks with majestic views of the Appalacian mountain range. I like reading. Books by Dan Brown and Sydney Sheldon are among my favorites. I also play video games ([Witcher 3](https://thewitcher.com/en/) is one the best games ever!) on my PS4.  As for sports I’m a fan of [cricket](https://en.wikipedia.org/wiki/Cricket) and rugby. 
+I love being outdoors, especially hiking and backpacking. I live in the Wild and Wonderful state of West Virginia with its abundance of rivers and hiking trails that lead to overlooks with majestic views of the Appalacian mountain range. I like reading- books by Dan Brown and Sydney Sheldon are among my favorites. I also play video games ([Witcher 3](https://thewitcher.com/en/) is one the best games ever made!) on my PS4.  As for sports I’m a fan of [cricket](https://en.wikipedia.org/wiki/Cricket) and rugby. 
 
