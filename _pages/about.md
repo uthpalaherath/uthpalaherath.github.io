@@ -20,7 +20,7 @@ My research focuses on the computational modeling of state-of-the-art novel mate
 
 ### Previous research
 
-In the first year of grad school I did research on the computational modeling of Earth's radiation belts in which I studied different loss mechanisms of Ring Current ions. Test particle simulations were carried out to quantify cumulative Field Line Curvature (FLC) scattering of Ring Current ions. It was here where I was first introduced to employing high performance computing (HPC) to solve physics problems. You can find more info on that [here](/presentations/). 
+In the first year of grad school I did research on the computational modeling of Earth's radiation belts in which I studied different loss mechanisms of Ring Current ions. Test particle simulations were carried out to quantify cumulative Field Line Curvature (FLC) scattering of Ring Current ions. It was here where I was first introduced to employing high performance computing (HPC) to solve physics problems. 
 
 My bachelor's research project was done in collaboration with the Arthur C. Clark Institute for Modern Technologies- a leading research institute in Sri Lanka, where I was an intern. I did an extensive study of the stellar population in the globular cluster M53 using CCD Photometry techniques including Aperture Photometry and Point Spread Function (PSF) Fitting Photometry to construct a novel Color-Magnitude Diagram (CMD) of the cluster, which was in turn utilized to study its stellar population, mainly focusing on Blue Straggler Stars.  
 
