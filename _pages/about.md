@@ -30,7 +30,7 @@ After finishing high school, I volunteered in a research project conducted by th
 
 -   Doctor of Philosophy (Physics) <br />
     Department of Physics and Astronomy <br />
-    West Virginia University (2015-Present)
+    West Virginia University (2017-Present)
 -   Master of Science (Physics) <br />
     Department of Physics and Astronomy <br />
     West Virginia University (2015 - 2017)
