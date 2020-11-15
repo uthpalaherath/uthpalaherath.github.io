@@ -43,6 +43,8 @@ Here's a list of selected research projects I'm currently working on. A detailed
 
 ### Presentations
 
+- **ORAL:** Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, & Aldo H. Romero, ** Recent developments in PyProcar: A Python library for WVU electronic structure pre/post-processing**, *Carolina Science Symposium (November, 2020)*
+
 - **ORAL:** Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, & Aldo H. Romero, **PyProcar: A Python library for electronic structure pre/post-processing**, *Electronic Structure Workshop- UC, Merced (June, 2020)*
 
 - **ORAL:** Herath, U.,  Park, H., Romero, A.,  **An ab-initio DFT+DMFT study of the effect of oxygen vacancies on structural, electronic and magnetic properties of rare-earth nickelate perovskites (RNiO3)**, *APS March Meeting, Boston, MA (March, 2019)*
@@ -51,7 +53,7 @@ Here's a list of selected research projects I'm currently working on. A detailed
 
 - **POSTER:** Herath, U., Tu, W., **The Effect of Magnetic Field Line Curvature Scattering on the Rapid Loss of Ring Current Ions**, *Geospace Environment Modeling (GEM) conference - Portsmouth, VA (July, 2017)*
 
-### Awards
+### Honors & Awards
 
 - **Robert T. Bruhn Physics Research Award** (2020)
   Funding to support the research effort of a graduate or undergraduate student in the Department of Physics and Astronomy in nanotechnology and material science.
