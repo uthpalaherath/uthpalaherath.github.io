@@ -43,6 +43,8 @@ Here's a list of selected research projects I'm currently working on. A detailed
 
 ### Presentations
 
+- **ORAL:** Uthpala Herath, Vijay Singh, Benny Wah, Xingyu Liao, Hyowon Park & Aldo H. Romero, **DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages**, *APS Mid Atlantic Section Meeting (December, 2020)*
+
 - **ORAL:** Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, & Aldo H. Romero, **Recent developments in PyProcar: A Python library for WVU electronic structure pre/post-processing**, *Carolina Science Symposium (November, 2020)*
 
 - **ORAL:** Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, & Aldo H. Romero, **PyProcar: A Python library for electronic structure pre/post-processing**, *Electronic Structure Workshop- UC, Merced (June, 2020)*
