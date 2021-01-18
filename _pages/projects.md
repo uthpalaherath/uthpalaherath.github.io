@@ -25,6 +25,15 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
+feature_row3:
+  - image_path: "/assets/images/mechelastic.png"
+    alt: "MechElastic"
+    title: "MechElastic: A Python Library for Analysis of Mechanical and Elastic Properties of Bulk and 2D Materials"
+    excerpt: "A Python library to calculate elastic properties of materials."
+    url: "https://github.com/romerogroup/MechElastic"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
 ---
 
 Here's a summary of some projects I've been working on. Some of them are with research collaboratos from around the world. They range from Density Functional Theory (DFT) pre and post processing tools to handy scripts that make everyday life smoother. 
@@ -32,3 +41,4 @@ Please feel free to contact me about any of them.
 
 {% include feature_row id="feature_row1" type="left" %}
 {% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row3" type="left" %}
