@@ -12,20 +12,47 @@ header:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/DollySods2020.jpg" alt="">
   <figcaption>Me in the wild.</figcaption>
 </figure> 
-I'm a PhD candidate in Computational Condensed Matter Physics under the guidance of Dr. Aldo Romero at the Department of Physics and Astronomy at West Virginia University. 
+I'm a currently a PhD candidate in Computational Condensed Matter Physics under the guidance of Dr. Aldo Romero at the Department of Physics and Astronomy at West Virginia University. 
 
 
 ### Education
 
--   Doctor of Philosophy (Physics) <br />
-    Department of Physics and Astronomy <br />
-    West Virginia University (2017-Present)
--   Master of Science (Physics) <br />
-    Department of Physics and Astronomy <br />
-    West Virginia University (2015 - 2017)
--   Bachelor of Science (Major in Physics- Honors) <br />
-    Minor: Pure and Applied Mathematics <br />
-    University of Peradeniya, Peradeniya, Sri Lanka (2010 - 2014)
+-   **Doctor of Philosophy (Physics): 2017 - 2021 (Expected)**<br />
+    Department of Physics and Astronomy, West Virginia University<br />
+    
+    Thesis: “*Development of computational methods for electronic structural characterization of strongly correlated materials: from different ab-initio perspectives.*”<br />
+    Advisor: Aldo H. Romero
+    
+-   **Master of Science (Physics): 2015 - 2017**  <br />
+    Department of Physics and Astronomy, West Virginia University 
+    
+-   **Bachelor of Science (Major in Physics (Honors) minor in Mathematics): 2010 - 2014**<br />
+    University of Peradeniya, Peradeniya, Sri Lanka 
+
+### Research Experience
+
+- **Graduate Research Assistant (Computational Condensed Matter Physics): 2017 - current**<br />Department of Physics and Astronomy, West Virginia University
+  - The study of strongly correlated materials using beyond-DFT methods such as Dynamical Mean Field Theory.
+  - Studied the effect of oxygen vacancies in strongly correlated rare earth nickelates using DFT+DMFT.
+  - Studied alloying/defects in strongly correlated materials using virtual crystal approximation within DMFT.
+  - Development of DMFTwDFT; an open-source, user-friendly framework to calculate electronic, vibrational and elastic properties in strongly correlated materials (SCM) using beyond-DFT methods such as DFT+U, DFT+Hybrids and DFT+DMFT (Dynamical Mean Field Theory) with a variety of different DFT codes.
+  - Development of PyProcar; a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations.
+- **Graduate Research Assistant (Computational Space Physics): 2016-2017**<br />Department of Physics and Astronomy, West Virginia University
+  - *"The effect of magnetic field line curvature scattering on the rapid loss of ring current ions"*<br />Performed test particle simulations to quantify cumulative FLC scattering of ring current ions. Based on thesesimulation results, a physical parameterization for the FLC scattering is determined which is incorporated intothe RAM-SCB model
+- **Intern (Space Applications Division): 2014** <br />Arthur C. Clarke Institute of Modern Technologies, Sri Lanka
+  - Project: *"Identification of Blue Stragglers in the globular cluster M53 using CCD photometry"*
+  - Worked in conjunction with an expert team of scientists at the Space Applications division of ACCIMT toperform an extensive study of globular cluster characteristics using Aperture Photometry and PSF (PointSpread Function) Fitting Photometry methods with the IRAF (Image Reduction and Analysis Facility) system.
+  - Telescopic data of the globular cluster M53 was used to construct a novel Color-Magnitude Diagram (CMD) ofthe cluster, which was in turn utilized to study its stellar population, mainly focusing on the Blue Straggler Starpopulation.
+- **Undergraduate Researcher: 2012-2013**<br />University of Peradeniya, Peradeniya, Sri Lanka 
+  - Research Project: *“Nano Magnets and their Applications”*<br />The traits, synthesis methods, functionalization and applications of Nano Magnets were investigated.
+
+### Teaching experience
+
+- **Graduate Teaching Assistant: 2015-2017**<br />Department of Physics and Astronomy at West Virginia University
+  - Conducted labs and office hours on electrostatics, electromagnetism and optics for STEM undergraduate students in Physics 112. Graded exams and homework.
+
+- **Graduate Teaching Assistant: 2014-2015**<br />Department of Physics, Faculty of Science at University of Peradeniya, SriLanka
+  - Conducted lab and tutorial sessions for STEM undergraduate students. Graded exams and homework.
 
 ### Computational skills
 
@@ -38,20 +65,16 @@ I'm a PhD candidate in Computational Condensed Matter Physics under the guidance
 
 ### Honors & Awards
 
-- **Robert T. Bruhn Physics Research Award** (2020)
+- **Robert T. Bruhn Physics Research Award** **(2020)**
   Funding to support the research effort of a graduate or undergraduate student in the Department of Physics and Astronomy in nanotechnology and material science.
 
-- **Office of the Provost Graduate Student Travel Award** (2018)
+- **Office of the Provost Graduate Student Travel Award** **(2018)**
   Awarded by the Office of the Provost, West Virginia University to fund travel to research conferences.
 
-- **Eberly College of Arts and Sciences Graduate Student Travel Award** (2018)
+- **Eberly College of Arts and Sciences Graduate Student Travel Award** **(2018)**
   Awarded by the Eberly College of Arts and Sciences, West Virginia University to fund travel to research conferences.
 
-### Teaching experience
 
-I absolutely love teaching! After completing my bachelor's degree from the University of Peradeniya, I was appointed as a TA in the Department of Physics to teach undergraduate physics. This included conducting lab sessions and tutorials.   
-
-In grad school at West Virginia University, I was a TA for Physics 112 in which I conducted lab sessions in Electromagnetism and Optics for STEM undergraduates.  
 
 ### A bit about myself 
 
