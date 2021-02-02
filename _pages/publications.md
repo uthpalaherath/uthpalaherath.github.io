@@ -19,4 +19,7 @@ Please visit my [Google Scholar](https://scholar.google.com/citations?user=m6VPF
 ## In progress
 
 5. **Herath, U.**, Singh, V., Wah, B., Park, H. & Romero, A. H. A site occupation disorder study of oxygen vacancies in LaNiO3.
+6. **Herath, U.**, Singh, V., Wah, B., Park, H. & Romero, A. H. The effect of oxygen vacancies on strongly correlated nickelate perovskite oxides.
+7. **Herath, U.**, Singh, V., Wah, B., Park, H. & Romero, A. H. A study of strongly correlated alloys through virtual crystal approximation within dynamical mean field theory.
+8. Tavadze, P., Farah, F., Lang, L., Romestan, Z., Dovale-Farelo, V., **Herath, U**., Singh, S. & Romero, A. H. Fermi3D: Expanding PyProcar’s Fermi surface implementations.
 
