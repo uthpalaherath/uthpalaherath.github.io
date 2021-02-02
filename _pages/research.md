@@ -7,7 +7,8 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 
-My primary area of research is employing High Performance Computing with Density Functional Theory (DFT) and beyond DFT methods to study a class of materials known as Strongly Correlated Materials (SCM). The following is a brief description of SCM and the methodologies I use to study them.
+My research focuses on the computational modeling of state-of-the-art novel material using high performance computing. I mainly study a class of materials known as Strongly Correlated Materials (SCM's) using Density Functional Theory (DFT) and Quantum Many Body methods including Dynamical Mean Field Theory (DMFT) while actively collaborating with experimental groups which perform synthesis of these remarkable materials. I am also involved with code development projects which facilitate the pre and post processing of electronic structure calculations. The following is a brief description of SCM and the methodologies I use to study them.
+
 
 ### Strongly Correlated Materials
 
@@ -32,62 +33,14 @@ Research interests:
 - Employing Virtual Crystal Approximation (VCA) with DMFT to study strongly correlated alloys/defects
 
 
+### Previous research
 
-### Honors & Awards
+In the first year of grad school I did research on the computational modeling of Earth's radiation belts in which I studied different loss mechanisms of Ring Current ions. Test particle simulations were carried out to quantify cumulative Field Line Curvature (FLC) scattering of Ring Current ions. It was here where I was first introduced to employing high performance computing (HPC) to solve physics problems. 
 
-- **Robert T. Bruhn Physics Research Award** (2020)
-  Funding to support the research effort of a graduate or undergraduate student in the Department of Physics and Astronomy in nanotechnology and material science.
+My bachelor's research project was done in collaboration with the Arthur C. Clark Institute for Modern Technologies- a leading research institute in Sri Lanka, where I was an intern. I did an extensive study of the stellar population in the globular cluster M53 using CCD Photometry techniques including Aperture Photometry and Point Spread Function (PSF) Fitting Photometry to construct a novel Color-Magnitude Diagram (CMD) of the cluster, which was in turn utilized to study its stellar population, mainly focusing on Blue Straggler Stars.  
 
-- **Office of the Provost Graduate Student Travel Award** (2018)
-  Awarded by the Office of the Provost, West Virginia University to fund travel to research conferences.
-
-- **Eberly College of Arts and Sciences Graduate Student Travel Award** (2018)
-  Awarded by the Eberly College of Arts and Sciences, West Virginia University to fund travel to research conferences.
+After finishing high school, I volunteered in a research project conducted by the Sri Lanka Department of Agriculture to develop a system for plant disease diagnosis. This would allow farmers around the island to use a software framework to self-diagnose and treat plant diseases. I assisted in computational aspects of this system.
 
 
 
-### Publications
-
-Please visit my [Google Scholar](https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en&authuser=1) profile for an updated list of publications. 
-
-1. **Herath, U.**, Tavadze, P., He, X., Bousquet, E., Singh, S., Muñoz, F. & Romero, A. H. PyProcar: A Python library for electronic structure pre/post-processing. *Computer Physics Communications* 251, 107080. doi:https://doi.org/10.1016/j.cpc.2019.107080 (2020).
-2. Singh, V., **Herath, U**., Wah, B., Liao, X., Romero, A. H. & Park, H. DMFTwDFT: An Open-Source Code Combining Dynamical Mean Field Theory with Various Density Functional Theory Packages. *Computer Physics Communications*, 107778. doi:10.1016/j.cpc.2020.107778 (Dec. 2020).
-3. Singh, S., Lang, L., Dovale-Farelo, V., **Herath, U.**, Tavadze, P., Coudert, F.-X. & Romero, A. H. MechElastic: A Python Library for Analysis of Mechanical and Elastic Properties of Bulk and 2D Materials 2020. *arXiv: 2012.04758 [cond-mat.mtrl-sci]*.
-4. Herath, A. & **Herath, U.** Developing an Expert System for Plant Pest Diagnosis. *Annals of the Sri Lanka Department of Agriculture* 15, 381 (2012).
-
-#### In progress
-
-5. **Herath, U.**, Singh, V., Wah, B., Park, H. & Romero, A. H. A site occupation disorder study of oxygen vacancies in LaNiO3.
-
-### Presentations
-
-- Uthpala Herath, Vijay Singh, Benny Wah, Xingyu Liao, Hyowon Park and Aldo H. Romero 
-
-  *“DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages”*
-  APS Mid Atlantic Section Meeting, December 4-6, 2020 (VIRTUAL TALK)
-
-- Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, and Aldo H. Romero 
-
-  *“Recent developments in PyProcar: A Python library for electronic structure pre/post-processing”*
-  Carolina Science Symposium, Nov 12-13, 2020 (VIRTUAL TALK)
-
-- Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, and Aldo H. Romero 
-
-  *“PyProcar: A Python library for electronic structure pre/post-processing”*
-   Electronic Structure Workshop, June, 2020, University of California, Merced (VIRTUAL TALK)
-
-- Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, and Aldo H. Romero
-
-  *“PyProcar: A Python library for electronic structure pre/post-processing”*
-  APS March Meeting, March 4-8, 2019, Boston, MA (TALK)
-
-- Uthpala Herath, Hyowon Park and Aldo H. Romero
-  *“Development of computational methods for the characterization of novel strongly correlated materials”*
-
-  International Summer School on Computational Quantum Materials, June 2018, Sherbrooke, Québec, Canada (POSTER)
-
-- Uthpala Herath and Weichao Tu
-   *“The Effect of Magnetic Field Line Curvature Scattering on the Rapid Loss of Ring Current Ions”*
-
-  Geospace Environment Modeling (GEM) conference, July 2017, Portsmouth, VA (POSTER)
 

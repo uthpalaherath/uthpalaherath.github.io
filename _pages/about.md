@@ -14,17 +14,6 @@ header:
 </figure> 
 I'm a PhD candidate in Computational Condensed Matter Physics under the guidance of Dr. Aldo Romero at the Department of Physics and Astronomy at West Virginia University. 
 
-### About my research
-
-My research focuses on the computational modeling of state-of-the-art novel material using high performance computing. I mainly study a class of materials known as Strongly Correlated Materials (SCM's) using Density Functional Theory (DFT) and Quantum Many Body methods including Dynamical Mean Field Theory (DMFT) while actively collaborating with experimental groups which perform synthesis of these remarkable materials. I am also involved with code development projects which facilitate the pre and post processing of electronic structure calculations. Read more about my research [here](/research/).
-
-### Previous research
-
-In the first year of grad school I did research on the computational modeling of Earth's radiation belts in which I studied different loss mechanisms of Ring Current ions. Test particle simulations were carried out to quantify cumulative Field Line Curvature (FLC) scattering of Ring Current ions. It was here where I was first introduced to employing high performance computing (HPC) to solve physics problems. 
-
-My bachelor's research project was done in collaboration with the Arthur C. Clark Institute for Modern Technologies- a leading research institute in Sri Lanka, where I was an intern. I did an extensive study of the stellar population in the globular cluster M53 using CCD Photometry techniques including Aperture Photometry and Point Spread Function (PSF) Fitting Photometry to construct a novel Color-Magnitude Diagram (CMD) of the cluster, which was in turn utilized to study its stellar population, mainly focusing on Blue Straggler Stars.  
-
-After finishing high school, I volunteered in a research project conducted by the Sri Lanka Department of Agriculture to develop a system for plant disease diagnosis. This would allow farmers around the island to use a software framework to self-diagnose and treat plant diseases. I assisted in computational aspects of this system.
 
 ### Education
 
@@ -46,6 +35,17 @@ After finishing high school, I volunteered in a research project conducted by th
 - C, C++, Fortran, bash, Python, Java, Matlab, SQL, git
 - Linux, Latex, Adobe Photoshop, Adobe Premiere, Adobe After Effects    
 - Sun/Oracle Certified Programmer for the Java SE Platform
+
+### Honors & Awards
+
+- **Robert T. Bruhn Physics Research Award** (2020)
+  Funding to support the research effort of a graduate or undergraduate student in the Department of Physics and Astronomy in nanotechnology and material science.
+
+- **Office of the Provost Graduate Student Travel Award** (2018)
+  Awarded by the Office of the Provost, West Virginia University to fund travel to research conferences.
+
+- **Eberly College of Arts and Sciences Graduate Student Travel Award** (2018)
+  Awarded by the Eberly College of Arts and Sciences, West Virginia University to fund travel to research conferences.
 
 ### Teaching experience
 

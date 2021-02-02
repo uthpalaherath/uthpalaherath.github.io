@@ -139,6 +139,9 @@ author:
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid" 
+      url: "orcid.org/0000-0002-4585-3002"
 # Site Footer
 footer:
   links:
@@ -163,6 +166,9 @@ footer:
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid" 
+      url: "orcid.org/0000-0002-4585-3002"
 
 
 # Reading Files
