@@ -7,7 +7,9 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 
-- Uthpala Herath, Vijay Singh, Benny Wah, Xingyu Liao, Hyowon Park and Aldo H. Romero 
+# Presentations
+
+- Uthpala Herath, Vijay Singh, Benny Wah, Xingyu Liao, Hyowon Park and Aldo H. Romero
   *“DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages”*
   APS Mid Atlantic Section Meeting, December 4-6, 2020 (VIRTUAL TALK)
 
