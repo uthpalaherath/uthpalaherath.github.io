@@ -1,6 +1,7 @@
 ---
 permalink: /publications/
 title: Publications
+classes: wide
 author_profile: true
 header:
     overlay_image: "/assets/images/beach.jpg"
