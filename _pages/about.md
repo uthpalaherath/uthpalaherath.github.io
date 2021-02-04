@@ -65,6 +65,9 @@ I'm a currently a PhD candidate in Computational Condensed Matter Physics under 
 
 ### Honors & Awards
 
+- **Ovshinsky Travel Award for the APS March Meeting 2021** **(2021)**
+  Awarded by the American Physical Society, funding to support registration for the American Physical Society 2021 March Meeting.
+
 - **Robert T. Bruhn Physics Research Award** **(2020)**
   Funding to support the research effort of a graduate or undergraduate student in the Department of Physics and Astronomy in nanotechnology and material science.
 
