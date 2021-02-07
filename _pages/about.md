@@ -31,7 +31,7 @@ I'm a currently a PhD candidate in Computational Materials Science in the resear
 
 ### Research Experience
 
-Please visit my found in [research](/research/) page for more details.<br />
+Please visit my [research](/research/) page for more details.<br />
 
 - **Graduate Research Assistant (Computational Materials Science): 2017 - current**<br />Department of Physics and Astronomy, West Virginia University
   - The study of strongly correlated materials using beyond-DFT methods such as Dynamical Mean Field Theory.
