@@ -7,6 +7,7 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 
+# About
 
 <figure style="width: 25%" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/DollySods2020.jpg" alt="">
