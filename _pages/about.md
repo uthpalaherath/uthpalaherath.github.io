@@ -12,7 +12,7 @@ header:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/DollySods2020.jpg" alt="">
   <figcaption>Me in the wild.</figcaption>
 </figure> 
-I'm a currently a PhD candidate in Computational Condensed Matter Physics under the guidance of Dr. Aldo Romero at the Department of Physics and Astronomy at West Virginia University. 
+I'm a currently a PhD candidate in Computational Materials Science in the research group of Dr. Aldo Romero at the Department of Physics and Astronomy at West Virginia University. 
 
 
 ### Education
@@ -31,7 +31,9 @@ I'm a currently a PhD candidate in Computational Condensed Matter Physics under 
 
 ### Research Experience
 
-- **Graduate Research Assistant (Computational Condensed Matter Physics): 2017 - current**<br />Department of Physics and Astronomy, West Virginia University
+Please visit my found in [research](/research/) page for more details.<br />
+
+- **Graduate Research Assistant (Computational Materials Science): 2017 - current**<br />Department of Physics and Astronomy, West Virginia University
   - The study of strongly correlated materials using beyond-DFT methods such as Dynamical Mean Field Theory.
   - Studied the effect of oxygen vacancies in strongly correlated rare earth nickelates using DFT+DMFT.
   - Studied alloying/defects in strongly correlated materials using virtual crystal approximation within DMFT.
