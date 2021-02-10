@@ -9,8 +9,17 @@ header:
 
 # Research
 
-My research focuses on the computational modeling of state-of-the-art novel material using high performance computing. I mainly study a class of remarkable materials known as Strongly Correlated Materials (SCMs) using Density Functional Theory (DFT) and Quantum Many Body methods including Dynamical Mean Field Theory (DMFT). I am also involved with code development projects which facilitate the pre and post processing of electronic structure calculations. The following is a brief description of SCMs and the methodologies I use to study them.
+My research focuses on the computational modeling of state-of-the-art novel material using high performance computing. I mainly study a class of remarkable materials known as Strongly Correlated Materials (SCMs) using Density Functional Theory (DFT) and Quantum Many Body methods including Dynamical Mean Field Theory (DMFT). I am also involved with code development projects which facilitate the pre and post processing of electronic structure calculations. 
 
+Summary of research interests:
+
+- The development of the DMFTwDFT framework to characterize strongly correlated materials
+- An ab-initio DFT+DMFT study of the effect of oxygen vacancies on structural, electronic and magnetic properties of rare-earth nickelate perovskites
+- PyProcar: A Python library for electronic structure pre/post-processing
+- MDWC -A Molecular Dynamics simulation library developed by our group
+- Employing Virtual Crystal Approximation (VCA) with DMFT to study strongly correlated alloys/defects
+
+The following is a brief description of SCMs and the methodologies I use to study them.
 
 ### Strongly Correlated Materials (SCMs)
 
@@ -26,13 +35,7 @@ The electronic correlations in materials drive a variety of fascinating phenomen
 
 Dynamical Mean Field Theory (DMFT) is a technique used to study these materials in which the Hubbard model is mapped to a local Anderson Impurity model and solved numerically using quantum Monte Carlo methods to capture both itinerant and localized nature of electrons. The initial self-energy is estimated from the self-consistent density obtained from DFT which is then projected into maximally localized Wannier functions (MLWF's) as the basis set which is then used to solve for the interacting DMFT density matrix. Full charge self-consistency is achieved by repeatedly updating the DFT and DMFT charge densities until they are both converged. This methodology accurately describes properties of strongly correlated materials where most DFT calculations fail.
 
-Research interests:
 
-- The development of the DMFTwDFT framework to characterize strongly correlated materials
-- An ab-initio DFT+DMFT study of the effect of oxygen vacancies on structural, electronic and magnetic properties of rare-earth nickelate perovskites
-- PyProcar: A Python library for electronic structure pre/post-processing
-- MDWC -A Molecular Dynamics simulation library developed by our group
-- Employing Virtual Crystal Approximation (VCA) with DMFT to study strongly correlated alloys/defects
 
 
 ### Previous research
