@@ -42,7 +42,7 @@ The electronic correlations in materials drive a variety of fascinating phenomen
 
 Dynamical Mean Field Theory (DMFT) is a technique used to study these materials in which the Hubbard model is mapped to a local Anderson Impurity model and solved numerically using quantum Monte Carlo methods to capture both itinerant and localized nature of electrons. The initial self-energy is estimated from the self-consistent density obtained from DFT which is then projected into maximally localized Wannier functions (MLWF's) as the basis set which is then used to solve for the interacting DMFT density matrix. Full charge self-consistency is achieved by repeatedly updating the DFT and DMFT charge densities until they are both converged. This methodology accurately describes properties of strongly correlated materials where most DFT calculations fail.
 
-Please see [projects][/projects/] for several selected research performed on SCMs. 
+Please see [projects](https://uthpalaherath.github.io/projects/) for several selected research performed on SCMs. 
 
 ### Previous research
 

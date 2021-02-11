@@ -38,8 +38,8 @@ feature_row3:
 
 # Projects
 
-Here's a collection of some projects I've been working on. Some of them are with research collaboratos from around the world. They range from Density Functional Theory (DFT) pre and post processing tools to handy scripts that make everyday life smoother. 
-Please feel free to contact me about any of them. More projects can be found on my [Github](https://github.com/uthpalaherath) along with Github organizations I've contributed to.
+The following is a list of individual and collaborative research projects.
+More projects can be found on my [Github](https://github.com/uthpalaherath) along with Github organizations I have contributed to.
 
 {% include feature_row id="feature_row1" type="left" %}
 {% include feature_row id="feature_row2" type="left" %}
