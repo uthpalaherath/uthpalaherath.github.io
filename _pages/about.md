@@ -42,7 +42,7 @@ Please visit my [research](/research/) page for more details.<br />
     - Implemented full charge self-consistent DFT+DMFT calculations within the DMFTwDFT framework for the DFT code Siesta in collaboration with Dr. Javier Junquera, a lead developer for Siesta. Interfaced Quantum Espresso with DMFTwDFT (both natively and through Aiida) to perform one-shot DMFT calculations.
     - Performed electronic structure calculations to study the electronic properties of transition and rare-earth correlated nickelate perovskites using DMFTwDFT.
     - Carried out molecular dynamics simulations on SCMs using our in-house MDWC code.
-    - Studied the effect of symmetrically induced oxygen vacancies based on site occupation disorder in strongly correlated rare earth nickelate perovskites using a combination of DFT and DMFT and identified potential metal-to-insulator transitions. Further studied the minimum energy pathways for oxygen vacancy diffusion using Nudged Elastic Band theory (NEB) within DMFT for these vacancies.
+    - Studied the effect of symmetrically induced oxygen vacancies based on site occupation disorder in strongly correlated rare earth nickelate perovskites using a combination of DFT and DMFT and identified potential metal-to-insulator transitions. Further studied the minimum energy pathways for oxygen vacancy diffusion using Nudged Elastic Band algorithm (NEB) within DMFT for these vacancies.
     - Investigated the electronic properties of strongly correlated oxynitrides perovskites and Heusler alloys.
     - Applied virtual crystal approximation (VCA) within DMFT to study alloying/ defects in SCMs.
     
@@ -96,25 +96,26 @@ Please visit my [research](/research/) page for more details.<br />
   - Density Functional Theory (DFT) codes - VASP, Siesta, Abinit, Elk, Quantum Espresso for DFT, DFT+U, Hybrid functionals, GW calculations
   - Electronic, vibrational, magnetic, mechanical, elastic, thermal and optical properties of bulk material and heterostructures.
 - Materials Research Methods and Tools
-  - DMFTwDFT - An open-source framework to perform Dynamical Mean Field Theory (DMFT) calculations to study strongly correlated materials (SCMs), Mott transitions, mass renormalization effects, spectral functions
-  - Impurity Solvers and Quantum Monte Carlo Methods
-  - PyProcar - *A robust, open-source Python library used for pre- and post-processing of the electronic structure datacoming from DFT calculations.*
-  - PyChemia - *An open-source Python library for materials structural search.*
-  - MechElastic - *An open-source Python library to calculate elastic properties of materials.*
-  - VTST Tools - *Minimum Energy Pathways calculations.*
+  - DMFTwDFT - *An open-source framework to perform Dynamical Mean Field Theory (DMFT) calculations to study strongly correlated materials (SCMs), Mott transitions, mass renormalization effects, spectral functions. **(in-house code)***
+  - PyProcar - *A robust, open-source Python library used for pre- and post-processing of the electronic structure datacoming from DFT calculations.* **(in-house code)**
+  - PyChemia - *An open-source Python library for materials structural search.* **(in-house code)**
+  - MechElastic - *An open-source Python library to calculate elastic properties of materials.* **(in-house code)**
+  - Impurity Solvers and Quantum Monte Carlo Methods - *Solving the Anderson Impurity model with the CTQMC method.*
+  - VTST Tools - *A code for finding saddle points and evaluating transition state theory (TST) rate constants.*
+  - DiSPy - *A utility for applying the distortion symmetry method (DSM) to the calculation of minimum energy pathways using the nudged elastic band (NEB) algorithm.*
+  - SOD (Site Occupation Disorder) - *A package of tools for the computer modelling of periodic systems with site disorder, using the supercell ensemble method.*
   - Wannier90 - *Maximally Localized Wannier Functions.*
-  - Molecular Dynamics Simulations -  *MDWC (A command line open-source Python program for constrained molecular dynamics simulations.), VMD, qAgate, Jmol.*
+  - Molecular Dynamics Simulations -  *MDWC (A command line open-source Python program for constrained molecular dynamics simulations. - **in-house code**), VMD, qAgate, Jmol.*
+  - Pymatgen (Python Materials Genomics) - *A robust, open-source Python library for materials analysis.*
+  - phonopy - *An open source package for phonon calculations at harmonic and quasi-harmonic levels.*
   - Graphical tools - *VESTA (Visualization for Electronic Structure Analysis), gnuplot, Xmgrace, xcrysden.*
-  - Vacancy, defect and alloying methods - *sod (site occupation disorder), Virtual Crystal Approximation (VCA) ,Coherent Potential Approximation (CPA), SPRKKR*
+  - Vacancy, defect and alloying methods - *Virtual Crystal Approximation (VCA) ,Coherent Potential Approximation (CPA), SPRKKR*
   - Tightbinding Hamiltonians - *Employing Tightbinding Hamiltonians to study strongly correlated material.*
 - **Programming languages :** C, C++, Fortran, Python, Bash, Matlab, Java, SQL
 - **Computational methods :** High-performance computing (HPC), High-throughput computing (HTC), Parallel computing with OpenMP and MPI, Regression analysis, Differential solvers and Integrators, Numerical analysis algorithms, Object-oriented and Procedural programming paradigms
-- **Libraries :** PyMatgen, phonopy, DiSPy, sod (site occupation disorder), numpy, scipy, pandas, matplotlib, BLAS, LAPACK, FFTW3, GSL
-- **Operating systems :** Linux, MacOS, Windows
+- **Libraries :** numpy, scipy, pandas, matplotlib, BLAS, LAPACK, FFTW, GSL
 - **Graphics and Publishing :** Latex, Markdown, Adobe Photoshop, Adobe Premiere, Adobe After Effects, Adobe Illustrator
-- **Version Control :** git, GitHub
-- **Utilities:** vim, tmux, globus
-- **Communications :** Slack, Zoom, Skype
+- **Utilities:** vim, tmux, globus, git
 - **Languages :** English (Full professional proficiency), Sinhala (Native or bilingual proficiency), Tamil (Elementary proficiency)
 - **Soft skills :** Creative problem solving, Leadership, Organization, Communication, Teamwork, Empathy, Networking
 
