@@ -9,21 +9,28 @@ header:
 
 # Research
 
-My research focuses on the computational modeling of state-of-the-art novel material using high performance computing. I mainly study a class of remarkable materials known as Strongly Correlated Materials (SCMs) using Density Functional Theory (DFT) and Quantum Many Body methods including Dynamical Mean Field Theory (DMFT). I am also involved with code development projects which facilitate the pre and post processing of electronic structure calculations. 
+My research focuses on employing High-Performance Computing (HPC) and High-Throughput Computing (HTC) to perform first principles *ab-initio* electronic structure calculations for bulk material and heterostructures, primarily focusing on strongly correlated materials (SCMs) using beyond-DFT quantum many body Green’s functions methods and Dynamical Mean Field Theory (DMFT).
 
-Summary of research interests:
+### Summary of research interests
 
-- The development of the DMFTwDFT framework to characterize strongly correlated materials
-- An ab-initio DFT+DMFT study of the effect of oxygen vacancies on structural, electronic and magnetic properties of rare-earth nickelate perovskites
-- PyProcar: A Python library for electronic structure pre/post-processing
-- MDWC -A Molecular Dynamics simulation library developed by our group
-- Employing Virtual Crystal Approximation (VCA) with DMFT to study strongly correlated alloys/defects
+- Electronic structure methods :
+
+  - Calculating electronic, magnetic, optical, elastic, mechanical, thermal and vibrational properties of strongly/weakly correlated material.
+  - Performing molecular dynamics simulations of strongly/weakly correlated material.
+  - Design and characterization of state-of-the-art novel material with remarkable emergent properties.
+  - Study of defects, vacancies and alloying in SCMs.
+
+- Interested in materials useful for high-temperature superconductivity, magnetism, colossal magnetoresistance, metalto insulator transitions, ferromagnetism, thermo-magnetic, spintronics, neuromorphic computing and energy applications.
+
+- Collaborative development of frameworks to facilitate electronic structure calculations along with their pre and post-processing (E.g.- [PyProcar](https://github.com/romerogroup/pyprocar/), [DMFTwDFT](https://github.com/DMFTwDFT-project/DMFTwDFT)).
+
+  
 
 The following is a brief description of SCMs and the methodologies I use to study them.
 
 ### Strongly Correlated Materials (SCMs)
 
-The electronic correlations in materials drive a variety of fascinating phenomena from magnetism to superconductivity, which are due to the coupling between electron’s spin, charge, ionic displacements and orbital ordering. Although DFT is a very successful theory in describing the electronic structure of weakly interacting material systems, it fails to predict the properties of SCM’s that include transition and rare earth metals where there  is  a  natural  strong  electron  localization  as  in  the  case  of  *d*  and  *f* orbitals due to the nature of their spatial confinement. They lead to a wide variety of astonishing phenomena in materials including magnetism, high-temperature superconductivity, colossal magnetoresistance, heavy fermion systems, metal to insulator transitions (Mott insulator) and thermomagnetism, all which have a profound impact on novel applications. These  correlated  electrons  cannot  be  studied  under  mean  field  approaches  since  their  interactions  on  each other are too prominent to be treated independently.
+The electronic correlations in materials drive a variety of fascinating phenomena from magnetism to superconductivity, which are due to the coupling between electron’s spin, charge, ionic displacements and orbital ordering. Although DFT is a very successful theory in describing the electronic structure of weakly interacting material systems, it fails to predict the properties of SCMs that include transition and rare earth metals where there  is  a  natural  strong  electron  localization  as  in  the  case  of  *d*  and  *f* orbitals due to the nature of their spatial confinement. They lead to a wide variety of astonishing phenomena in materials including magnetism, high-temperature superconductivity, colossal magnetoresistance, heavy fermion systems, metal to insulator transitions (Mott insulator) and thermomagnetism, all which have a profound impact on novel applications. These  correlated  electrons  cannot  be  studied  under  mean  field  approaches  since  their  interactions  on  each other are too prominent to be treated independently.
 
 ### Dynamical Mean Field Theory (DMFT)
 
@@ -35,8 +42,7 @@ The electronic correlations in materials drive a variety of fascinating phenomen
 
 Dynamical Mean Field Theory (DMFT) is a technique used to study these materials in which the Hubbard model is mapped to a local Anderson Impurity model and solved numerically using quantum Monte Carlo methods to capture both itinerant and localized nature of electrons. The initial self-energy is estimated from the self-consistent density obtained from DFT which is then projected into maximally localized Wannier functions (MLWF's) as the basis set which is then used to solve for the interacting DMFT density matrix. Full charge self-consistency is achieved by repeatedly updating the DFT and DMFT charge densities until they are both converged. This methodology accurately describes properties of strongly correlated materials where most DFT calculations fail.
 
-
-
+Please see [projects][/projects/] for several selected research performed on SCMs. 
 
 ### Previous research
 
