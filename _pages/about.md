@@ -116,6 +116,7 @@ Please visit my [research](/research/) page for more details.<br />
 - **Utilities:** vim, tmux, globus
 - **Communications :** Slack, Zoom, Skype
 - **Languages :** English (Full professional proficiency), Sinhala (Native or bilingual proficiency), Tamil (Elementary proficiency)
+- **Soft skills :** Creative problem solving, Leadership, Organization, Communication, Teamwork, Empathy
 
 ### Honors & Awards
 
