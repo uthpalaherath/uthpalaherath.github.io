@@ -84,7 +84,7 @@ Please visit my [research](/research/) page for more details.<br />
 
 - **Graduate Teaching Assistant: 2015-2017**<br />Department of Physics and Astronomy at West Virginia University
   - Conducted labs and office hours on electrostatics, electromagnetism and optics for STEM undergraduate students in Physics 112. 
-- Graded exams and homework.
+  - Graded exams and homework.
   
 - **Graduate Teaching Assistant: 2014-2015**<br />Department of Physics, Faculty of Science at University of Peradeniya, SriLanka
   - Conducted lab and tutorial sessions for STEM undergraduate students. 
