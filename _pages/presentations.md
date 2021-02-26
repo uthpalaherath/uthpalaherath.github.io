@@ -18,8 +18,8 @@ header:
 1. Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, and Aldo H. Romero <br />
   *“PyProcar: A Python library for electronic structure pre/post-processing”* <br />
    Electronic Structure Workshop, June, 2020, University of California, Merced (VIRTUAL TALK)
-1. Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, and Aldo H. Romero <br />
-  *“PyProcar: A Python library for electronic structure pre/post-processing”* <br />
+1. Uthpala Herath, Hyowon Park and Aldo H. Romero <br />
+  *“An ab-initio DFT+DMFT study of the effect of oxygen vacancies on structural, electronic and magnetic properties of rare-earth nickelate perovskites (RNO3)”* <br />
   APS March Meeting, March 4-8, 2019, Boston, MA (TALK)
 1. Uthpala Herath, Hyowon Park and Aldo H. Romero
   *“Development of computational methods for the characterization of novel strongly correlated materials”* <br />
