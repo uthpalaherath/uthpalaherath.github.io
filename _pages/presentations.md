@@ -8,12 +8,14 @@ header:
 ---
 
 # Presentations
-
+1. Uthpala Herath, Pedram Tavadze, He Xu, Eric Bousquet, Sobhit Singh, Reese Boucher, Logan Lang, Freddy Farah, Francisco Muñoz and Aldo H Romero <br />
+  *“Recent Developments in PyProcar: A Python library for electronic structure pre/post-processing”* <br />
+  APS March Meeting, Mar 15-19, 2021 (VIRTUAL TALK)
 1. Uthpala Herath, Vijay Singh, Benny Wah, Xingyu Liao, Hyowon Park and Aldo H. Romero <br />
   *“DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages”* <br />
   APS Mid Atlantic Section Meeting, December 4-6, 2020 (VIRTUAL TALK)
 1. Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, and Aldo H. Romero <br />
-  *“Recent developments in PyProcar: A Python library for electronic structure pre/post-processing”* <br />
+  *“PyProcar: A Python library for electronic structure pre/post-processing”* <br />
   Carolina Science Symposium, Nov 12-13, 2020 (VIRTUAL TALK)
 1. Uthpala Herath, Pedram Tavadze, Xu He, Eric Bousquet, Sobhit Singh, Francisco Muñoz, and Aldo H. Romero <br />
   *“PyProcar: A Python library for electronic structure pre/post-processing”* <br />
