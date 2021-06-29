@@ -9,6 +9,9 @@ header:
 
 # Presentations
 1. Uthpala Herath, Pedram Tavadze, He Xu, Eric Bousquet, Sobhit Singh, Reese Boucher, Logan Lang, Freddy Farah, Francisco Muñoz and Aldo H Romero <br />
+  *“A tutorial on PyProcar: A Python library for electronic structure pre/post-processing”* <br />
+  Rutgers University, June 25th, 2021 (INVITED VIRTUAL TALK)
+1. Uthpala Herath, Pedram Tavadze, He Xu, Eric Bousquet, Sobhit Singh, Reese Boucher, Logan Lang, Freddy Farah, Francisco Muñoz and Aldo H Romero <br />
   *“Recent Developments in PyProcar: A Python library for electronic structure pre/post-processing”* <br />
   APS March Meeting, Mar 15-19, 2021 (VIRTUAL TALK)
 1. Uthpala Herath, Vijay Singh, Benny Wah, Xingyu Liao, Hyowon Park and Aldo H. Romero <br />
