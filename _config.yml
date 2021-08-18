@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "d
 locale                   : "en-US"
 title                    : "Uthpala Herath"
 title_separator          : "-"
-subtitle                 : "" 
+subtitle                 : ""
 name                     : "Uthpala Herath"
 description              : ""
 url                      : "https://uthpalaherath.github.io/"
@@ -140,8 +140,11 @@ author:
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en"
     - label: "ORCID"
-      icon: "fab fa-fw fa-orcid" 
+      icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-4585-3002"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UC_IfMMrbH9EjtTAfD_d-E-Q"
 # Site Footer
 footer:
   links:
@@ -167,9 +170,11 @@ footer:
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en"
     - label: "ORCID"
-      icon: "fab fa-fw fa-orcid" 
+      icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-4585-3002"
-
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UC_IfMMrbH9EjtTAfD_d-E-Q"
 
 # Reading Files
 include:
@@ -214,7 +219,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: true # originally false 
+incremental: true # originally false
 
 
 # Markdown Processing
@@ -340,4 +345,3 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-
