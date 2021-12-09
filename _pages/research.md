@@ -22,9 +22,11 @@ My research focuses on employing High-Performance Computing (HPC) and High-Throu
 
 - Interested in materials useful for high-temperature superconductivity, magnetism, colossal magnetoresistance, metalto insulator transitions, ferromagnetism, thermo-magnetic, spintronics, neuromorphic computing and energy applications.
 
-- Collaborative development of frameworks to facilitate electronic structure calculations along with their pre and post-processing (E.g.- [PyProcar](https://github.com/romerogroup/pyprocar/), [DMFTwDFT](https://github.com/DMFTwDFT-project/DMFTwDFT)).
-
-  
+- Collaborative development of frameworks to facilitate electronic structure calculations along with their pre and post-processing. E.g.-
+    - [PyProcar](https://github.com/romerogroup/pyprocar/)
+    - [DMFTwDFT](https://github.com/DMFTwDFT-project/DMFTwDFT)
+    - [MechElastic](https://github.com/romerogroup/MechElastic)
+    - [mdwc3](https://github.com/romerogroup/mdwc3)
 
 The following is a brief description of SCMs and the methodologies I use to study them.
 
@@ -42,16 +44,12 @@ The electronic correlations in materials drive a variety of fascinating phenomen
 
 Dynamical Mean Field Theory (DMFT) is a technique used to study these materials in which the Hubbard model is mapped to a local Anderson Impurity model and solved numerically using quantum Monte Carlo methods to capture both itinerant and localized nature of electrons. The initial self-energy is estimated from the self-consistent density obtained from DFT which is then projected into maximally localized Wannier functions (MLWF's) as the basis set which is then used to solve for the interacting DMFT density matrix. Full charge self-consistency is achieved by repeatedly updating the DFT and DMFT charge densities until they are both converged. This methodology accurately describes properties of strongly correlated materials where most DFT calculations fail.
 
-Please see [projects](https://uthpalaherath.github.io/projects/) for several selected research performed on SCMs. 
+Please see [projects](https://uthpalaherath.github.io/projects/) for several selected research performed on SCMs.
 
 ### Previous research
 
-In the first year of grad school I did research on the computational modeling of Earth's radiation belts in which I studied different loss mechanisms of Ring Current ions. Test particle simulations were carried out to quantify cumulative Field Line Curvature (FLC) scattering of Ring Current ions. It was here where I was first introduced to employing high performance computing (HPC) to solve physics problems. 
+In the first year of grad school I did research on the computational modeling of Earth's radiation belts in which I studied different loss mechanisms of Ring Current ions. Test particle simulations were carried out to quantify cumulative Field Line Curvature (FLC) scattering of Ring Current ions. It was here where I was first introduced to employing high performance computing (HPC) to solve physics problems.
 
-My bachelor's research project was done in collaboration with the Arthur C. Clark Institute for Modern Technologies- a leading research institute in Sri Lanka, where I was an intern. I did an extensive study of the stellar population in the globular cluster M53 using CCD Photometry techniques including Aperture Photometry and Point Spread Function (PSF) Fitting Photometry to construct a novel Color-Magnitude Diagram (CMD) of the cluster, which was in turn utilized to study its stellar population, mainly focusing on Blue Straggler Stars.  
+My bachelor's research project was done in collaboration with the Arthur C. Clark Institute for Modern Technologies- a leading research institute in Sri Lanka, where I was an intern. I did an extensive study of the stellar population in the globular cluster M53 using CCD Photometry techniques including Aperture Photometry and Point Spread Function (PSF) Fitting Photometry to construct a novel Color-Magnitude Diagram (CMD) of the cluster, which was in turn utilized to study its stellar population, mainly focusing on Blue Straggler Stars.
 
 After finishing high school, I volunteered in a research project conducted by the Sri Lanka Department of Agriculture to develop a system for plant disease diagnosis. This would allow farmers around the island to use a software framework to self-diagnose and treat plant diseases. I assisted in computational aspects of this system.
-
-
-
-
