@@ -15,7 +15,7 @@ feature_row1:
     url: "https://github.com/romerogroup/pyprocar/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-    
+
 feature_row2:
   - image_path: "/assets/images/dmftwdft.png"
     alt: "DMFTwDFT"
@@ -34,6 +34,15 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
+feature_row4:
+  - image_path: "/assets/images/aims.svg"
+    alt: "FHI-aims"
+    title: "FHI-aims. All-electron electronic structure theory with numeric atom-centered orbitals."
+    excerpt: "FHI-aims is an all-electron electronic structure code based on numeric atom-centered orbitals. It enables first-principles simulations with very high numerical accuracy for production calculations, with excellent scalability up to very large system sizes (thousands of atoms) and up to very large, massively parallel supercomputers (ten thousand CPU cores)."
+    url: "https://fhi-aims.org"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
 ---
 
 # Projects
@@ -44,3 +53,4 @@ More projects can be found on my [Github](https://github.com/uthpalaherath) alon
 {% include feature_row id="feature_row1" type="left" %}
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
+{% include feature_row id="feature_row4" type="left" %}

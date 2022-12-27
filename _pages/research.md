@@ -7,9 +7,16 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 
-# Research
+# Current Research (Postdoctoral Associate, Duke University)
 
-My research focuses on employing High-Performance Computing (HPC) and High-Throughput Computing (HTC) to perform first principles *ab-initio* electronic structure calculations for bulk material and heterostructures, primarily focusing on strongly correlated materials (SCMs) using beyond-DFT quantum many body Green’s functions methods and Dynamical Mean Field Theory (DMFT).
+My current research focuses on developing computational methods to study materials useful in novel semiconductor and renewable energy applications. Similar to my Ph.D. research this work also requires utilizing High-Performance Computing (HPC) and beyond-DFT methods including the GW approximation.
+
+DFT is a successful theory in describing the ground state electronic structure properties of materials but lacks the physics required to explain the quasi-particle nature stemming from many-body interactions. The GW approximation, on the other hand, is a Green’s function based method that captures the dynamical nature of electrons which enables a pathway to explain the quasi-particle nature of particles. The term “GW” represents a one-body Green’s function G and a dynamically screened Coulomb interaction W. Since the GW approximation method provides quasi-particle excitation information, it has great use in the study of organic-inorganic hybrid perovskites used for novel semiconductor and photovoltaic applications. However, when dealing with heavy elements in such materials, relativistic effects are needed to be taken into account. Therefore, it is critical to incorporate spin-orbit coupling (SOC) effects into the periodic GW approximation. My current work involves implementing this within the DFT code FHI-aims and also ensuring its scalability to systems with a large number of atoms. Subsequently, this implementation would be employed in calculating electronic structure properties of organic-inorganic hybrid perovskites.
+
+
+# Doctoral Research (Ph.D. Candidate, West Virginia University )
+
+My Ph.D. research focused on employing High-Performance Computing (HPC) and High-Throughput Computing (HTC) to perform first principles *ab-initio* electronic structure calculations for bulk material and heterostructures, primarily focusing on strongly correlated materials (SCMs) using beyond-DFT quantum many body Green’s functions methods and Dynamical Mean Field Theory (DMFT).
 
 ### Summary of research interests
 
@@ -20,7 +27,7 @@ My research focuses on employing High-Performance Computing (HPC) and High-Throu
   - Design and characterization of state-of-the-art novel material with remarkable emergent properties.
   - Study of defects, vacancies and alloying in SCMs.
 
-- Interested in materials useful for high-temperature superconductivity, magnetism, colossal magnetoresistance, metalto insulator transitions, ferromagnetism, thermo-magnetic, spintronics, neuromorphic computing and energy applications.
+- Interest in materials useful for high-temperature superconductivity, magnetism, colossal magnetoresistance, metalto insulator transitions, ferromagnetism, thermo-magnetic, spintronics, neuromorphic computing and energy applications.
 
 - Collaborative development of frameworks to facilitate electronic structure calculations along with their pre and post-processing. E.g.-
     - [PyProcar](https://github.com/romerogroup/pyprocar/)
