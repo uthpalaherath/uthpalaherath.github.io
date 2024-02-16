@@ -46,7 +46,7 @@ feature_row4:
 feature_row5:
   - image_path: "/assets/images/elsi.png"
     alt: "ELSI"
-    title: "ELSI ELectronic Structure Infrastructure): A unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers."
+    title: "ELSI (ELectronic Structure Infrastructure): A unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers."
     excerpt: "ELSI provides and enhances scalable, open-source software library solutions for electronic structure calculations in materials science, condensed matter physics, chemistry, and many other fields. ELSI focuses on methods that solve or circumvent eigenvalue problems in electronic structure theory. The ELSI infrastructure should also be useful for other challenging eigenvalue problems."
     url: "https://wordpress.elsi-interchange.org"
     btn_label: "Read More"
