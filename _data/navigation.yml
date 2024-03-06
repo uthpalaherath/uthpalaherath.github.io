@@ -12,9 +12,7 @@ main:
     url: /presentations/
   - title: "Projects"
     url: /projects/
-  - title: "CV"
-    url: /assets/docs/Uthpala-CV.pdf
   - title: "Resume"
-    url: /assets/docs/Uthpala-Resume.pdf
+    url: /resume/
   - title: "About"
     url: /about/
