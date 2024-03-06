@@ -14,3 +14,19 @@ header:
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/Uthpala-ShortResume.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+
+### Resume
+
+<object data="/assets/docs/Uthpala-Resume.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/assets/docs/Uthpala-Resume.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/Uthpala-Resume.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+### CV
+
+<object data="/assets/docs/Uthpala-CV.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/assets/docs/Uthpala-CV.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/Uthpala-CV.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
