@@ -9,24 +9,24 @@ header:
 
 ### Short Resume
 
-<object data="/assets/docs/Uthpala-ShortResume.pdf" width="700px" height="700px">
-    <embed src="/assets/docs/Uthpala-ShortResume.pdf">
+<object data="/assets/docs/Short Resume-UthpalaHerath.pdf" width="700px" height="700px">
+    <embed src="/assets/docs/Short Resume-UthpalaHerath.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/Uthpala-ShortResume.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
 ### Resume
 
-<object data="/assets/docs/Uthpala-Resume.pdf" width="700px" height="700px">
-    <embed src="/assets/docs/Uthpala-Resume.pdf">
+<object data="/assets/docs/Resume-UthpalaHerath.pdf" width="700px" height="700px">
+    <embed src="/assets/docs/Resume-UthpalaHerath.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/Uthpala-Resume.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
 ### CV
 
-<object data="/assets/docs/Uthpala-CV.pdf" width="700px" height="700px">
-    <embed src="/assets/docs/Uthpala-CV.pdf">
+<object data="/assets/docs/CV-UthpalaHerath.pdf" width="700px" height="700px">
+    <embed src="/assets/docs/CV-UthpalaHerath.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/docs/Uthpala-CV.pdf">Download PDF</a>.</p>
     </embed>
 </object>
