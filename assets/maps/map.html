@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c8b74278c6b25c4f01586aab7a9c42af {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c8b74278c6b25c4f01586aab7a9c42af" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c8b74278c6b25c4f01586aab7a9c42af = L.map(
+                "map_c8b74278c6b25c4f01586aab7a9c42af",
+                {
+                    center: [35.994034, -78.898621],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_41d8278b972e1d32adf993c43c6cc8b4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_41d8278b972e1d32adf993c43c6cc8b4.addTo(map_c8b74278c6b25c4f01586aab7a9c42af);
+        
+    
+            var marker_cdfa0b3a4685882100b70ce9abbeb1ee = L.marker(
+                [40.4883, -74.4478],
+                {}
+            ).addTo(map_c8b74278c6b25c4f01586aab7a9c42af);
+        
+    
+            var icon_d149e28f4db724a3b0f1677fcee874a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cdfa0b3a4685882100b70ce9abbeb1ee.setIcon(icon_d149e28f4db724a3b0f1677fcee874a4);
+        
+    
+        var popup_e42272f6f354f4fb5c0803aad1cadeea = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_fd1dd74a9b570dfd794c73c1fad79500 = $(`<div id="html_fd1dd74a9b570dfd794c73c1fad79500" style="width: 100.0%; height: 100.0%;"><b>A tutorial on PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         Rutgers Univesity, New Brunswick, NJ<br>                         June 25, 2021                          (Invited Virtual Talk)</div>`)[0];
+                popup_e42272f6f354f4fb5c0803aad1cadeea.setContent(html_fd1dd74a9b570dfd794c73c1fad79500);
+            
+        
+
+        marker_cdfa0b3a4685882100b70ce9abbeb1ee.bindPopup(popup_e42272f6f354f4fb5c0803aad1cadeea)
+        ;
+
+        
+    
+    
+            var marker_c8bc752f3723d1e6498e01e2dd9cb1d6 = L.marker(
+                [39.629524, -79.955894],
+                {}
+            ).addTo(map_c8b74278c6b25c4f01586aab7a9c42af);
+        
+    
+            var icon_f53ac523ef60db0e6e924d96aab3f4f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c8bc752f3723d1e6498e01e2dd9cb1d6.setIcon(icon_f53ac523ef60db0e6e924d96aab3f4f0);
+        
+    
+        var popup_ae1309bb7fd2747b1f8b6c40f03a7828 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_78cb955412156b5d9e56ef4d99565159 = $(`<div id="html_78cb955412156b5d9e56ef4d99565159" style="width: 100.0%; height: 100.0%;"><b>Recent Developments in PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         APS March Meeting, <br>                         March 15-19, 2021                          (Virtual Talk)</div>`)[0];
+                popup_ae1309bb7fd2747b1f8b6c40f03a7828.setContent(html_78cb955412156b5d9e56ef4d99565159);
+            
+        
+
+        marker_c8bc752f3723d1e6498e01e2dd9cb1d6.bindPopup(popup_ae1309bb7fd2747b1f8b6c40f03a7828)
+        ;
+
+        
+    
+    
+            var marker_61899bdf65d3c190b8dfbb4a2b882a6f = L.marker(
+                [41.0, -77.0],
+                {}
+            ).addTo(map_c8b74278c6b25c4f01586aab7a9c42af);
+        
+    
+            var icon_8f618e6df263396a770ed91998d52d01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_61899bdf65d3c190b8dfbb4a2b882a6f.setIcon(icon_8f618e6df263396a770ed91998d52d01);
+        
+    
+        var popup_b7217503e4c36a086403cc5c23975772 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5b220c718e56dd0fd4278174bf39cc0b = $(`<div id="html_5b220c718e56dd0fd4278174bf39cc0b" style="width: 100.0%; height: 100.0%;"><b>DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages</b><br>                         APS Mid Atlantic Section Meeting, <br>                         December 4-6, 2020                          (Virtual Talk)</div>`)[0];
+                popup_b7217503e4c36a086403cc5c23975772.setContent(html_5b220c718e56dd0fd4278174bf39cc0b);
+            
+        
+
+        marker_61899bdf65d3c190b8dfbb4a2b882a6f.bindPopup(popup_b7217503e4c36a086403cc5c23975772)
+        ;
+
+        
+    
+    
+            var marker_f34e50a7d4f12d46bf01f67c35126fee = L.marker(
+                [35.787743, -78.644257],
+                {}
+            ).addTo(map_c8b74278c6b25c4f01586aab7a9c42af);
+        
+    
+            var icon_e0f9bfe63481fa746e5c7aefabfae912 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f34e50a7d4f12d46bf01f67c35126fee.setIcon(icon_e0f9bfe63481fa746e5c7aefabfae912);
+        
+    
+        var popup_9ff92a5126cd1e15612117e3250630fe = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4ddb82312a9cd823b3ace0b3b42f417c = $(`<div id="html_4ddb82312a9cd823b3ace0b3b42f417c" style="width: 100.0%; height: 100.0%;"><b>PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         Carolina Science Symposium, Raleigh, NC<br>                         November 12-13, 2020                          (Virtual Talk)</div>`)[0];
+                popup_9ff92a5126cd1e15612117e3250630fe.setContent(html_4ddb82312a9cd823b3ace0b3b42f417c);
+            
+        
+
+        marker_f34e50a7d4f12d46bf01f67c35126fee.bindPopup(popup_9ff92a5126cd1e15612117e3250630fe)
+        ;
+
+        
+    
+    
+            var marker_fe144cc8e59db8db7965fe58a02e6f3d = L.marker(
+                [37.325954, -120.499992],
+                {}
+            ).addTo(map_c8b74278c6b25c4f01586aab7a9c42af);
+        
+    
+            var icon_5ff1327c4b9da3f5016b4dbe7d99126a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fe144cc8e59db8db7965fe58a02e6f3d.setIcon(icon_5ff1327c4b9da3f5016b4dbe7d99126a);
+        
+    
+        var popup_fbffd7dd4ff74b9b5b5dc81330d54df9 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d053de35656973bf90f3ec6429d1011f = $(`<div id="html_d053de35656973bf90f3ec6429d1011f" style="width: 100.0%; height: 100.0%;"><b>PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         Electronic Structure Workshop, University of California, Merced, CA<br>                         June 2-5, 2020                          (Virtual Talk)</div>`)[0];
+                popup_fbffd7dd4ff74b9b5b5dc81330d54df9.setContent(html_d053de35656973bf90f3ec6429d1011f);
+            
+        
+
+        marker_fe144cc8e59db8db7965fe58a02e6f3d.bindPopup(popup_fbffd7dd4ff74b9b5b5dc81330d54df9)
+        ;
+
+        
+    
+    
+            var marker_ded198c6e02b763ffd658fc8d39854bf = L.marker(
+                [42.361145, -71.057083],
+                {}
+            ).addTo(map_c8b74278c6b25c4f01586aab7a9c42af);
+        
+    
+            var icon_01d4056c1f770f269cfc8b3df612c1d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ded198c6e02b763ffd658fc8d39854bf.setIcon(icon_01d4056c1f770f269cfc8b3df612c1d6);
+        
+    
+        var popup_88bcbddfcffaca33045a28b3df720229 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_54fa24de7f5c32ce29bd9ebd0e3bf147 = $(`<div id="html_54fa24de7f5c32ce29bd9ebd0e3bf147" style="width: 100.0%; height: 100.0%;"><b>An ab-initio DFT+DMFT study of the effect of oxygen vacancies on structural, electronic and magnetic properties of rare-earth nickelate perovskites (RNO3)</b><br>                         APS March Meeting, Boston, MA<br>                         March 4-8, 2020                          (Talk)</div>`)[0];
+                popup_88bcbddfcffaca33045a28b3df720229.setContent(html_54fa24de7f5c32ce29bd9ebd0e3bf147);
+            
+        
+
+        marker_ded198c6e02b763ffd658fc8d39854bf.bindPopup(popup_88bcbddfcffaca33045a28b3df720229)
+        ;
+
+        
+    
+    
+            var marker_eb23c4f3ef60d98c6b2ae6bcd077d704 = L.marker(
+                [45.404476, -71.888351],
+                {}
+            ).addTo(map_c8b74278c6b25c4f01586aab7a9c42af);
+        
+    
+            var icon_38a811599fc21f40309fa100d467cc82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb23c4f3ef60d98c6b2ae6bcd077d704.setIcon(icon_38a811599fc21f40309fa100d467cc82);
+        
+    
+        var popup_b436d76cf25c23038c23652217c61280 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_e081422e54d95e4a525867492fd81965 = $(`<div id="html_e081422e54d95e4a525867492fd81965" style="width: 100.0%; height: 100.0%;"><b>Development of computational methods for the characterization of novel strongly correlated materials</b><br>                         International Summer School on Computational Quantum Materials, Sherbrooke, Québec, Canada<br>                         May 28 - June 8, 2028                          (Poster)</div>`)[0];
+                popup_b436d76cf25c23038c23652217c61280.setContent(html_e081422e54d95e4a525867492fd81965);
+            
+        
+
+        marker_eb23c4f3ef60d98c6b2ae6bcd077d704.bindPopup(popup_b436d76cf25c23038c23652217c61280)
+        ;
+
+        
+    
+    
+            var marker_ea215c9367cf6a32c3c158629c69848b = L.marker(
+                [36.835426, -76.298271],
+                {}
+            ).addTo(map_c8b74278c6b25c4f01586aab7a9c42af);
+        
+    
+            var icon_72a70a7d6dfd61aad4014a1fc19901e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea215c9367cf6a32c3c158629c69848b.setIcon(icon_72a70a7d6dfd61aad4014a1fc19901e8);
+        
+    
+        var popup_fc028e1ecb87153d89d2306b423883d8 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7d6d8ff14872eb69440cf5368833c9c7 = $(`<div id="html_7d6d8ff14872eb69440cf5368833c9c7" style="width: 100.0%; height: 100.0%;"><b>The Effect of Magnetic Field Line Curvature Scattering on the Rapid Loss of Ring Current Ions</b><br>                         Geospace Environment Modeling (GEM) Conference, Portsmouth, VA<br>                         June 18-23, 2017                          (Poster)</div>`)[0];
+                popup_fc028e1ecb87153d89d2306b423883d8.setContent(html_7d6d8ff14872eb69440cf5368833c9c7);
+            
+        
+
+        marker_ea215c9367cf6a32c3c158629c69848b.bindPopup(popup_fc028e1ecb87153d89d2306b423883d8)
+        ;
+
+        
+    
+    
+            var marker_79aa2797e3db87ff3b1cf4b0cbca1883 = L.marker(
+                [41.4883, -74.4478],
+                {}
+            ).addTo(map_c8b74278c6b25c4f01586aab7a9c42af);
+        
+    
+            var icon_407ce1bda6cc7e7d1a6d778e0b3af627 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79aa2797e3db87ff3b1cf4b0cbca1883.setIcon(icon_407ce1bda6cc7e7d1a6d778e0b3af627);
+        
+    
+        var popup_56d542e41523d525c27d887796cd4900 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d284b97fd3c424df12d9da3f2eb1a6b4 = $(`<div id="html_d284b97fd3c424df12d9da3f2eb1a6b4" style="width: 100.0%; height: 100.0%;"><b>Quantum Multiscale Hackathon</b><br>                         Rutgers University, New Brunswick, NJ<br>                         September 10-16, 2023</div>`)[0];
+                popup_56d542e41523d525c27d887796cd4900.setContent(html_d284b97fd3c424df12d9da3f2eb1a6b4);
+            
+        
+
+        marker_79aa2797e3db87ff3b1cf4b0cbca1883.bindPopup(popup_56d542e41523d525c27d887796cd4900)
+        ;
+
+        
+    
+</script>
+</html>
