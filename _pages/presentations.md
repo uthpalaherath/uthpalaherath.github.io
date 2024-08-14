@@ -11,6 +11,7 @@ header:
 
 Please click on the location pins for more details.
 
+<html>
 <head>
 
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -248,3 +249,4 @@ Please click on the location pins for more details.
 
 
 </script>
+</html>
