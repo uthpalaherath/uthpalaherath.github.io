@@ -11,4 +11,4 @@ header:
 
 Please click on the location pins for more details.
 
-<iframe src="/assets/maps/map.html" height="1000" width="1000"></iframe>
+<iframe src="/assets/maps/map.html" height="800" width="1400"></iframe>
