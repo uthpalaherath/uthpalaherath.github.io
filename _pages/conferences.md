@@ -9,8 +9,8 @@ header:
 
 # Conferences and workshops
 
-Please click on the location pins for more details.
+Please click on the location pins for more details.<br>
 Blue pins represent conference talks or posters.
-Red pins represent workshops or seminar.
+Red pins represent workshops or seminars.
 
 <iframe src="/assets/maps/map.html" height="600" width="1200"></iframe>
