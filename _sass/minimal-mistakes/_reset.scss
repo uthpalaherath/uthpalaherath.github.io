@@ -122,6 +122,12 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+/* Ensure consistent font size in lists */
+ul, ol {
+    font-size: 16px; /* Set this to whatever base font size you prefer */
+    list-style-position: inside; /* Ensures bullets/numbers are aligned within the content flow */
+}
+
 /* Prevent max-width from affecting Google Maps */
 
 #map_canvas img,
