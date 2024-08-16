@@ -18,7 +18,7 @@ DFT is a successful theory in describing the ground state electronic structure p
 
 My Ph.D. research focused on employing High-Performance Computing (HPC) and High-Throughput Computing (HTC) to perform first principles *ab-initio* electronic structure calculations for bulk material and heterostructures, primarily focusing on strongly correlated materials (SCMs) using beyond-DFT quantum many body Green’s functions methods and Dynamical Mean Field Theory (DMFT).
 
-### Summary of research interests
+## Summary of research interests
 
 - Electronic structure methods :
 
@@ -37,11 +37,11 @@ My Ph.D. research focused on employing High-Performance Computing (HPC) and High
 
 The following is a brief description of SCMs and the methodologies I use to study them.
 
-### Strongly Correlated Materials (SCMs)
+## Strongly Correlated Materials (SCMs)
 
 The electronic correlations in materials drive a variety of fascinating phenomena from magnetism to superconductivity, which are due to the coupling between electron’s spin, charge, ionic displacements and orbital ordering. Although DFT is a very successful theory in describing the electronic structure of weakly interacting material systems, it fails to predict the properties of SCMs that include transition and rare earth metals where there  is  a  natural  strong  electron  localization  as  in  the  case  of  *d*  and  *f* orbitals due to the nature of their spatial confinement. They lead to a wide variety of astonishing phenomena in materials including magnetism, high-temperature superconductivity, colossal magnetoresistance, heavy fermion systems, metal to insulator transitions (Mott insulator) and thermomagnetism, all which have a profound impact on novel applications. These  correlated  electrons  cannot  be  studied  under  mean  field  approaches  since  their  interactions  on  each other are too prominent to be treated independently.
 
-### Dynamical Mean Field Theory (DMFT)
+## Dynamical Mean Field Theory (DMFT)
 
 <figure style="width: 50%" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/dmftwdft.png" alt="">
@@ -53,7 +53,7 @@ Dynamical Mean Field Theory (DMFT) is a technique used to study these materials 
 
 Please see [projects](https://uthpalaherath.github.io/projects/) for several selected research performed on SCMs.
 
-### Previous research
+# Previous research
 
 In the first year of grad school I did research on the computational modeling of Earth's radiation belts in which I studied different loss mechanisms of Ring Current ions. Test particle simulations were carried out to quantify cumulative Field Line Curvature (FLC) scattering of Ring Current ions. It was here where I was first introduced to employing high performance computing (HPC) to solve physics problems.
 
