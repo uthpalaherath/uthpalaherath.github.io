@@ -122,18 +122,6 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-/* Ensure consistent font size in lists */
-ul, ol {
-    font-size: 16px; /* Set this to whatever base font size you prefer */
-    list-style-position: inside; /* Ensures bullets/numbers are aligned within the content flow */
-}
-
-/* Ensure headings within lists maintain their size */
-ul h1, ul h2, ul h3, ul h4, ul h5, ul h6,
-ol h1, ol h2, ol h3, ol h4, ol h5, ol h6 {
-    font-size: inherit; // Ensures that headings inside lists use the designated font size
-}
-
 /* Prevent max-width from affecting Google Maps */
 
 #map_canvas img,
