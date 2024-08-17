@@ -236,7 +236,7 @@ At this stage [DiSPy](https://github.com/munrojm/DiSPy) coud be incorporated to 
    nebmake.pl POSCAR00 POSCAR08 7
    ```
 
-2. The atoms in the structures of the transition path may have gotten close to each other so to avoid them being too close we can set a lowerbound for the distance between the closest atoms. In our case it would be the Ni-O bond at 1.9 $\AA$.
+2. The atoms in the structures of the transition path may have gotten close to each other so to avoid them being too close we can set a lowerbound for the distance between the closest atoms. In our case it would be the Ni-O bond at 1.9 $\mathring{A}$.
 
    ```
    nebavoid.pl 1.9
