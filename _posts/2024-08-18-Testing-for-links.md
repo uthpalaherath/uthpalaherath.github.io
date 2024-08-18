@@ -7,5 +7,5 @@ tags:
 ---
 I just wanted to test if wikilinks work here. 
 
-![2024-08-18-Testing-for-links-20240818005106681](2024-08-18-Testing-for-links-20240818005106681.jpeg)
+![2024-08-18-Testing-for-links-20240818020155902](/images/2024-08-18-Testing-for-links-20240818020155902.jpeg)
 
