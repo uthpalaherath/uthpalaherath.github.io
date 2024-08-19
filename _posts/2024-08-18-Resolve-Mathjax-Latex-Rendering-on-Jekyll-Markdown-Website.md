@@ -16,7 +16,7 @@ Hey folks! Long time no see! Hope you're all doing awesome!
 
 After about a 2 year hiatus, I thought I would try and get back into blogging on a more consistent basis. I've been postdoc-ing at Duke since the Summer of 2022 and I'd say it's been quite an eventful journey since I  defended my Ph.D. dissertation and moved to Durham, NC from the Wild and Wonderful West Virginia. Durham has treated me quite nicely. I've met a bunch of wonderful people and there's a lot to do around here. I went on a backpacking in the Blue Ridge Mountains,  explored the beautiful beach towns of Outer Banks, and bought a new car (Crosstrek FTW!).
 
-Anyways, the actual reason that motivated me to write this post was noticing the Latex rendering on my website was broken. After doing a bit of digging[^1],[^2], the reason seemed to be an update to [MathJax](https://www.mathjax.org) v3. The fix was quite simple. Adding the following snippet to `_includes/script.html` did the job. 
+Anyways, the actual reason that motivated me to write this post was noticing the Latex rendering on my website was broken. After doing a bit of digging[^1] [^2], the reason seemed to be an update to [MathJax](https://www.mathjax.org) v3. The fix was quite simple. Adding the following snippet to `_includes/script.html` did the job. 
 
 ```html
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
