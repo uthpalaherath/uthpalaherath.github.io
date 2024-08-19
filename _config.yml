@@ -331,6 +331,7 @@ defaults:
       comments:  true
       share: true
       related: true
+      author_profile: false
 
   # _pages
   - scope:
