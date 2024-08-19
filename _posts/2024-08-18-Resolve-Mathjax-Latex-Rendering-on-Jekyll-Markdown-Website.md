@@ -31,7 +31,7 @@ Anyways, the actual reason that motivated me to write this post was noticing the
 </script>
 ```
 
-This also ensures that in-line math enclosed within single `'\$'` renders too. 
+This also ensures that in-line math enclosed within single `'$LaTex$'` renders too. 
 
 That's it for now. Hope to see you all soon!
 
