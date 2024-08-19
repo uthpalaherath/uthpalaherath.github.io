@@ -182,6 +182,11 @@ footer:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UC_IfMMrbH9EjtTAfD_d-E-Q"
 
+# after footer
+after_footer_scripts:
+  - https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
+  - assets/js/clipboardrouge.js
+
 # Reading Files
 include:
   - .htaccess
