@@ -10,7 +10,8 @@ tags:
 header:
   teaser: /images/2024-08-18-Resolve-Mathjax-Latex-Rendering-on-Jekyll-Markdown-Website/2024-08-18-Resolve-Mathjax-Latex-Rendering-on-Jekyll-Markdown-Website-20240818234059807.jpg
 ---
-***This post serves as a short catch-up and a quick fix to a Latex rendering issue I recently noticed on my web posts.*** 
+{: .notice}
+*This post serves as a short catch-up and a quick fix to a Latex rendering issue I recently noticed on my web posts.* 
 
 Hey folks! Long time no see! Hope you're all doing awesome!
 
