@@ -35,6 +35,18 @@ layout: default
           <!-- {% elsif page.date %} -->
           <!--   <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].date_label | default: "" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p> -->
           <!-- {% endif %} -->
+
+        <!-- date read-time -->
+        <p class="page__meta">
+          {% if page.last_modified_at %}
+            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time>&emsp;
+          {% elsif page.date %}
+            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y " }}</time>&emsp;
+          {% endif %}
+          {% if page.read_time %}<i class="fa fa-clock" aria-hidden="true"></i>&nbsp;{% include read-time.html %}{% endif %}
+        </p>
+      <!--  date read-time -->
+
         </header>
       {% endunless %}
 
@@ -49,17 +61,6 @@ layout: default
         {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-
-        <!-- date read-time -->
-        <p class="page__meta">
-          {% if page.last_modified_at %}
-            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time>&emsp;
-          {% elsif page.date %}
-            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y " }}</time>&emsp;
-          {% endif %}
-          {% if page.read_time %}<i class="fa fa-clock" aria-hidden="true"></i>&nbsp;{% include read-time.html %}{% endif %}
-        </p>
-      <!--  date read-time -->
       </section>
 
 
