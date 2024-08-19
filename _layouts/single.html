@@ -39,11 +39,11 @@ layout: default
         <!-- date read-time -->
         <p class="page__meta">
           {% if page.last_modified_at %}
-            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time>&emsp;
+            <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time>&emsp;
           {% elsif page.date %}
-            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y " }}</time>&emsp;
+            <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y " }}</time>&emsp;
           {% endif %}
-          {% if page.read_time %}<i class="fa fa-clock" aria-hidden="true"></i>&nbsp;{% include read-time.html %}{% endif %}
+          {% if page.read_time %}<i class="far fa-clock" aria-hidden="true"></i>&nbsp;{% include read-time.html %}{% endif %}
         </p>
       <!--  date read-time -->
 
