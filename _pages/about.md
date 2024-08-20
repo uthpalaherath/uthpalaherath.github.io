@@ -10,7 +10,7 @@ header:
 # About me
 
 <figure style="width: 25%" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/DollySods2020.jpg" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/samknob.HEIC" alt="">
   <figcaption>Me in the wild.</figcaption>
 </figure>
 

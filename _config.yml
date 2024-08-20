@@ -107,8 +107,8 @@ analytics:
 # Site Author
 author:
   name             : "Uthpala Herath"
-  avatar           : "/assets/images/bio-photo2.JPG"
-  bio              : "Postdoctoral Associate in <br /> Computational Materials Science"
+  avatar           : "/assets/images/bio-photo.JPG"
+  bio              : "Computational Physicist"
   location         : "Durham, NC"
   #email            : "ukh0001@mix.wvu.edu"
   links:
