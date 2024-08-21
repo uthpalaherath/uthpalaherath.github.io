@@ -26,6 +26,7 @@ Anyways, the actual reason that motivated me to write this post was noticing the
  MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']],
+	displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
     processEscapes: true,
   }
 }
@@ -38,5 +39,5 @@ That's it for now. Hope to see you all soon!
 
 # References
 
-[^1]: https://www.cross-validated.com/How-to-render-math-on-Minimal-Mistakes/ 
-[^2]: https://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering 
+[^1]: [https://www.cross-validated.com/How-to-render-math-on-Minimal-Mistakes/](https://www.cross-validated.com/How-to-render-math-on-Minimal-Mistakes/)
+[^2]: [https://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering](https://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering)
