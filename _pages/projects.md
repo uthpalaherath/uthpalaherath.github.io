@@ -51,9 +51,6 @@ feature_row5:
     url: "https://wordpress.elsi-interchange.org"
     btn_label: "Read More"
     btn_class: "btn--primary"
-
-
-
 ---
 
 # Projects

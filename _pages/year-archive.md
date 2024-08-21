@@ -1,7 +1,7 @@
 ---
-title: Blog 
+title: Blog
 permalink: /year-archive/
-layout: archive 
+layout: archive
 author_profile: true
 header:
     overlay_image: "/assets/images/beach.jpg"
@@ -9,7 +9,7 @@ header:
 ---
 ### Posts by <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i>  Tags [here](/tags)
 
-Here's a list of posts I've been writing about a variety of topics just for my own amusement. Feel free to comment. 
+Here's a list of posts I've been writing about a variety of topics just for my own amusement. Feel free to comment.
 
 <ul>
   {% for post in site.posts %}
