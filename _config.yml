@@ -105,9 +105,9 @@ enable_copy_code_button: true
 
 # Analytics
 analytics:
-  provider: "google"
+  provider: "google-gtag"
   google:
-    tracking_id: "UA-158843099-1"
+    tracking_id: "G-0D0M7CL57S"
 google_site_verification : 366jI2jX8F2ht5rTuAhqBpKtgwaNuzmYSKKgkd1o2JE
 
 # Comments
