@@ -20,9 +20,9 @@
 
 title: "Uthpala Herath"
 email:
-description: ""
+description: "Uthpala Herath's digital corner on the web"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://uthpalaherath.github.io/"
+url: "https://uthpalaherath.github.io"
 locale: "en-US"
 twitter_username: uthpala_h
 github_username: uthpalaherath
@@ -110,6 +110,18 @@ analytics:
     tracking_id: "G-0D0M7CL57S"
 google_site_verification : 366jI2jX8F2ht5rTuAhqBpKtgwaNuzmYSKKgkd1o2JE
 
+# Social
+social:
+  type:  # Person or Organization (defaults to Person)
+  name:  # If the user or organization name differs from the site's name
+  links:
+    - "https://x.com/uthpala_h"
+    - "https://www.facebook.com/uthpala.he"
+    - "https://www.instagram.com/uthpala.h"
+    - "https://www.linkedin.com/in/uthpalaherath"
+    - "https://scholar.google.com/citations?hl=en&user=aWQymokAAAAJ"
+    - "https://www.youtube.com/@uthpala89"
+
 # Comments
 comments:
   provider: "disqus"
@@ -145,9 +157,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:uthpala.herath@duke.edu
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/uthpala_h"
+    - label: "X"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://x.com/uthpala_h"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/uthpalaherath"
@@ -172,9 +184,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/uthpala_h"
+    - label: "X"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://x.com/uthpala_h"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/uthpalaherath"
