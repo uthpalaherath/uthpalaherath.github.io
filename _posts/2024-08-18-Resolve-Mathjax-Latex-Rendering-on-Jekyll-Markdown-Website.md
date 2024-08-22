@@ -26,7 +26,7 @@ Anyways, the actual reason that motivated me to write this post was noticing the
  MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']],
-	displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
     processEscapes: true,
   }
 }
