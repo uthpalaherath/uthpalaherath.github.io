@@ -20,9 +20,9 @@
 
 title: "Uthpala Herath"
 email:
-description: "Uthpala Herath's digital corner on the web"
+description: "Uthpala Herath's digital corner on the web."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://uthpalaherath.github.io"
+url: "https://www.uthpalaherath.com"
 locale: "en-US"
 twitter_username: uthpala_h
 github_username: uthpalaherath
@@ -107,7 +107,7 @@ enable_copy_code_button: true
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-0D0M7CL57S"
+    tracking_id: "G-XFQRGP29BB"
 google_site_verification : 366jI2jX8F2ht5rTuAhqBpKtgwaNuzmYSKKgkd1o2JE
 
 # Social
