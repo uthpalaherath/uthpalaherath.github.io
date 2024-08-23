@@ -30,6 +30,7 @@ Goldschmidt’s Tolerance Factor given from the following equation predicts the 
 $$
 t=\frac{r_{\mathrm{A}}+r_{\mathrm{X}}}{\sqrt{2\left(r_{\mathrm{B}}+r_{\mathrm{X}}\right)}}
 $$
+
 where, r$_A$, r$_B$ and r$_X$ are the ionic radii of the ions. t = 1 is a perfect cubic perovskite. Tilting occurs at lower t values where the A cation is small. Based on the relative sizes of the ions, defects, temperature effects the locations of the ions are shifted resulting in a tilting of the octahedral. E.g.- In CaTiO$_3$ octahedral tilting distortion lowers the coordination number of the A-site cation Ca$^{2+}$ from 12 to 8. This affects the system's physical, magnetic, electric properties.
 
 The following figure displays octahedral tilting and its effects[^2].
