@@ -11,9 +11,9 @@ tags:
   - densityfunctionaltheory
   - python
 header:
-  teaser: /images/Plotting-Density-of-States/dos_atomic_total.png
+  teaser: /images/2020-03-31-Plotting-Density-of-States/dos_atomic_total.png
 ---
-
+{: .notice--primary}
 *This is a tutorial on plotting total and partial Density of States for electronic structure calculations performed with the DFT code VASP.*
 
 Being a *computational* condensed matter physicist who spends most of his day on a computer, one might think that COVID-19[^1] may not have made drastic changes to my work routine. In theory, this is a valid argument since I should be able to work from anywhere as long as I have a network connection that allows me to connect to our supercomputing clusters. However, I tend to be more productive at work since there are less distractions that sway me out of focus. So I made some changes at home which included moving my TV and PS4 to the living room and finding timeworthy hobbies to keep myself occupied. Dedicating time  for my website is one of them. So I will try to post more frequently from now on. 
@@ -26,9 +26,9 @@ VASP is one of the main DFT[^3] codes I use for electronic structure calculation
 
 I recently performed DFT calculations for hundreds of different oxygen vacancy configurations of rare-earth Nickelates in an attempt to study the effect of these vacancies on the conductivity of the material. Plotting DOS was part of the plan. So I wrote a script based on the great pymatgen[^5] to do exactly that.
 
-For this tutorial we will plot the DOS of the paramagnetic metal LaNiO$$_3$$. Its crystal structure is displayed below. 
+For this tutorial we will plot the DOS of the paramagnetic metal LaNiO$_3$. Its crystal structure is displayed below. 
 
-![LaNiO3](/images/Plotting-Density-of-States/pristine-5953481.png)  
+![LaNiO3](/images/2020-03-31-Plotting-Density-of-States/pristine-5953481.png)  
 
 La, Ni and O are represented with green, gray and red, respectively. In terms of a POSCAR format that would look like:
 
@@ -75,8 +75,7 @@ plotDOS.py total -show
 ```
 
 
-
-![Total](/images/Plotting-Density-of-States/dos_total.png)
+![Total](/images/2020-03-31-Plotting-Density-of-States/dos_total.png)
 
 The ``-show`` flag displays the plot on screen. Otherwise it would just save the figure as a .png file. As you can see since there are states at the Fermi level this is classified as a metal. The total DOS is rather boring so let’s move on to plotting partial DOS where we can see the different contributions of atoms and orbitals to the DOS. 
 
@@ -94,11 +93,11 @@ plotDOS.py atomic -show
 
 
 
-![atomic](/images/Plotting-Density-of-States/dos_atomic.png)
+![atomic](/images/2020-03-31-Plotting-Density-of-States/dos_atomic.png)
 
 To see both the total and the atomic contributions on the same plot you may add the ``-total`` flag to the above command. 
 
-![atomic_total](/images/Plotting-Density-of-States/dos_atomic_total.png)
+![atomic_total](/images/2020-03-31-Plotting-Density-of-States/dos_atomic_total.png)
 
 ## Orbital projected DOS
 
@@ -112,13 +111,13 @@ plotDOS.py orbital -atom Ni -show
 
 
 
-![orbital](/images/Plotting-Density-of-States/dos_orbital_Ni.png)
+![orbital](/images/2020-03-31-Plotting-Density-of-States/dos_orbital_Ni.png)
 
 The ``-total`` flag works here as well if one wishes to see the total contribution for the orbital on the same plot. 
 
 ## d-orbital projected DOS
 
-In certain materials like strongly correlated systems where d orbitals play a vital role in conductivity and other properties, it is important to study the decomposed d-orbital projected DOS. i.e.  the individual effects of the e$$_g$$ and t$$_{2g}$$ orbitals when the degeneracy of the d orbital is broken.  Let’s consider the same example as above and investigate how the Ni d-orbitals behave. 
+In certain materials like strongly correlated systems where d orbitals play a vital role in conductivity and other properties, it is important to study the decomposed d-orbital projected DOS. i.e.  the individual effects of the e$_g$ and t$_{2g}$ orbitals when the degeneracy of the d orbital is broken.  Let’s consider the same example as above and investigate how the Ni d-orbitals behave. 
 
 Run:
 
@@ -126,7 +125,7 @@ Run:
 plotDOS.py orbital_d -atom Ni -show
 ```
 
-![orbital](/images/Plotting-Density-of-States/dos_d_Ni.png)
+![orbital](/images/2020-03-31-Plotting-Density-of-States/dos_d_Ni.png)
 
 This would sum up the contribution from all the Ni atoms in the system. If you would like to customize the atoms, you could use a list. The indexes correspond to the order of the atoms in the POSCAR file. 
 
@@ -135,8 +134,6 @@ E.g.- to sum the 3rd, 4th and 5th Ni atoms:
 ```bash
 plotDOS.py orbital_d -l 3 4 5 -show
 ```
-
-
 
 Imagine you have to perform such DOS calculations for a large set of calculations. You could use a simple bash command to achieve that. Assuming each of those calculations are in a seperate directory numbered as LaNiO3-1, LaNiO3-2 ….. LaNiO3-100, run:
 
@@ -149,9 +146,6 @@ This would cd into each directory and run the script and repeat it for all the d
 Well, that’s all for today. Please feel free to leave a comment if you have any questions or if you think I could incorporate any features into the script. 
 
 Be safe and stay home!
-
-
-
 # References
 
 [^1]: COrona VIrus Disease of 2019

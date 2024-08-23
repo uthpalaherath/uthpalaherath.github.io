@@ -9,23 +9,23 @@ tags:
   - latex
   - gradschool
 header:
-  teaser: /images/Markdown-Tutorial/image.jpg
+  teaser: /images/2020-01-03-Markdown-Tutorial/image.jpg
 ---
-
+{: .notice--primary}
 *This is a tutorial on creating visually appealing documents with Markdown and then converting them into Latex for further processing or exporting them as Pdf's. It uses the packages Pandoc and Pdflatex.*
 
 # Introduction
 
 Throughout the last couple of years I've been trying to figure out the best way to keep my notes organized. For notes I take on paper, I keep them in folders for each project or class. Sometimes I keep physical note books for that as well. Here, we will focus on the most recent method I started using to organize my **digital notes**. I have tried a multitude of programs ranging from plain text files to softwares like the ever so popular Evernote [^1]. However, none of them worked for me. Text files aren't capable of keeping images and tables etc. but that's what they are there for - to save plain text. Evernote fares much better in that aspect since it can store images, tables and all that. However, the main issues with Evernote is that it cannot handle advance formatting such as Latex formulas and it also doesn't allow exporting the documents to other formats. Markdown, on the other hand, can do all that and much more. 
 
-Markdown is a simple text syntax that is very portable and has rich formatting. You could use any text editor to write Markdown and you can save it anywhere. It is very straightforward and easy to learn. For example, hashtags define titles and control their sizes.  "# Title" gives a title. "## Subtitle" would be a little smaller, "### Sub-subtitle" would be even smaller and so on. Typing in a "-" , "+" or "*" before any item automatically generates bulleted lists. You could use numbers instead for numbered lists in a similar manner.  I won't dive into how to write in Markdown in this tutorial but here are two tutorials that teache you how to do that:
+Markdown is a simple text syntax that is very portable and has rich formatting. You could use any text editor to write Markdown and you can save it anywhere. It is very straightforward and easy to learn. For example, hashtags define titles and control their sizes.  "# Title" gives a title. "## Subtitle" would be a little smaller, "### Sub-subtitle" would be even smaller and so on. Typing in a "-" , "+" or "*" before any item automatically generates bulleted lists. You could use numbers instead for numbered lists in a similar manner.  I won't dive into how to write in Markdown in this tutorial but here are two tutorials that teaches you how to do that:
 
 1. <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
 2. <http://support.typora.io/Markdown-Reference/>
 
 Just remember to save your file in the **.md** format.
 
-One of the major reasons I switched to Markdown is the ability to write in-line formulas. Markdown follows a syntax similar to Latex where "$$" is used to enclose the formula. This format is preserved when Markdown is exported to a Latex file. 
+One of the major reasons I switched to Markdown is the ability to write in-line formulas. Markdown follows a syntax similar to Latex where "\$$" is used to enclose the formula. This format is preserved when Markdown is exported to a Latex file. 
 
 <u>Examples:</u>
 
@@ -46,9 +46,6 @@ gives
 $$
 n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda} \cdot U_{\vec{k} j \lambda}^{DMFT*}
 $$
-
-
-
 If you have a series of formulas, they will be numbered automatically. In the exported Latex document they will appear inside a ``\equation`` block. ``{#eq:equationlabel}`` is set as a label for the equation to be referenced by ``@eq:equationlabel``. For figures it would be ``{#fig:figurelabel}`` and ``{#tbl:tablelabel}`` for tables. The section labels are labelled automatically based on the name of the section and can be references by for example, ``@sec:prerequisites``. 
 
 Tables in Markdown seem appealing as well. This can be seen in the following table. They are converted to latex tables automatically when exported. 
@@ -75,7 +72,7 @@ def Create_dmft_params(p,pC,N_atoms,atm_idx,sym_idx):
 
 Typora also allows you to use your everyday shortcuts like Ctrl + B, Ctrl + U for syntax formatting and automatically writes the relevant Markdown syntax. Writing Markdown in Typora is a smooth experience. It has a folder tree to easily access your notes. A snapshot of my Typora setup is shown below. 
 
-![What writing Markdown in Typora looks like.](/images/Markdown-Tutorial/image-20200128174047615.png)
+![What writing Markdown in Typora looks like.](/images/2020-01-03-Markdown-Tutorial/image-20200128174047615.png)
 
 • Pandoc - 
 
@@ -148,9 +145,7 @@ The header contains the title, name of the bibtex file, abstract and so on. I ha
 
 Images in Markdown look like the one below. To make things look better, you can modify the latex file and use sub-figures and so on. 
 
-![The caption of the image.](/images/Markdown-Tutorial/image.jpg)
-
-
+![The caption of the image.](/images/2020-01-03-Markdown-Tutorial/image.jpg)
 
 References are used just like in Latex. You create a .bib file with all the bibtex entries and refer to each of them with the ``@`` symbol. In latex this is converted to ``\citep``.
 
