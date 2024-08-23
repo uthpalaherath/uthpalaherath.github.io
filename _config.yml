@@ -108,7 +108,7 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-K20TM7E8W4"
-google_site_verification : 02af9c8b105d5cdd02af9c8b105d5cdd
+google_site_verification: IsG8UHZlvftEsB4MoluxxplE4GKvck3-7oKxwFr88Bc
 
 # Social
 social:
