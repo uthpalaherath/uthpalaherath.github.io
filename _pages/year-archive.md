@@ -9,8 +9,6 @@ header:
 ---
 ### Posts by <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i>  Tags [here](/tags)
 
-Here's a list of posts I've been writing about a variety of topics just for my own amusement. Feel free to comment.
-
 <!-- <ul> -->
 <!--   {% for post in site.posts %} -->
 <!--     {% unless post.next %} -->
