@@ -107,7 +107,7 @@ enable_copy_code_button: true
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-XFQRGP29BB"
+    tracking_id: "G-K20TM7E8W4"
 google_site_verification : 366jI2jX8F2ht5rTuAhqBpKtgwaNuzmYSKKgkd1o2JE
 
 # Social
