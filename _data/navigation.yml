@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "Home"
+  - title: ""
     url: /
+  - title: "About"
+    url: /about/
   - title: "Blog"
     url: /year-archive/
   - title: "Research"
@@ -14,5 +16,4 @@ main:
     url: /projects/
   - title: "Resume"
     url: /resume/
-  - title: "About"
-    url: /about/
+

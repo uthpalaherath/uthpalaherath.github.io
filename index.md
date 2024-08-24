@@ -10,12 +10,9 @@ excerpt: '\- salutation wishing the recipient a long life.'
 ---
 **Hello and welcome!** 👋 
 
-I am a Postdoctral Associate in the Department of Mechanical Engineering and Materials Science (MEMS) at Duke University in the research group of [Dr. Volker Blum](https://aims.pratt.duke.edu). My current [research](/research/) primarily focuses on developing computational methods and tools to study materials useful in novel semiconductor and renewable energy applications.
+I'm Uthpala, a postdoc in the [Ab-Initio Materials Simulations (AIMS)](https://aims.pratt.duke.edu) group at Duke University. My work focuses on developing computational methods and tools to design and characterize novel materials, which have broad applications ranging from advancing semiconductor technologies to enhancing renewable energy solutions. 
 
-During my time as a Ph.D. candidate in the Department of Physics and Astronomy at West Virginia University working with [Dr. Aldo Romero](https://physics.wvu.edu/directory/faculty/aldo-romero), my [research](/research/) focused on the study of Strongly Correlated Materials (SCMs) using beyond Density Functional Theory (DFT) quantum many body methods including Dynamical Mean Field Theory (DMFT). I was also involved in code development [projects](/projects/) that facilitate pre and post-processing of electronic structure calculations.
+This website serves as my digital corner in cyberspace where I share insights and musings about my research and personal interests through my [blog](/year-archive). You can explore a list of my [publications](/publications/) derived from my research endeavors and a comprehensive portfolio of [projects](/projects) I have developed or contributed to. For an in-depth overview of my professional journey, please refer to my [CV](/resume/). Check out the [about](/about/) page for a more personal glimpse into my life and passions. 
 
-Listed here are [publications](/publications/) stemming from my research. For more information about my background please refer to my [CV](/resume/).
+I invite you to browse, read, and interact. Whether it's a thoughtful comment on a blog post or a question about my research, I would love to hear from you!
 
-Additionally, I maintain a [blog](/year-archive/) on my website relating to my research interests and other topics.
-
-Please feel free to leave a comment on my posts or reach out to me through email. Click on the tabs above to learn more about me and my work.
