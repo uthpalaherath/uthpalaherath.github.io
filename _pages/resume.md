@@ -6,7 +6,6 @@ header:
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
-
 ### One-page Resume
 
 <object data="/assets/docs/OnePageResume-UthpalaHerath.pdf" width="700px" height="700px">

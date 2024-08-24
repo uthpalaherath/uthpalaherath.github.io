@@ -52,9 +52,6 @@ feature_row5:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-
-# Projects
-
 The following is a list of individual and collaborative research projects.
 More projects can be found on my [Github](https://github.com/uthpalaherath) along with Github organizations I have contributed to.
 

@@ -6,9 +6,6 @@ header:
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
-
-# Publications
-
 <script src="https://bibbase.org/show?bib=https://bibbase.org/network/files/EmqHbeD53PJXJiHe4&jsonp=1"></script>
 
 ## In preparation

@@ -6,9 +6,6 @@ header:
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
-
-# Conferences and workshops
-
 Please click on the location pins for more details.<br>
 Blue pins represent conference talks or posters.
 Red pins represent workshops or seminars.

@@ -6,7 +6,6 @@ header:
     overlay_image: "/assets/images/beach.jpg"
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
-
 # Current Research (Postdoctoral Associate, Duke University)
 
 My current research focuses on developing computational methods to study materials useful in novel semiconductor and renewable energy applications. Similar to my Ph.D. research this work also requires utilizing High-Performance Computing (HPC) and beyond-DFT methods including the GW approximation.
