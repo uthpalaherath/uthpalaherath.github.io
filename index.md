@@ -8,8 +8,7 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 excerpt: '\- salutation wishing the recipient a long life.'
 ---
-
-Hello and welcome to my personal website!
+**Hello and welcome!** 👋 
 
 I am a Postdoctral Associate in the Department of Mechanical Engineering and Materials Science (MEMS) at Duke University in the research group of [Dr. Volker Blum](https://aims.pratt.duke.edu). My current [research](/research/) primarily focuses on developing computational methods and tools to study materials useful in novel semiconductor and renewable energy applications.
 
