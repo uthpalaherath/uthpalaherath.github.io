@@ -169,7 +169,7 @@ author:
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/uthpalaherath"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
+      icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?hl=en&user=aWQymokAAAAJ"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
