@@ -7,7 +7,7 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 Please click on the location pins for more details.<br>
-Blue pins represent conference talks or posters.
-Red pins represent workshops or seminars.
+<span style="color:blue">Blue</span> pins represent conference talks or posters.
+<span style="color:red">Red</span> pins represent workshops or seminars.
 
 <iframe src="/assets/maps/map.html" height="600" width="1200"></iframe>
