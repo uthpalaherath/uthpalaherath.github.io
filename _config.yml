@@ -196,7 +196,7 @@ footer:
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/uthpalaherath"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
+      icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
