@@ -152,7 +152,8 @@ paginate_path: /page:num/
 author:
   name             : "Uthpala Herath"
   avatar           : "/assets/images/bio-photo.JPG"
-  bio              : "Computational Physicist <br> Postdoc at Duke University"
+  bio              : "Computational Physicist <br>
+                     📍 Postdoc at Duke University"
   location         : "Durham, NC"
   links:
     - label: "Email"
