@@ -13,7 +13,7 @@ feature_row1:
     title: "PyProcar: A Python library for electronic structure pre/post-processing"
     excerpt: "PyProcar is a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations."
     url: "https://github.com/romerogroup/pyprocar/"
-    btn_label: "Read More"
+    btn_label: "Code"
     btn_class: "btn--primary"
 
 feature_row2:
@@ -22,7 +22,7 @@ feature_row2:
     title: "DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages"
     excerpt: "An open-source computational package (and a library) combining DMFT with various DFT codes interfaced through the Wannier90 package."
     url: "https://github.com/DMFTwDFT-project/DMFTwDFT"
-    btn_label: "Read More"
+    btn_label: "Code"
     btn_class: "btn--primary"
 
 feature_row3:
@@ -31,7 +31,7 @@ feature_row3:
     title: "MechElastic: A Python Library for Analysis of Mechanical and Elastic Properties of Bulk and 2D Materials"
     excerpt: "A Python library to calculate elastic properties of materials."
     url: "https://github.com/romerogroup/MechElastic"
-    btn_label: "Read More"
+    btn_label: "Code"
     btn_class: "btn--primary"
 
 feature_row4:
@@ -40,7 +40,7 @@ feature_row4:
     title: "FHI-aims: An all-electron electronic structure theory with numeric atom-centered orbitals."
     excerpt: "FHI-aims is an all-electron electronic structure code based on numeric atom-centered orbitals. It enables first-principles simulations with very high numerical accuracy for production calculations, with excellent scalability up to very large system sizes (thousands of atoms) and up to very large, massively parallel supercomputers (ten thousand CPU cores)."
     url: "https://fhi-aims.org"
-    btn_label: "Read More"
+    btn_label: "Code"
     btn_class: "btn--primary"
 
 feature_row5:
@@ -49,7 +49,7 @@ feature_row5:
     title: "ELSI (ELectronic Structure Infrastructure): A unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers."
     excerpt: "ELSI provides and enhances scalable, open-source software library solutions for electronic structure calculations in materials science, condensed matter physics, chemistry, and many other fields. ELSI focuses on methods that solve or circumvent eigenvalue problems in electronic structure theory. The ELSI infrastructure should also be useful for other challenging eigenvalue problems."
     url: "https://wordpress.elsi-interchange.org"
-    btn_label: "Read More"
+    btn_label: "Code"
     btn_class: "btn--primary"
 ---
 The following is a list of individual and collaborative research projects.
