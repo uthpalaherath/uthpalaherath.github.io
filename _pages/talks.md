@@ -11,7 +11,7 @@ Please click on the location pins for more details.<br>
 <span style="color:red">Red</span> pins represent workshops or seminars.<br>
 Scroll down for a list of recorded talks.
 
-<iframe src="/assets/maps/map.html" height="600" width="1200"></iframe>
+<iframe src="/assets/maps/map.html" height="600" width="1000"></iframe>
 
 <br>
 # Recorded talks
