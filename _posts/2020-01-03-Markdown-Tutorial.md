@@ -29,7 +29,7 @@ One of the major reasons I switched to Markdown is the ability to write in-line 
 
 <u>Examples:</u>
 
-• \$LaNiO_3\$ gives $LaNiO_3$
+• \\\$LaNiO_3\\\$ gives $LaNiO_3$
 
 • The following code block
 
@@ -46,6 +46,7 @@ gives
 $$
 n_{\vec{k}ij}=\sum_{\lambda} U_{\vec{k}i\lambda}^{DMFT} \cdot w_{\vec{k} \lambda} \cdot U_{\vec{k} j \lambda}^{DMFT*}
 $$
+
 If you have a series of formulas, they will be numbered automatically. In the exported Latex document they will appear inside a ``\equation`` block. ``{#eq:equationlabel}`` is set as a label for the equation to be referenced by ``@eq:equationlabel``. For figures it would be ``{#fig:figurelabel}`` and ``{#tbl:tablelabel}`` for tables. The section labels are labelled automatically based on the name of the section and can be references by for example, ``@sec:prerequisites``. 
 
 Tables in Markdown seem appealing as well. This can be seen in the following table. They are converted to latex tables automatically when exported. 
