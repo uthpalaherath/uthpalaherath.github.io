@@ -14,7 +14,7 @@ header:
 
 ![2024-09-15-Cron-the-unix-assistant-you-didn't-know-you-had-20240915122634371](/images/2024-09-15-Cron-the-unix-assistant-you-didn't-know-you-had/2024-09-15-Cron-the-unix-assistant-you-didn't-know-you-had-20240915122634371.png){: width="50%"}
 
-Do you have repeating tasks that thus far you had to run on your Unix (Linux/ Mac) system manually? This could be anything from making scheduled backups of a folder to syncing the contents of a file with a remote server. Fortunately, for us Unix users, there's a built-in service that allows you to automate all of this. Enter Cron.
+Do you have recurring tasks that thus far you had to run on your Unix (Linux/ Mac) system manually? This could be anything from making scheduled backups of a folder to syncing the contents of a file with a remote server. Fortunately, for us Unix users, there's a built-in service that allows you to automate all of this. Enter Cron.
 
 #  Backing up with Cron 
 
