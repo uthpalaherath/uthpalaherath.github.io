@@ -51,10 +51,10 @@ First let's test the `rsync` command,
 rsync -a --delete /home/ukh/MatD3_backups/ ukh@timewarp-02.egr.duke.edu:/home/ukh/MatD3_backups
 ```
 
-If you get a `protocol version mismatch -- is your shell clean?` error, this is because your remote server outputs anything to the terminal. To fix this, add the following to the top of the  `.bashrc` file in the remote server. 
+If you get a `protocol version mismatch -- is your shell clean?` error, this is because your remote server outputs something to the terminal, probably due to output statements in the remote server's `.bashrc` or another startup script. To check this, run the following command and remove whatever is outputting to the terminal. `out.dat` should be a zero-length file.
 
 ```bash
-[[ $- != *i* ]] && return
+rsh ukh@timewarp-02.egr.duke.edu /bin/true > out.dat
 ```
 
 Once, you have that working we can automate the task with Cron. Add the following to your `crontab` which you can open with `crontab -e`.
