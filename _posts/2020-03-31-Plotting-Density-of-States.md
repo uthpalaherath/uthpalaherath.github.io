@@ -1,15 +1,14 @@
 ---
-title: Stay home and plot Density of States 
+title: Stay home and plot Density of States
 toc: true
 date: 2020-03-31
-excerpt: A tutorial on plotting Density of States for electronic structure calculations. 
+excerpt: A tutorial on plotting Density of States for electronic structure calculations.
 tags:
   - tutorials
-  - gradschool
   - physics
-  - condensedmatterphysics
-  - densityfunctionaltheory
   - python
+  - condensed-matter-physics
+  - density-functional-theory
 header:
   teaser: /images/2020-03-31-Plotting-Density-of-States/dos_atomic_total.png
 ---

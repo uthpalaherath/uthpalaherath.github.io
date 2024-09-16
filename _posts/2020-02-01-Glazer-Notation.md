@@ -1,14 +1,12 @@
 ---
 title: Glazer notation for Octahedral Tilting in Perovskites
-excerpt: This tutorial explains how Glazer notation is used to identify Perovskites of different symmetries based on their atomic positioning.
 excerpt: Classification of Perovskites of different symmetries based on their atomic positioning.
 date: 2020-02-01
 toc: true
 tags:
   - tutorials
   - physics
-  - condensedmatterphysics
-  - gradschool
+  - condensed-matter-physics
 header:
   teaser: /images/2020-02-01-Glazer-Notation/c8na00416a-f3_hi-res.png
 ---

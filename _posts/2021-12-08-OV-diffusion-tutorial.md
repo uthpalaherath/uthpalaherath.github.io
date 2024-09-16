@@ -5,14 +5,9 @@ toc: true
 excerpt: A tutorial on calculating diffusion energy barriers.
 tags:
   - tutorials
-  - condensed matter physics
-  - density functional theory
   - python
-  - diffusion
-  - oxygen vacancies
-  - DFT
-  - materials science
-  - VASP
+  - density-functional-theory
+  - physics
 header:
   teaser: /images/2021-12-08-OV-diffusion-tutorial/vacancy-migration.png
 ---

@@ -3,7 +3,6 @@ title: Hi again and Resolve Mathjax Latex rendering issues on Jekyll Markdown we
 date: 2024-08-18
 toc: false
 tags:
-  - web
   - markdown
   - tutorials
   - latex

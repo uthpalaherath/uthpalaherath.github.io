@@ -2,12 +2,11 @@
 title: An introduction to creating professional looking documents with Markdown
 toc: true
 date: 2020-01-03
-excerpt: Creating visually appealing documents with Markdown, Pandoc and Pdflatex. 
+excerpt: Creating visually appealing documents with Markdown, Pandoc and Pdflatex.
 tags:
   - tutorials
   - markdown
   - latex
-  - gradschool
 header:
   teaser: /images/2020-01-03-Markdown-Tutorial/image.jpg
 ---
