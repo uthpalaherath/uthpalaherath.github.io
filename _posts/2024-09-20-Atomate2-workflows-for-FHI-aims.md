@@ -32,7 +32,7 @@ conda activate atomate2
 Install the following packages.
 
 ```
-pip install atomate2 ase pymatgen jobflow_remote mongodb
+pip install atomate2 ase pymatgen jobflow_remote
 ```
 
 # Installing MongoDB
