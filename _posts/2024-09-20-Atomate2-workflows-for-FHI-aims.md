@@ -3,12 +3,17 @@ title: Atomate2 workflows for FHI-aims
 excerpt: 
 date: 2024-09-20
 toc: true
-tags: 
+tags:
+  - fhiaims
+  - density-functional-theory
+  - python
+  - condensed-matter-physics
+  - materials-science
 header:
   teaser: /images/2024-09-20-Atomate2-workflows-for-FHI-aims/2024-09-20-Atomate2-workflows-for-FHI-aims-20240920121324117.png
 ---
 {: .notice--primary}
-This brief tutorial provides an introduction to using Atomate2 to set up DFT workflows with the FHI-aims code.
+*This brief tutorial provides an introduction to using Atomate2 to set up DFT workflows with the FHI-aims code.*
 
 ![2024-09-20-Atomate2-workflows-for-FHI-aims-20240920121324117](/images/2024-09-20-Atomate2-workflows-for-FHI-aims/2024-09-20-Atomate2-workflows-for-FHI-aims-20240920121324117.png)
 {: width="50%"}
