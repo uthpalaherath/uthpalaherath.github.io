@@ -106,7 +106,7 @@ AIMS_SPECIES_DIR: "/Users/uthpala/apps/FHIaims/FHIaims/species_defaults/"
 
 # Running locally
 
-The following script is used to run a relaxation calculation locally. Set `species_dir` to point to the FHI-aims `species_defaults` directory.
+The following script is used to run a relaxation calculation locally. 
 
 `si_relax.py:`
 ```python
