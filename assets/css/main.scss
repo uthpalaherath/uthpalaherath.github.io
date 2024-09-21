@@ -9,17 +9,18 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 // Ref. https://github.com/mmistakes/minimal-mistakes/discussions/1219
+// Using rem units for scalability
 html {
-    font-size: 10px; // originally 16px
+    font-size: 87.5%; // equivalent to 14px (14/16 * 100%)
     @include breakpoint($medium) {
-        font-size: 12px; // originally 18px
+        font-size: 93.75%; // equivalent to 15px
     }
 
     @include breakpoint($large) {
-        font-size: 14px; // originally 20px
+        font-size: 100%; // default 16px
     }
 
     @include breakpoint($x-large) {
-        font-size: 16px; // originally 22px
+        font-size: 112.5%; // equivalent to 18px
     }
 }
