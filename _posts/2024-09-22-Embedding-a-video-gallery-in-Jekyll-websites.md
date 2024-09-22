@@ -49,19 +49,19 @@ Next, in your markdown file you can embed the video gallery using a HTML structu
 <div class="video-gallery">
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/assets/videos/video1.mov" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/assets/videos/video1.mp4" | relative_url }}" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/assets/videos/video2.mov" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/assets/videos/video2.mp4" | relative_url }}" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/assets/videos/video3.mov" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/assets/videos/video3.mp4" | relative_url }}" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
   </div>
@@ -76,44 +76,50 @@ toc: false
 classes: wide
 ```
 
-in your YAML front matter to ensure all the available space is being used for the gallery layout.  
+in your YAML front matter to ensure all the available space is being used for the gallery layout. 
 
-To showcase the gallery layout view, I am sharing some videos I captured from a Breaking Benjamin, Staind, Daughtry and Lakeview concert [^2] I attended in Raleigh the other day. Enjoy some of my favorite bands I've been listening to since high school! 
+On some browsers (e.g.- Chrome), `.mov` files aren't rendered correctly so we have to convert them to `.mp4` with the `H.264` codec. I used the [ffmpeg](https://www.ffmpeg.org) [^2] utility to do the conversion as follows, 
+
+```shell
+ffmpeg -i video1.mov -vcodec h264 -acodec aac video1.mp4
+```
+
+To showcase the gallery layout view, I am sharing some videos I captured from a Breaking Benjamin, Staind, Daughtry and Lakeview concert [^3] I attended in Raleigh the other day. Enjoy some of my favorite bands I've been listening to since high school! 
 
 <div class="video-gallery">
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114125601.mp4" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114125601.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114135400.mp4" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114135400.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114143925.mp4" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114143925.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114151896.mp4" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114151896.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114203117.mp4" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114203117.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114211171.mp4" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114211171.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
@@ -122,4 +128,5 @@ To showcase the gallery layout view, I am sharing some videos I captured from a 
 # References
 
 [^1]: [https://mmistakes.github.io/minimal-mistakes/](https://mmistakes.github.io/minimal-mistakes/)
-[^2]: [https://www.livenationentertainment.com/2024/03/rock-icons-staind-and-breaking-benjamin-announce-co-headline-tour-with-special-guests-daughtry-and-lakeview/](https://www.livenationentertainment.com/2024/03/rock-icons-staind-and-breaking-benjamin-announce-co-headline-tour-with-special-guests-daughtry-and-lakeview/) 
+[^2]: [https://www.ffmpeg.org](https://www.ffmpeg.org)
+[^3]: [https://www.livenationentertainment.com/2024/03/rock-icons-staind-and-breaking-benjamin-announce-co-headline-tour-with-special-guests-daughtry-and-lakeview/](https://www.livenationentertainment.com/2024/03/rock-icons-staind-and-breaking-benjamin-announce-co-headline-tour-with-special-guests-daughtry-and-lakeview/) 
