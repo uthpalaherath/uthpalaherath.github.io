@@ -14,7 +14,7 @@ header:
   teaser: /images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495.png
 ---
 {: .notice--primary}
-A simple tutorial on embedding a video gallery in a Minimal Mistakes themed Jekyll website. 
+*A simple tutorial on embedding a video gallery in a Minimal Mistakes themed Jekyll website.* 
 
 ![2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495](/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495.png)
 
@@ -69,7 +69,7 @@ Next, in your markdown file you can embed the video gallery using a HTML structu
 </div>
 ```
 
-You may also want to set, 
+Optionally, you may also want to set, 
 
 ```markdown
 toc: false
