@@ -49,19 +49,19 @@ Next, in your markdown file you can embed the video gallery using a HTML structu
 <div class="video-gallery">
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/assets/videos/video1.mp4" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/assets/videos/video1.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/assets/videos/video2.mp4" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/assets/videos/video2.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/assets/videos/video3.mp4" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/assets/videos/video3.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
