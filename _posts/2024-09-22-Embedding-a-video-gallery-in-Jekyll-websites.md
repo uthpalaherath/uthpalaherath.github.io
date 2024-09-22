@@ -83,37 +83,37 @@ To showcase the gallery layout view, I am sharing some videos I captured from a 
 <div class="video-gallery">
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114125601.mov" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114125601.mp4" | relative_url }}" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114135400.mov" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114135400.mp4" | relative_url }}" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114143925.mov" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114143925.mp4" | relative_url }}" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114151896.mov" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114151896.mp4" | relative_url }}" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114203117.mov" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114203117.mp4" | relative_url }}" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114211171.mov" | relative_url }}" type="video/quicktime">
+      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114211171.mp4" | relative_url }}" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
   </div>
