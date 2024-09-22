@@ -51,7 +51,7 @@ Start the MongoDB server with,
 brew services start mongodb-community
 ```
 
-You can check if the service is running with `brew services list`. It should display something like `mongodb-community started uthpala ~/Library/LaunchAgents/homebrew.mxcl.mongodb-community`.
+You can check if the service is running with `brew services list`. It should display something like `mongodb-community started uthpala ~/Library/LaunchAgents/homebrew.mxcl.mongodb-community`. For installing on other platforms see [this](https://www.mongodb.com/docs/manual/administration/install-community/) page.
 If you would like to see your databases in a GUI, consider installing [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register).
 
 # Configuring Atomate2
