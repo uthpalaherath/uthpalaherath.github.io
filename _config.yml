@@ -104,6 +104,11 @@ encoding: "utf-8"
 enable_copy_code_button: true
 breadcrumbs: false
 
+# Search bar
+search: true
+lunr:
+  search_within_pages: true
+
 # Analytics
 analytics:
   provider: "google-gtag"
