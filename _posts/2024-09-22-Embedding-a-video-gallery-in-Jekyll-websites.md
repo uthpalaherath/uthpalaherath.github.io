@@ -9,7 +9,6 @@ tags:
   - jekyll
   - minimal-mistakes
   - html
-  - music
 header:
   teaser: /assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495.png
 ---
