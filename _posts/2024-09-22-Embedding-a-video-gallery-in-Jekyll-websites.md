@@ -11,12 +11,12 @@ tags:
   - html
   - music
 header:
-  teaser: /images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495.png
+  teaser: /assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495.png
 ---
 {: .notice--primary}
 *A simple tutorial on embedding a video gallery in a Minimal Mistakes themed Jekyll website.* 
 
-![2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495](/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495.png)
+![2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495](/assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495.png)
 
 The [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme [^1] for Jekyll websites by Michael Rose offers a great way to embed images in a [gallery layout](https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/). I wanted to do the same for videos. In this post I will show you how I achieved that. 
 
@@ -89,37 +89,37 @@ To showcase the gallery layout view, I am sharing some videos I captured from a 
 <div class="video-gallery">
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114125601.mp4" | relative_url }}" type="video/mp4">
+      <source src="{{ "/assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114125601.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114135400.mp4" | relative_url }}" type="video/mp4">
+      <source src="{{ "/assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114135400.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114143925.mp4" | relative_url }}" type="video/mp4">
+      <source src="{{ "/assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114143925.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114151896.mp4" | relative_url }}" type="video/mp4">
+      <source src="{{ "/assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114151896.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114203117.mp4" | relative_url }}" type="video/mp4">
+      <source src="{{ "/assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114203117.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="video-item">
     <video width="560" height="315" controls>
-      <source src="{{ "/images/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114211171.mp4" | relative_url }}" type="video/mp4">
+      <source src="{{ "/assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922114211171.mp4" | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>

@@ -10,12 +10,12 @@ tags:
   - condensed-matter-physics
   - materials-science
 header:
-  teaser: /images/2024-09-20-Atomate2-workflows-for-FHI-aims/2024-09-20-Atomate2-workflows-for-FHI-aims-20240920121324117.png
+  teaser: /assets/media/2024-09-20-Atomate2-workflows-for-FHI-aims/2024-09-20-Atomate2-workflows-for-FHI-aims-20240920121324117.png
 ---
 {: .notice--primary}
 *This brief tutorial provides an introduction to using Atomate2 to set up DFT workflows with the FHI-aims code.*
 
-![2024-09-20-Atomate2-workflows-for-FHI-aims-20240920121324117](/images/2024-09-20-Atomate2-workflows-for-FHI-aims/2024-09-20-Atomate2-workflows-for-FHI-aims-20240920121324117.png)
+![2024-09-20-Atomate2-workflows-for-FHI-aims-20240920121324117](/assets/media/2024-09-20-Atomate2-workflows-for-FHI-aims/2024-09-20-Atomate2-workflows-for-FHI-aims-20240920121324117.png)
 {: width="50%"}
 
 With the increasing availability of High Performance Computing (HPC) and High Throughput Computing (HTC), the use of efficient tools to perform complex Density Functional Theory (DFT) calculations is critical for advancing materials design. Atomate2 [^1] is such a tool that can create workflows for various DFT codes. This is a brief tutorial on running FHI-aims [^2] workflows with Atomate2. It guides a user to setup a conda environment, MongoDB [^3], Pymatgen [^4], jobflow_remote [^5] and Atomate2 to run a relaxation calculation for a Si structure using a `light`  basis set on a 7x7x7 k-grid. The first section discusses running a calculation on a local computer followed by instructions on launching a calculation on a remote server and storing the output data in a MongoDB database which can be  post-processed with Python. 

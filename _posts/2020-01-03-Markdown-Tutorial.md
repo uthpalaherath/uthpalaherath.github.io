@@ -8,7 +8,7 @@ tags:
   - markdown
   - latex
 header:
-  teaser: /images/2020-01-03-Markdown-Tutorial/image.jpg
+  teaser: /assets/media/2020-01-03-Markdown-Tutorial/image.jpg
 ---
 {: .notice--primary}
 *This is a tutorial on creating visually appealing documents with Markdown and then converting them into Latex for further processing or exporting them as Pdf's. It uses the packages Pandoc and Pdflatex.*
@@ -72,7 +72,7 @@ def Create_dmft_params(p,pC,N_atoms,atm_idx,sym_idx):
 
 Typora also allows you to use your everyday shortcuts like Ctrl + B, Ctrl + U for syntax formatting and automatically writes the relevant Markdown syntax. Writing Markdown in Typora is a smooth experience. It has a folder tree to easily access your notes. A snapshot of my Typora setup is shown below. 
 
-![What writing Markdown in Typora looks like.](/images/2020-01-03-Markdown-Tutorial/image-20200128174047615.png)
+![What writing Markdown in Typora looks like.](/assets/media/2020-01-03-Markdown-Tutorial/image-20200128174047615.png)
 
 • Pandoc - 
 
@@ -145,7 +145,7 @@ The header contains the title, name of the bibtex file, abstract and so on. I ha
 
 Images in Markdown look like the one below. To make things look better, you can modify the latex file and use sub-figures and so on. 
 
-![The caption of the image.](/images/2020-01-03-Markdown-Tutorial/image.jpg)
+![The caption of the image.](/assets/media/2020-01-03-Markdown-Tutorial/image.jpg)
 
 References are used just like in Latex. You create a .bib file with all the bibtex entries and refer to each of them with the ``@`` symbol. In latex this is converted to ``\citep``.
 

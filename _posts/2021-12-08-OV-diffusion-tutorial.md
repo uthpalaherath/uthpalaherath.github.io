@@ -9,7 +9,7 @@ tags:
   - density-functional-theory
   - physics
 header:
-  teaser: /images/2021-12-08-OV-diffusion-tutorial/vacancy-migration.png
+  teaser: /assets/media/2021-12-08-OV-diffusion-tutorial/vacancy-migration.png
 ---
 {: .notice--primary}
 *This is a short tutorial on the calculation of the energy barrier of diffusion for a single oxygen vacancy. The calculations are done with SOD, VTST Tools and VASP.*
@@ -77,7 +77,7 @@ d
 0.75000000   0.30194339   0.19805661   O
 ```
 
-![Pristine LaNiO$_3$ with La, Ni and O atoms displayed in green, grey and red, respectively.](/images/2021-12-08-OV-diffusion-tutorial/image-20210630014600166.png)
+![Pristine LaNiO$_3$ with La, Ni and O atoms displayed in green, grey and red, respectively.](/assets/media/2021-12-08-OV-diffusion-tutorial/image-20210630014600166.png)
 
 ## Generating the oxygen vacancy with SOD
 
@@ -198,7 +198,7 @@ d
 
 3. What we would like to do now is to migrate this oxygen vacancy to a nearby oxygen atom location as shown in the figure below. This can be done by calculating the distance between the vacancy oxygen atom (black) and a neighboring oxygen atom (red) with [VESTA](https://jp-minerals.org/vesta/en/) and selecting a nearby oxygen atom. Turn on the atom labeling in VESTA to see which atom we are considering. Update the POSCAR for the diffused structure such that this selected oxygen atom (red) is swapped with the oxygen vacancy atom (black). Let’s call the initial structure POSCAR_initial and the latter POSCAR_final.
 
-   ![Single oxygen vacancy diffusion in LaNiO$_3$. The oxygen vacancy is displayed in black.](/images/2021-12-08-OV-diffusion-tutorial/vacancy-migration.png)
+   ![Single oxygen vacancy diffusion in LaNiO$_3$. The oxygen vacancy is displayed in black.](/assets/media/2021-12-08-OV-diffusion-tutorial/vacancy-migration.png)
 
 4. Now run [vacancyPOSCARFormatter.py](https://github.com/uthpalaherath/MatSciScripts/blob/master/vacancyPOSCARformatter.py) to remove the dummy oxygen vacancy and reformat the POSCAR file.
 
@@ -346,7 +346,7 @@ At this stage [DiSPy](https://github.com/munrojm/DiSPy) coud be incorporated to 
 
    The output is shown below.
 
-   ![The oxygen vacancy diffusion energy barrier for a single vacancy in LaNiO$_3$](/images/2021-12-08-OV-diffusion-tutorial/NEB.png)
+   ![The oxygen vacancy diffusion energy barrier for a single vacancy in LaNiO$_3$](/assets/media/2021-12-08-OV-diffusion-tutorial/NEB.png)
 
    According to the plot we notice that the maximum energy required for the diffusion to occur is around 0.6 eV/atom.
 

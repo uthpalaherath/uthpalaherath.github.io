@@ -8,7 +8,7 @@ tags:
   - physics
   - condensed-matter-physics
 header:
-  teaser: /images/2020-02-01-Glazer-Notation/c8na00416a-f3_hi-res.png
+  teaser: /assets/media/2020-02-01-Glazer-Notation/c8na00416a-f3_hi-res.png
 ---
 {: .notice--primary}
 *This tutorial explains how Glazer notation is used to identify Perovskites of different symmetries based on their atomic positioning.*
@@ -17,7 +17,7 @@ header:
 
 Perovskites are structures that take the form ABX$_3$ structure (E.g.- SrVO$_3$, CaTiO$_3$, CsSnI$_3$). The B cation has 6 fold coordination, surrounded by an octahedron of corner sharing anions. The A cation has 12 fold coordination surrounded by 12 anions. Most transition metallic ions are perovskite compounds. Some interesting properties of Perovskites include Ferroelectricity, colossal magnetoresistance, High T superconductivity etc.
 
-![The structure of the Perovskite ABX$_3$](/images/2020-02-01-Glazer-Notation/c8na00416a-f3_hi-res.png)
+![The structure of the Perovskite ABX$_3$](/assets/media/2020-02-01-Glazer-Notation/c8na00416a-f3_hi-res.png)
 
 <sup>**Image source**: Yi et al.[^1] </sup>
 
@@ -33,7 +33,7 @@ where, r$_A$, r$_B$ and r$_X$ are the ionic radii of the ions. t = 1 is a perfec
 
 The following figure displays octahedral tilting and its effects[^2].
 
-![Octahedral tilting and its effects](/images/2020-02-01-Glazer-Notation/c8tc02976h-f10_hi-res.png)
+![Octahedral tilting and its effects](/assets/media/2020-02-01-Glazer-Notation/c8tc02976h-f10_hi-res.png)
 
 
 
@@ -48,7 +48,7 @@ $$
 - The superscript indicates zero-tilt (0), in-phase-tilt (+) or anti-phase-tilt (-) of subsequent layers of octahedra.
 - There exists 15 tilt systems for perovskites. The following is an example.
 
-![Tilt phases of AB$X_3$ halides. A-light brown, B-green, X-dark brown](/images/2020-02-01-Glazer-Notation/image-20200203144305076.png)
+![Tilt phases of AB$X_3$ halides. A-light brown, B-green, X-dark brown](/assets/media/2020-02-01-Glazer-Notation/image-20200203144305076.png)
 
 | Structure | Glazer notation                |
 | :-------: | :----------------------------- |
@@ -62,7 +62,7 @@ Table 1: The Glazer notations for the halide perovskite structures in the previo
 
 The following table summarizes the different types of tilting possible for different space groups[^3].
 
-![Glazer notation table ](/images/2020-02-01-Glazer-Notation/image-20200203140523807.png)
+![Glazer notation table ](/assets/media/2020-02-01-Glazer-Notation/image-20200203140523807.png)
 # References
 
 [^1]: Yi, Z., Ladi, N., Shai, X., Li, H., Shen, Y., & Wang, M. (2019). Will organic–inorganic hybrid halide lead perovskites be eliminated from optoelectronic applications?*Nanoscale Adv., 1*, 1276-1289.

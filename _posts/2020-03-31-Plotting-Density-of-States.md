@@ -10,7 +10,7 @@ tags:
   - condensed-matter-physics
   - density-functional-theory
 header:
-  teaser: /images/2020-03-31-Plotting-Density-of-States/dos_atomic_total.png
+  teaser: /assets/media/2020-03-31-Plotting-Density-of-States/dos_atomic_total.png
 ---
 {: .notice--primary}
 *This is a tutorial on plotting total and partial Density of States for electronic structure calculations performed with the DFT code VASP.*
@@ -27,7 +27,7 @@ I recently performed DFT calculations for hundreds of different oxygen vacancy c
 
 For this tutorial we will plot the DOS of the paramagnetic metal LaNiO$_3$. Its crystal structure is displayed below. 
 
-![LaNiO3](/images/2020-03-31-Plotting-Density-of-States/pristine-5953481.png)  
+![LaNiO3](/assets/media/2020-03-31-Plotting-Density-of-States/pristine-5953481.png)  
 
 La, Ni and O are represented with green, gray and red, respectively. In terms of a POSCAR format that would look like:
 
@@ -74,7 +74,7 @@ plotDOS.py total -show
 ```
 
 
-![Total](/images/2020-03-31-Plotting-Density-of-States/dos_total.png)
+![Total](/assets/media/2020-03-31-Plotting-Density-of-States/dos_total.png)
 
 The ``-show`` flag displays the plot on screen. Otherwise it would just save the figure as a .png file. As you can see since there are states at the Fermi level this is classified as a metal. The total DOS is rather boring so let’s move on to plotting partial DOS where we can see the different contributions of atoms and orbitals to the DOS. 
 
@@ -92,11 +92,11 @@ plotDOS.py atomic -show
 
 
 
-![atomic](/images/2020-03-31-Plotting-Density-of-States/dos_atomic.png)
+![atomic](/assets/media/2020-03-31-Plotting-Density-of-States/dos_atomic.png)
 
 To see both the total and the atomic contributions on the same plot you may add the ``-total`` flag to the above command. 
 
-![atomic_total](/images/2020-03-31-Plotting-Density-of-States/dos_atomic_total.png)
+![atomic_total](/assets/media/2020-03-31-Plotting-Density-of-States/dos_atomic_total.png)
 
 ## Orbital projected DOS
 
@@ -110,7 +110,7 @@ plotDOS.py orbital -atom Ni -show
 
 
 
-![orbital](/images/2020-03-31-Plotting-Density-of-States/dos_orbital_Ni.png)
+![orbital](/assets/media/2020-03-31-Plotting-Density-of-States/dos_orbital_Ni.png)
 
 The ``-total`` flag works here as well if one wishes to see the total contribution for the orbital on the same plot. 
 
@@ -124,7 +124,7 @@ Run:
 plotDOS.py orbital_d -atom Ni -show
 ```
 
-![orbital](/images/2020-03-31-Plotting-Density-of-States/dos_d_Ni.png)
+![orbital](/assets/media/2020-03-31-Plotting-Density-of-States/dos_d_Ni.png)
 
 This would sum up the contribution from all the Ni atoms in the system. If you would like to customize the atoms, you could use a list. The indexes correspond to the order of the atoms in the POSCAR file. 
 
