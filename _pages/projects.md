@@ -51,12 +51,32 @@ feature_row5:
     url: "https://wordpress.elsi-interchange.org"
     btn_label: "Code"
     btn_class: "btn--primary"
+
+feature_row6:
+  - image_path: "/assets/images/hybrid3.png"
+    alt: "HybriD3"
+    title: "HybriD3: A curatable database for experimental and theoretical data on hybrid organic-inorganic materials."
+    excerpt: "Hybrid organic-inorganic materials offer a unique opportunity for the discovery and refinement of new functional semiconductor materials with fine-tuned properties, controlled at the atomic scale by organic chemistry and organic-inorganic synthesis and processing. The HybriD3 project accelerates the Design, Discovery and Dissemination (D3) of new crystalline organic-inorganic hybrid semiconductors in a collaborative effort between a consortium of researchers in the NC Triangle area and beyond."
+    url: "https://materials.hybrid3.duke.edu"
+    btn_label: "Database"
+    btn_class: "btn--primary"
+
+feature_row7:
+  - image_path: "/assets/images/springer-materials.png"
+    alt: "Springer Materials"
+    title: "Springer Materials: The research solution for identifying material properties. "
+    excerpt: "SpringerMaterials provides curated data and advanced functionalities to support research in materials science, physics, chemistry, engineering, and other related fields."
+    url: "https://materials.springer.com"
+    btn_label: "Database"
+    btn_class: "btn--primary"
+
 ---
-The following is a list of individual and collaborative research projects.
-More projects can be found on my [Github](https://github.com/uthpalaherath) along with Github organizations I have contributed to.
+This is a list of research projects I have contributed to.
 
 {% include feature_row id="feature_row1" type="left" %}
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
 {% include feature_row id="feature_row4" type="left" %}
 {% include feature_row id="feature_row5" type="left" %}
+{% include feature_row id="feature_row6" type="left" %}
+{% include feature_row id="feature_row7" type="left" %}
