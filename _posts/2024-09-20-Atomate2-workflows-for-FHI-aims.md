@@ -190,6 +190,12 @@ jobstore:
       collection_name: outputs_blobs
 ```
 
+Additionally, the Pymatgen configuration file has to be added to the **remote** server to point to the location of the FHI-aims `species_defaults` folder on the **remote** server. i.e. add the equivalent of the following to your `~/.config/.pmgrc.yaml`  on the **remote** server. 
+
+```yaml
+AIMS_SPECIES_DIR: "/home/ukh/local/FHIaims/species_defaults/defaults_2020"
+```
+
 For the remote server calculations, we store the data in the MongoDB database `timewarp` with the collections `queue`, `outputs` and `outputs_blobs`. Create these through `mongosh` with, 
 
 ```shell
