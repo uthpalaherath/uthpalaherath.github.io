@@ -26,7 +26,7 @@ At Duke University, I continue to contribute to advancements in materials scienc
 
 ## Life beyond academia
 
-![image](/assets/images/samknob.HEIC){: .align-right style="width: 40%;"}
+![image](/assets/images/samknob.jpg){: .align-right style="width: 40%;"}
 
 When I'm not in the lab, you can find me exploring the great outdoors. I love hiking, backpacking, and camping—activities that allow me to connect with nature. My time in the "Wild and Wonderful" state of West Virginia was filled with adventures along its rivers and trails, offering breathtaking views of the Appalachian Mountains. Now based in North Carolina, I continue to enjoy its equally stunning landscapes.
 
