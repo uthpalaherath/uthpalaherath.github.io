@@ -22,7 +22,7 @@ I earned my Bachelor's degree in Physics with a minor in Mathematics from the Un
 
 To further pursue my research interests, I returned to the US for graduate studies, earning my Ph.D. in Physics at West Virginia University under the mentorship of [Dr. Aldo Romero](https://aldoromero.sandbox.wvu.edu). As a graduate student, I was an active member in the Physics and Astronomy Graduate Student Organization (PAGSO) and contributed to physics outreach programs to enhance public literacy in science across West Virginia.
 
-At Duke University, I continue to contribute to advancements in materials science, collaborating with a diverse team of researchers. Beyond research, I serve on the council of the [Duke Postdoctoral Association (DUPA)](https://dukepostdocs.org) where I help organize events that bring together postdocs from various backgrounds.
+At Duke University, I continue to contribute to advancements in materials science, collaborating with a diverse team of researchers. Beyond research, I serve on the council of the [Duke Postdoctoral Association (DUPA)](https://dukepostdocs.org) where I help organize events that bring together postdocs from various backgrounds while assisting in addressing their needs and celebrating their accomplishments.
 
 ## Life beyond academia
 
