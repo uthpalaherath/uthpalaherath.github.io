@@ -12,6 +12,8 @@ header:
 <!--   <figcaption>Me in the wild.</figcaption> -->
 <!-- </figure> -->
 
+<!-- ![image](/assets/images/samknob.jpg){: .align-right style="width: 40%;"} -->
+
 Hello! I'm Uthpala, a Postdoctoral Associate in the Department of Mechanical Engineering and Materials Science (MEMS) at Duke University. I work with [Dr. Volker Blum's](https://aims.pratt.duke.edu) research group, exploring computational materials science-the fascinating intersection of physics, engineering, chemistry, and computer science.
 
 ## My journey
@@ -26,7 +28,10 @@ At Duke University, I continue to contribute to advancements in materials scienc
 
 ## Life beyond academia
 
-![image](/assets/images/samknob.jpg){: .align-right style="width: 40%;"}
+<figure style="width: 40%" class="align-right">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/samknob.jpg" alt="">
+  <figcaption>Backpacking through Pisgah National Forest in the mountains of Western North Carolina.</figcaption>
+</figure>
 
 When I'm not in the lab, you can find me exploring the great outdoors. I love hiking, backpacking, and camping—activities that allow me to connect with nature. My time in the "Wild and Wonderful" state of West Virginia was filled with adventures along its rivers and trails, offering breathtaking views of the Appalachian Mountains. Now based in North Carolina, I continue to enjoy its equally stunning landscapes.
 
