@@ -79,8 +79,17 @@ feature_row8:
     btn_label: "Code"
     btn_class: "btn--primary"
 
+feature_row9:
+  - image_path: "/assets/images/projects/NEBgen.png"
+    alt: "NEBgen"
+    title: "NEBgen"
+    excerpt: "NEBgen prepares POSCAR's for Nudged Elastic Band (NEB) calculations through Distortion Symmetry Method with [VTST](http://theory.cm.utexas.edu/vtsttools/) and [DiSPy](https://github.com/munrojm/DiSPy). The nudged elastic band (NEB) method is a popular method for calculating the minimum energy pathways of kinetic processes. Although, linear interpolation between an initial and final structure (image) provides a decent estimate for the minimum energy pathway, the Distortion Symmetry Method takes into account symmetry-adapted perturbations to systematically lower the initial path symmetry, enabling the exploration of other low-energy pathways that may exist."
+    url: "https://github.com/uthpalaherath/NEBgen"
+    btn_label: "Code"
+    btn_class: "btn--primary"
+
 ---
-This is a list of research projects I have contributed to.
+The following is a list of research projects I have contributed to.
 
 {% include feature_row id="feature_row1" type="left" %}
 {% include feature_row id="feature_row2" type="left" %}
@@ -90,3 +99,4 @@ This is a list of research projects I have contributed to.
 {% include feature_row id="feature_row6" type="left" %}
 {% include feature_row id="feature_row7" type="left" %}
 {% include feature_row id="feature_row8" type="left" %}
+{% include feature_row id="feature_row9" type="left" %}
