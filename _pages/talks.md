@@ -19,7 +19,7 @@ Scroll down for a list of recorded talks.
 Electronic Structure Workshop, University of California, Merced, CA <br>
 June 2-5, 2020 (Virtual Talk)
 
-{% include video id="-KBmVuwHmlU" provider="youtube" %}
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-KBmVuwHmlU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages
 APS Mid Atlantic Section Meeting <br>
