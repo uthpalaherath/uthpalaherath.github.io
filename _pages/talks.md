@@ -15,14 +15,15 @@ Scroll down for a list of recorded talks.
 
 <br>
 # Recorded talks
-## PyProcar: A Python library for electronic structure pre/post-processing
+
+1. PyProcar: A Python library for electronic structure pre/post-processing
 Electronic Structure Workshop, University of California, Merced, CA <br>
 June 2-5, 2020 (Virtual Talk)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-KBmVuwHmlU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-KBmVuwHmlU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages
+2. DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages
 APS Mid Atlantic Section Meeting <br>
 December 4-6, 2020 (Virtual Talk)
 
-{% include video id="BgoibWFixg4" provider="youtube" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BgoibWFixg4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
