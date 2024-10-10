@@ -16,6 +16,8 @@ header:
 </object>
 </details>
 
+---
+
 <details>
   <summary>Resume</summary>
   <object data="/assets/docs/Resume-UthpalaHerath.pdf" width="700px" height="700px">
@@ -25,6 +27,8 @@ header:
 </object>
 </details>
 
+---
+
 <details>
   <summary>CV</summary>
   <object data="/assets/docs/CV-UthpalaHerath.pdf" width="700px" height="700px">
@@ -33,3 +37,5 @@ header:
     </embed>
   </object>
 </details>
+
+---
