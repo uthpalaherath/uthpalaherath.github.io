@@ -10,8 +10,10 @@ header:
 feature_row1:
   - image_path: "/assets/images/projects/pyprocar.png"
     alt: "PyProcar"
-    title: "PyProcar: A Python library for electronic structure pre/post-processing"
-    excerpt: "PyProcar is a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations."
+    title: "PyProcar"
+    excerpt: "
+    *A Python library for electronic structure pre/post-processing* <br><br>
+    PyProcar is a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations."
     url: "https://github.com/romerogroup/pyprocar/"
     btn_label: "Code"
     btn_class: "btn--primary"
@@ -19,8 +21,10 @@ feature_row1:
 feature_row2:
   - image_path: "/assets/images/projects/dmftwdft_logo.png"
     alt: "DMFTwDFT"
-    title: "DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages"
-    excerpt: "An open-source computational package (and a library) combining DMFT with various DFT codes interfaced through the Wannier90 package."
+    title: "DMFTwDFT"
+    excerpt: "
+    *An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages*<br><br>
+    An open-source computational package (and a library) combining DMFT with various DFT codes interfaced through the Wannier90 package."
     url: "https://github.com/DMFTwDFT-project/DMFTwDFT"
     btn_label: "Code"
     btn_class: "btn--primary"
@@ -28,8 +32,10 @@ feature_row2:
 feature_row3:
   - image_path: "/assets/images/projects/mechelastic.png"
     alt: "MechElastic"
-    title: "MechElastic: A Python Library for Analysis of Mechanical and Elastic Properties of Bulk and 2D Materials"
-    excerpt: "A Python library to calculate elastic properties of materials."
+    title: "MechElastic"
+    excerpt: "
+    *A Python Library for Analysis of Mechanical and Elastic Properties of Bulk and 2D Materials*<br><br>
+    A Python library to calculate elastic properties of materials."
     url: "https://github.com/romerogroup/MechElastic"
     btn_label: "Code"
     btn_class: "btn--primary"
@@ -37,8 +43,10 @@ feature_row3:
 feature_row4:
   - image_path: "/assets/images/projects/aims.svg"
     alt: "FHI-aims"
-    title: "FHI-aims: An all-electron electronic structure theory with numeric atom-centered orbitals."
-    excerpt: "FHI-aims is an all-electron electronic structure code based on numeric atom-centered orbitals. It enables first-principles simulations with very high numerical accuracy for production calculations, with excellent scalability up to very large system sizes (thousands of atoms) and up to very large, massively parallel supercomputers (ten thousand CPU cores)."
+    title: "FHI-aims"
+    excerpt: "
+    *An all-electron electronic structure theory with numeric atom-centered orbitals*<br><br>
+    FHI-aims is an all-electron electronic structure code based on numeric atom-centered orbitals. It enables first-principles simulations with very high numerical accuracy for production calculations, with excellent scalability up to very large system sizes (thousands of atoms) and up to very large, massively parallel supercomputers (ten thousand CPU cores)."
     url: "https://fhi-aims.org"
     btn_label: "Code"
     btn_class: "btn--primary"
@@ -46,8 +54,10 @@ feature_row4:
 feature_row5:
   - image_path: "/assets/images/projects/elsi.png"
     alt: "ELSI"
-    title: "ELSI (ELectronic Structure Infrastructure): A unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers."
-    excerpt: "ELSI provides and enhances scalable, open-source software library solutions for electronic structure calculations in materials science, condensed matter physics, chemistry, and many other fields. ELSI focuses on methods that solve or circumvent eigenvalue problems in electronic structure theory. The ELSI infrastructure should also be useful for other challenging eigenvalue problems."
+    title: "ELSI (ELectronic Structure Infrastructure)"
+    excerpt: "
+    *A unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers*<br><br>
+    ELSI provides and enhances scalable, open-source software library solutions for electronic structure calculations in materials science, condensed matter physics, chemistry, and many other fields. ELSI focuses on methods that solve or circumvent eigenvalue problems in electronic structure theory. The ELSI infrastructure should also be useful for other challenging eigenvalue problems."
     url: "https://wordpress.elsi-interchange.org"
     btn_label: "Code"
     btn_class: "btn--primary"
@@ -55,8 +65,10 @@ feature_row5:
 feature_row6:
   - image_path: "/assets/images/projects/hybrid3.png"
     alt: "HybriD3"
-    title: "HybriD3: A curatable database for experimental and theoretical data on hybrid organic-inorganic materials."
-    excerpt: "Hybrid organic-inorganic materials offer a unique opportunity for the discovery and refinement of new functional semiconductor materials with fine-tuned properties, controlled at the atomic scale by organic chemistry and organic-inorganic synthesis and processing. The HybriD3 project accelerates the Design, Discovery and Dissemination (D3) of new crystalline organic-inorganic hybrid semiconductors in a collaborative effort between a consortium of researchers in the NC Triangle area and beyond."
+    title: "HybriD3"
+    excerpt: "
+    *A curatable database for experimental and theoretical data on hybrid organic-inorganic materials*<br><br>
+    Hybrid organic-inorganic materials offer a unique opportunity for the discovery and refinement of new functional semiconductor materials with fine-tuned properties, controlled at the atomic scale by organic chemistry and organic-inorganic synthesis and processing. The HybriD3 project accelerates the Design, Discovery and Dissemination (D3) of new crystalline organic-inorganic hybrid semiconductors in a collaborative effort between a consortium of researchers in the NC Triangle area and beyond."
     url: "https://materials.hybrid3.duke.edu"
     btn_label: "Database"
     btn_class: "btn--primary"
@@ -64,8 +76,10 @@ feature_row6:
 feature_row7:
   - image_path: "/assets/images/projects/springer-materials.png"
     alt: "Springer Materials"
-    title: "Springer Materials: The research solution for identifying material properties. "
-    excerpt: "Springer Materials provides curated data and advanced functionalities to support research in materials science, physics, chemistry, engineering, and other related fields."
+    title: "Springer Materials"
+    excerpt: "
+    *The research solution for identifying material properties*<br><br>
+    Springer Materials provides curated data and advanced functionalities to support research in materials science, physics, chemistry, engineering, and other related fields."
     url: "https://materials.springer.com"
     btn_label: "Database"
     btn_class: "btn--primary"
