@@ -33,6 +33,6 @@ At Duke University, I continue to contribute to advancements in materials scienc
   <figcaption>Backpacking through Pisgah National Forest in the mountains of Western North Carolina.</figcaption>
 </figure>
 
-When I'm not in the lab, you can find me exploring the great outdoors. I love hiking, backpacking, and camping—activities that allow me to connect with nature. My time in the "Wild and Wonderful" state of West Virginia was filled with adventures along its rivers and trails, offering breathtaking views of the Appalachian Mountains. Now based in North Carolina, I continue to enjoy its equally stunning landscapes.
+When I'm not in the lab, you can find me exploring the great outdoors. I love hiking, backpacking, and camping—activities that allow me to connect with nature. My time in the "Wild and Wonderful" state of West Virginia was filled with adventures along its rivers and trails, offering breathtaking views of the Appalachian Mountains. Now based in North Carolina, I continue to enjoy its equally stunning landscapes. Check out my [AllTrails](https://www.alltrails.com/members/uthpala-herath/completed) profile for a list of trails I've explored.
 
 In my spare time, I'm an avid reader—feel free to check out my [Goodreads page](https://www.goodreads.com/user/show/62553916-uthpala-herath). I'm also a fan of cricket and rugby, and recently, I've taken up stand-up paddleboarding to challenge myself in new ways.
