@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_f7290ac846388a1b6fc5caf12ad43e28 {
+                #map_8a9338db922094e88b4499f099d8467e {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_f7290ac846388a1b6fc5caf12ad43e28" ></div>
+            <div class="folium-map" id="map_8a9338db922094e88b4499f099d8467e" ></div>
         
 </body>
 <script>
     
     
-            var map_f7290ac846388a1b6fc5caf12ad43e28 = L.map(
-                "map_f7290ac846388a1b6fc5caf12ad43e28",
+            var map_8a9338db922094e88b4499f099d8467e = L.map(
+                "map_8a9338db922094e88b4499f099d8467e",
                 {
                     center: [35.994034, -78.898621],
                     crs: L.CRS.EPSG3857,
@@ -60,631 +60,658 @@
 
         
     
-            var tile_layer_da97abf9bc0b3352440030c52bd719d9 = L.tileLayer(
+            var tile_layer_5baf570a53c5f9d241ab4141acc6fcc3 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_da97abf9bc0b3352440030c52bd719d9.addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            tile_layer_5baf570a53c5f9d241ab4141acc6fcc3.addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var marker_0ffc7ed6635c96c447273b29c9f4d469 = L.marker(
+            var marker_f75a024d40ba73e971fc227c822b3351 = L.marker(
+                [39.7555, -105.2211],
+                {}
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
+        
+    
+            var icon_d046f771076c162da8a20ce771f9f44e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f75a024d40ba73e971fc227c822b3351.setIcon(icon_d046f771076c162da8a20ce771f9f44e);
+        
+    
+        var popup_0f8ff73040325d165ecbbb03edb4abd2 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_84f3003513613bb75894b98578e49462 = $(`<div id="html_84f3003513613bb75894b98578e49462" style="width: 100.0%; height: 100.0%;"><b>Database for Hybrid Perovskites: HybriD3</b><br>                         NREL CHOICE Meeting, Golden, CO<br>                         November 1, 2024                          (Invited Virtual Talk)</div>`)[0];
+                popup_0f8ff73040325d165ecbbb03edb4abd2.setContent(html_84f3003513613bb75894b98578e49462);
+            
+        
+
+        marker_f75a024d40ba73e971fc227c822b3351.bindPopup(popup_0f8ff73040325d165ecbbb03edb4abd2)
+        ;
+
+        
+    
+    
+            var marker_6969ded31812732348a022642fb16242 = L.marker(
                 [40.4883, -74.4478],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_1a468caaebc45a63e85d91a149a65dfc = L.AwesomeMarkers.icon(
+            var icon_04ace0b934d6a996f1f09eeecffee73d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_0ffc7ed6635c96c447273b29c9f4d469.setIcon(icon_1a468caaebc45a63e85d91a149a65dfc);
+            marker_6969ded31812732348a022642fb16242.setIcon(icon_04ace0b934d6a996f1f09eeecffee73d);
         
     
-        var popup_e1698c63f5438215845e2955fb31ed2d = L.popup({"maxWidth": 500});
+        var popup_f46f7273988d42e522564366f10def63 = L.popup({"maxWidth": 500});
 
         
             
-                var html_c5eab4ca45f323f626c036e21db812ea = $(`<div id="html_c5eab4ca45f323f626c036e21db812ea" style="width: 100.0%; height: 100.0%;"><b>A tutorial on PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         Rutgers Univesity, New Brunswick, NJ<br>                         June 25, 2021                          (Invited Virtual Talk)</div>`)[0];
-                popup_e1698c63f5438215845e2955fb31ed2d.setContent(html_c5eab4ca45f323f626c036e21db812ea);
+                var html_afb1370cdf8078dc66d5ae193761a68a = $(`<div id="html_afb1370cdf8078dc66d5ae193761a68a" style="width: 100.0%; height: 100.0%;"><b>A tutorial on PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         Rutgers Univesity, New Brunswick, NJ<br>                         June 25, 2021                          (Invited Virtual Talk)</div>`)[0];
+                popup_f46f7273988d42e522564366f10def63.setContent(html_afb1370cdf8078dc66d5ae193761a68a);
             
         
 
-        marker_0ffc7ed6635c96c447273b29c9f4d469.bindPopup(popup_e1698c63f5438215845e2955fb31ed2d)
+        marker_6969ded31812732348a022642fb16242.bindPopup(popup_f46f7273988d42e522564366f10def63)
         ;
 
         
     
     
-            var marker_640d44605f90e684d4a0600e3dfa5bde = L.marker(
+            var marker_4f884f1872daa2f4ed57f57b86b02cab = L.marker(
                 [39.629524, -79.955894],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_faaae1cceed8f43198b2ee453bc0b238 = L.AwesomeMarkers.icon(
+            var icon_1050e07b6f80ee4a476d0a548cc0755f = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_640d44605f90e684d4a0600e3dfa5bde.setIcon(icon_faaae1cceed8f43198b2ee453bc0b238);
+            marker_4f884f1872daa2f4ed57f57b86b02cab.setIcon(icon_1050e07b6f80ee4a476d0a548cc0755f);
         
     
-        var popup_1a07dcc2b76ab1a9bc78dbb6253bfd49 = L.popup({"maxWidth": 500});
+        var popup_d78880f46ac6ea4a7c1b40863954e23e = L.popup({"maxWidth": 500});
 
         
             
-                var html_b9e9ab73c54f226670681bbc807345f3 = $(`<div id="html_b9e9ab73c54f226670681bbc807345f3" style="width: 100.0%; height: 100.0%;"><b>Recent Developments in PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         APS March Meeting, <br>                         March 15-19, 2021                          (Virtual Talk)</div>`)[0];
-                popup_1a07dcc2b76ab1a9bc78dbb6253bfd49.setContent(html_b9e9ab73c54f226670681bbc807345f3);
+                var html_1c1e8cd5b076c86b998da368d7dffc94 = $(`<div id="html_1c1e8cd5b076c86b998da368d7dffc94" style="width: 100.0%; height: 100.0%;"><b>Recent Developments in PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         APS March Meeting, <br>                         March 15-19, 2021                          (Virtual Talk)</div>`)[0];
+                popup_d78880f46ac6ea4a7c1b40863954e23e.setContent(html_1c1e8cd5b076c86b998da368d7dffc94);
             
         
 
-        marker_640d44605f90e684d4a0600e3dfa5bde.bindPopup(popup_1a07dcc2b76ab1a9bc78dbb6253bfd49)
+        marker_4f884f1872daa2f4ed57f57b86b02cab.bindPopup(popup_d78880f46ac6ea4a7c1b40863954e23e)
         ;
 
         
     
     
-            var marker_1308bd4ead74b2bc7fd756d8e6293786 = L.marker(
+            var marker_cbb150e741e838c623a85e6fd79e89b3 = L.marker(
                 [41.0, -77.0],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_3d7fc9bd135834b2b3e62ed60d3a7a49 = L.AwesomeMarkers.icon(
+            var icon_4ec69194e4f83bccb9e80955f3bb3ada = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_1308bd4ead74b2bc7fd756d8e6293786.setIcon(icon_3d7fc9bd135834b2b3e62ed60d3a7a49);
+            marker_cbb150e741e838c623a85e6fd79e89b3.setIcon(icon_4ec69194e4f83bccb9e80955f3bb3ada);
         
     
-        var popup_67523857b4f721d44889ce7a0861f5b2 = L.popup({"maxWidth": 500});
+        var popup_61ca1e331974e93aaa29489a351a9cbc = L.popup({"maxWidth": 500});
 
         
             
-                var html_1a1f8c5456e3355a0420998d392788fd = $(`<div id="html_1a1f8c5456e3355a0420998d392788fd" style="width: 100.0%; height: 100.0%;"><b>DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages</b><br>                         APS Mid Atlantic Section Meeting, <br>                         December 4-6, 2020                          (Virtual Talk)</div>`)[0];
-                popup_67523857b4f721d44889ce7a0861f5b2.setContent(html_1a1f8c5456e3355a0420998d392788fd);
+                var html_ba4da71c79dacc7c0fa60e690bd8fc6b = $(`<div id="html_ba4da71c79dacc7c0fa60e690bd8fc6b" style="width: 100.0%; height: 100.0%;"><b>DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages</b><br>                         APS Mid Atlantic Section Meeting, <br>                         December 4-6, 2020                          (Virtual Talk)</div>`)[0];
+                popup_61ca1e331974e93aaa29489a351a9cbc.setContent(html_ba4da71c79dacc7c0fa60e690bd8fc6b);
             
         
 
-        marker_1308bd4ead74b2bc7fd756d8e6293786.bindPopup(popup_67523857b4f721d44889ce7a0861f5b2)
+        marker_cbb150e741e838c623a85e6fd79e89b3.bindPopup(popup_61ca1e331974e93aaa29489a351a9cbc)
         ;
 
         
     
     
-            var marker_d00a5232c4b05cf8b53b3e8bec82a1b2 = L.marker(
+            var marker_a045a94a52ea99fd84adc0d7c107815f = L.marker(
                 [35.787743, -78.644257],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_79c38d4fedde3db8dc01a16ce9291e5e = L.AwesomeMarkers.icon(
+            var icon_faf9901f4c29109b56d2964793568929 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_d00a5232c4b05cf8b53b3e8bec82a1b2.setIcon(icon_79c38d4fedde3db8dc01a16ce9291e5e);
+            marker_a045a94a52ea99fd84adc0d7c107815f.setIcon(icon_faf9901f4c29109b56d2964793568929);
         
     
-        var popup_e8e320c35d268bc9360f15bf63550c5c = L.popup({"maxWidth": 500});
+        var popup_b1704793f4cba604d3a8cacc9bb2a06f = L.popup({"maxWidth": 500});
 
         
             
-                var html_1a647429183f05e0fc5669c9b2a25746 = $(`<div id="html_1a647429183f05e0fc5669c9b2a25746" style="width: 100.0%; height: 100.0%;"><b>PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         Carolina Science Symposium, Raleigh, NC<br>                         November 12-13, 2020                          (Virtual Talk)</div>`)[0];
-                popup_e8e320c35d268bc9360f15bf63550c5c.setContent(html_1a647429183f05e0fc5669c9b2a25746);
+                var html_184490db97a101791d2e55353f4144f4 = $(`<div id="html_184490db97a101791d2e55353f4144f4" style="width: 100.0%; height: 100.0%;"><b>PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         Carolina Science Symposium, Raleigh, NC<br>                         November 12-13, 2020                          (Virtual Talk)</div>`)[0];
+                popup_b1704793f4cba604d3a8cacc9bb2a06f.setContent(html_184490db97a101791d2e55353f4144f4);
             
         
 
-        marker_d00a5232c4b05cf8b53b3e8bec82a1b2.bindPopup(popup_e8e320c35d268bc9360f15bf63550c5c)
+        marker_a045a94a52ea99fd84adc0d7c107815f.bindPopup(popup_b1704793f4cba604d3a8cacc9bb2a06f)
         ;
 
         
     
     
-            var marker_8a0b5e5f2cccc380c87a3b4031912b9d = L.marker(
+            var marker_0c403b2bf982aca90c2a2017569e446a = L.marker(
                 [37.325954, -120.499992],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_85bb3988cddeb5de5080a3fc807b6a1d = L.AwesomeMarkers.icon(
+            var icon_cd85cdc797148ee72e81f4957370545e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_8a0b5e5f2cccc380c87a3b4031912b9d.setIcon(icon_85bb3988cddeb5de5080a3fc807b6a1d);
+            marker_0c403b2bf982aca90c2a2017569e446a.setIcon(icon_cd85cdc797148ee72e81f4957370545e);
         
     
-        var popup_9f4e217a60d3d9cc29c88652fc9839c3 = L.popup({"maxWidth": 500});
+        var popup_b7140bbdd3e20b51dd69932dbd98a9f0 = L.popup({"maxWidth": 500});
 
         
             
-                var html_f683bf59a36a5f3db290ac766725ff10 = $(`<div id="html_f683bf59a36a5f3db290ac766725ff10" style="width: 100.0%; height: 100.0%;"><b>PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         Electronic Structure Workshop, University of California, Merced, CA<br>                         June 2-5, 2020                          (Virtual Talk)</div>`)[0];
-                popup_9f4e217a60d3d9cc29c88652fc9839c3.setContent(html_f683bf59a36a5f3db290ac766725ff10);
+                var html_72db6cc3615df535dd584f065a63cc37 = $(`<div id="html_72db6cc3615df535dd584f065a63cc37" style="width: 100.0%; height: 100.0%;"><b>PyProcar: A Python library for electronic structure pre/post-processing</b><br>                         Electronic Structure Workshop, University of California, Merced, CA<br>                         June 2-5, 2020                          (Virtual Talk)</div>`)[0];
+                popup_b7140bbdd3e20b51dd69932dbd98a9f0.setContent(html_72db6cc3615df535dd584f065a63cc37);
             
         
 
-        marker_8a0b5e5f2cccc380c87a3b4031912b9d.bindPopup(popup_9f4e217a60d3d9cc29c88652fc9839c3)
+        marker_0c403b2bf982aca90c2a2017569e446a.bindPopup(popup_b7140bbdd3e20b51dd69932dbd98a9f0)
         ;
 
         
     
     
-            var marker_dbcbc17dd54f3fdb3e84c8a96f9a7e7c = L.marker(
+            var marker_a9f4c03f2d0fedf8636f6577ff28b792 = L.marker(
                 [42.361145, -71.057083],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_90ad7f4f2d6abd963bde0f6f120bfd44 = L.AwesomeMarkers.icon(
+            var icon_25e8be9d4c9744b34b886a06935a03c7 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_dbcbc17dd54f3fdb3e84c8a96f9a7e7c.setIcon(icon_90ad7f4f2d6abd963bde0f6f120bfd44);
+            marker_a9f4c03f2d0fedf8636f6577ff28b792.setIcon(icon_25e8be9d4c9744b34b886a06935a03c7);
         
     
-        var popup_8d6e4303fb3a52de12dc72d8f2ee76f3 = L.popup({"maxWidth": 500});
+        var popup_334e6c862ebaf9bf5f22bef0f5313669 = L.popup({"maxWidth": 500});
 
         
             
-                var html_d2aedfaec68bc6a55a58f0cb673028a6 = $(`<div id="html_d2aedfaec68bc6a55a58f0cb673028a6" style="width: 100.0%; height: 100.0%;"><b>An ab-initio DFT+DMFT study of the effect of oxygen vacancies on structural, electronic and magnetic properties of rare-earth nickelate perovskites (RNO3)</b><br>                         APS March Meeting, Boston, MA<br>                         March 4-8, 2020                          (Talk)</div>`)[0];
-                popup_8d6e4303fb3a52de12dc72d8f2ee76f3.setContent(html_d2aedfaec68bc6a55a58f0cb673028a6);
+                var html_410ac764a4a2432ca6ecd1e070b4923e = $(`<div id="html_410ac764a4a2432ca6ecd1e070b4923e" style="width: 100.0%; height: 100.0%;"><b>An ab-initio DFT+DMFT study of the effect of oxygen vacancies on structural, electronic and magnetic properties of rare-earth nickelate perovskites (RNO3)</b><br>                         APS March Meeting, Boston, MA<br>                         March 4-8, 2020                          (Talk)</div>`)[0];
+                popup_334e6c862ebaf9bf5f22bef0f5313669.setContent(html_410ac764a4a2432ca6ecd1e070b4923e);
             
         
 
-        marker_dbcbc17dd54f3fdb3e84c8a96f9a7e7c.bindPopup(popup_8d6e4303fb3a52de12dc72d8f2ee76f3)
+        marker_a9f4c03f2d0fedf8636f6577ff28b792.bindPopup(popup_334e6c862ebaf9bf5f22bef0f5313669)
         ;
 
         
     
     
-            var marker_582944d3c27ff1a157fe309bea06e272 = L.marker(
+            var marker_2f62ba8fc0453c11c771e17f8941b0a7 = L.marker(
                 [45.404476, -71.888351],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_2f518ccb57c000d983e2beb041be6ba5 = L.AwesomeMarkers.icon(
+            var icon_959fd1ad009cddec2776092f1ff72126 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_582944d3c27ff1a157fe309bea06e272.setIcon(icon_2f518ccb57c000d983e2beb041be6ba5);
+            marker_2f62ba8fc0453c11c771e17f8941b0a7.setIcon(icon_959fd1ad009cddec2776092f1ff72126);
         
     
-        var popup_ecf370419d49a3fda37b40dddbb450ea = L.popup({"maxWidth": 500});
+        var popup_14ff505bebb4d21cd61defc4065e326f = L.popup({"maxWidth": 500});
 
         
             
-                var html_b16949ac985399b9c0076e0d2c6bd35d = $(`<div id="html_b16949ac985399b9c0076e0d2c6bd35d" style="width: 100.0%; height: 100.0%;"><b>Development of computational methods for the characterization of novel strongly correlated materials</b><br>                         International Summer School on Computational Quantum Materials, Sherbrooke, Québec, Canada<br>                         May 28 - June 8, 2018                          (Poster)</div>`)[0];
-                popup_ecf370419d49a3fda37b40dddbb450ea.setContent(html_b16949ac985399b9c0076e0d2c6bd35d);
+                var html_b199f59b4ff8f3bc568d7a43857b8c04 = $(`<div id="html_b199f59b4ff8f3bc568d7a43857b8c04" style="width: 100.0%; height: 100.0%;"><b>Development of computational methods for the characterization of novel strongly correlated materials</b><br>                         International Summer School on Computational Quantum Materials, Sherbrooke, Québec, Canada<br>                         May 28 - June 8, 2018                          (Poster)</div>`)[0];
+                popup_14ff505bebb4d21cd61defc4065e326f.setContent(html_b199f59b4ff8f3bc568d7a43857b8c04);
             
         
 
-        marker_582944d3c27ff1a157fe309bea06e272.bindPopup(popup_ecf370419d49a3fda37b40dddbb450ea)
+        marker_2f62ba8fc0453c11c771e17f8941b0a7.bindPopup(popup_14ff505bebb4d21cd61defc4065e326f)
         ;
 
         
     
     
-            var marker_fee5c23bcc88db004e7ce042314a3028 = L.marker(
+            var marker_c91dd24eca42367b43a2deeeca3caab8 = L.marker(
                 [36.835426, -76.298271],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_ff89b849f54af47f726c51b3c828e541 = L.AwesomeMarkers.icon(
+            var icon_5c61347af5b6c4d82837acd3352a6a49 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_fee5c23bcc88db004e7ce042314a3028.setIcon(icon_ff89b849f54af47f726c51b3c828e541);
+            marker_c91dd24eca42367b43a2deeeca3caab8.setIcon(icon_5c61347af5b6c4d82837acd3352a6a49);
         
     
-        var popup_703675f111e04cfee8b8f11ea38b58b6 = L.popup({"maxWidth": 500});
+        var popup_92bfa22ac5f0fd3d9e3a2866b1b90d0c = L.popup({"maxWidth": 500});
 
         
             
-                var html_dc5cd0e40b8cee1ea41f418d46da977f = $(`<div id="html_dc5cd0e40b8cee1ea41f418d46da977f" style="width: 100.0%; height: 100.0%;"><b>The Effect of Magnetic Field Line Curvature Scattering on the Rapid Loss of Ring Current Ions</b><br>                         Geospace Environment Modeling (GEM) Conference, Portsmouth, VA<br>                         June 18-23, 2017                          (Poster)</div>`)[0];
-                popup_703675f111e04cfee8b8f11ea38b58b6.setContent(html_dc5cd0e40b8cee1ea41f418d46da977f);
+                var html_f476382a3cfb307f4fe9b9de7ed83c44 = $(`<div id="html_f476382a3cfb307f4fe9b9de7ed83c44" style="width: 100.0%; height: 100.0%;"><b>The Effect of Magnetic Field Line Curvature Scattering on the Rapid Loss of Ring Current Ions</b><br>                         Geospace Environment Modeling (GEM) Conference, Portsmouth, VA<br>                         June 18-23, 2017                          (Poster)</div>`)[0];
+                popup_92bfa22ac5f0fd3d9e3a2866b1b90d0c.setContent(html_f476382a3cfb307f4fe9b9de7ed83c44);
             
         
 
-        marker_fee5c23bcc88db004e7ce042314a3028.bindPopup(popup_703675f111e04cfee8b8f11ea38b58b6)
+        marker_c91dd24eca42367b43a2deeeca3caab8.bindPopup(popup_92bfa22ac5f0fd3d9e3a2866b1b90d0c)
         ;
 
         
     
     
-            var marker_5e6b9b7addbf9cadffb043db11924e77 = L.marker(
+            var marker_b2e9df75132334eb8055ba70bcde422b = L.marker(
                 [35.88453945342322, -78.87788485312728],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_8ac30bfc53f74539fe630d497c80b7f0 = L.AwesomeMarkers.icon(
+            var icon_a6823dac4e71b88a18ada6f538b3a303 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_5e6b9b7addbf9cadffb043db11924e77.setIcon(icon_8ac30bfc53f74539fe630d497c80b7f0);
+            marker_b2e9df75132334eb8055ba70bcde422b.setIcon(icon_a6823dac4e71b88a18ada6f538b3a303);
         
     
-        var popup_75c21e2f7ef2c0a18f1ab29a09ddc8e1 = L.popup({"maxWidth": 500});
+        var popup_0f77350a1955b18b491d18b25871d4da = L.popup({"maxWidth": 500});
 
         
             
-                var html_5c2e9e1b79e8cfd69f478905180c810a = $(`<div id="html_5c2e9e1b79e8cfd69f478905180c810a" style="width: 100.0%; height: 100.0%;"><b>NIH-OITE Management Short Course</b><br>                         NIEHS, Durham, NC<br>                         June 13-14, 2024</div>`)[0];
-                popup_75c21e2f7ef2c0a18f1ab29a09ddc8e1.setContent(html_5c2e9e1b79e8cfd69f478905180c810a);
+                var html_3038f51fc968164414e97f8ecf3f68f5 = $(`<div id="html_3038f51fc968164414e97f8ecf3f68f5" style="width: 100.0%; height: 100.0%;"><b>NIH-OITE Management Short Course</b><br>                         NIEHS, Durham, NC<br>                         June 13-14, 2024</div>`)[0];
+                popup_0f77350a1955b18b491d18b25871d4da.setContent(html_3038f51fc968164414e97f8ecf3f68f5);
             
         
 
-        marker_5e6b9b7addbf9cadffb043db11924e77.bindPopup(popup_75c21e2f7ef2c0a18f1ab29a09ddc8e1)
+        marker_b2e9df75132334eb8055ba70bcde422b.bindPopup(popup_0f77350a1955b18b491d18b25871d4da)
         ;
 
         
     
     
-            var marker_0d7fa9773ba51b4dc0aed09cfa03d31d = L.marker(
+            var marker_6e71dddefded50fa0c0845bfdb08b60a = L.marker(
                 [30.39070042053042, -97.7254081349929],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_f3c4a37495bed4cf288d578301243b9d = L.AwesomeMarkers.icon(
+            var icon_16d8bd23192ce10abca203cfc2a759f6 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_0d7fa9773ba51b4dc0aed09cfa03d31d.setIcon(icon_f3c4a37495bed4cf288d578301243b9d);
+            marker_6e71dddefded50fa0c0845bfdb08b60a.setIcon(icon_16d8bd23192ce10abca203cfc2a759f6);
         
     
-        var popup_6f52ccaae96cb68fb28ad06ea4cb91dc = L.popup({"maxWidth": 500});
+        var popup_6fd17c13535681af4fa79d582ef3afd8 = L.popup({"maxWidth": 500});
 
         
             
-                var html_4ad8ce638135a2aed3c050b620376048 = $(`<div id="html_4ad8ce638135a2aed3c050b620376048" style="width: 100.0%; height: 100.0%;"><b>TACC AI For Science Bootcamp</b><br>                         TACC, Austin, TX (Virtual)<br>                         August 7-8, 2024</div>`)[0];
-                popup_6f52ccaae96cb68fb28ad06ea4cb91dc.setContent(html_4ad8ce638135a2aed3c050b620376048);
+                var html_3aa93fb05cc4a91f0614df27f05b2d93 = $(`<div id="html_3aa93fb05cc4a91f0614df27f05b2d93" style="width: 100.0%; height: 100.0%;"><b>TACC AI For Science Bootcamp</b><br>                         TACC, Austin, TX (Virtual)<br>                         August 7-8, 2024</div>`)[0];
+                popup_6fd17c13535681af4fa79d582ef3afd8.setContent(html_3aa93fb05cc4a91f0614df27f05b2d93);
             
         
 
-        marker_0d7fa9773ba51b4dc0aed09cfa03d31d.bindPopup(popup_6f52ccaae96cb68fb28ad06ea4cb91dc)
+        marker_6e71dddefded50fa0c0845bfdb08b60a.bindPopup(popup_6fd17c13535681af4fa79d582ef3afd8)
         ;
 
         
     
     
-            var marker_1041df491a21e01914796fe10e1da8b5 = L.marker(
+            var marker_8a6210615cd7de50e12e93ebd25e0fd6 = L.marker(
                 [40.6, -74.4478],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_209fe04757e1758f9c9365b2095fb527 = L.AwesomeMarkers.icon(
+            var icon_d4584ee07bd0a821bb4ae9839c177c35 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_1041df491a21e01914796fe10e1da8b5.setIcon(icon_209fe04757e1758f9c9365b2095fb527);
+            marker_8a6210615cd7de50e12e93ebd25e0fd6.setIcon(icon_d4584ee07bd0a821bb4ae9839c177c35);
         
     
-        var popup_7e3a7361db11ed81b0f57e1da48d5c60 = L.popup({"maxWidth": 500});
+        var popup_daea10031984f97bb7a7bec372a19858 = L.popup({"maxWidth": 500});
 
         
             
-                var html_66a55b77ded460ec2575343f5b06da5a = $(`<div id="html_66a55b77ded460ec2575343f5b06da5a" style="width: 100.0%; height: 100.0%;"><b>Quantum Multiscale Hackathon</b><br>                         Rutgers University, New Brunswick, NJ<br>                         September 10-16, 2023</div>`)[0];
-                popup_7e3a7361db11ed81b0f57e1da48d5c60.setContent(html_66a55b77ded460ec2575343f5b06da5a);
+                var html_fcf832f2b52597c23079d03937da5d9f = $(`<div id="html_fcf832f2b52597c23079d03937da5d9f" style="width: 100.0%; height: 100.0%;"><b>Quantum Multiscale Hackathon</b><br>                         Rutgers University, New Brunswick, NJ<br>                         September 10-16, 2023</div>`)[0];
+                popup_daea10031984f97bb7a7bec372a19858.setContent(html_fcf832f2b52597c23079d03937da5d9f);
             
         
 
-        marker_1041df491a21e01914796fe10e1da8b5.bindPopup(popup_7e3a7361db11ed81b0f57e1da48d5c60)
+        marker_8a6210615cd7de50e12e93ebd25e0fd6.bindPopup(popup_daea10031984f97bb7a7bec372a19858)
         ;
 
         
     
     
-            var marker_6884270e944ec9c463c835e544994c49 = L.marker(
+            var marker_b0d5296d5a5ab59c5ade96f5e4472d59 = L.marker(
                 [36.010357, -84.269646],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_6c1f3426c06f778c034f5413503d101f = L.AwesomeMarkers.icon(
+            var icon_e47cd4c13d311193a777fd38f6334ae4 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_6884270e944ec9c463c835e544994c49.setIcon(icon_6c1f3426c06f778c034f5413503d101f);
+            marker_b0d5296d5a5ab59c5ade96f5e4472d59.setIcon(icon_e47cd4c13d311193a777fd38f6334ae4);
         
     
-        var popup_b51f6cec8c09b8266e619ff83d92d90c = L.popup({"maxWidth": 500});
+        var popup_12ff86debaaec0ba9987ef92d0704576 = L.popup({"maxWidth": 500});
 
         
             
-                var html_f20792d5ff1d8e89601e7999c91303df = $(`<div id="html_f20792d5ff1d8e89601e7999c91303df" style="width: 100.0%; height: 100.0%;"><b>Quantum Monte Carlo Virtual Workshop</b><br>                         ORNL, Oak Ridge, TN (Virtual)<br>                         October 5 - November 23, 2021</div>`)[0];
-                popup_b51f6cec8c09b8266e619ff83d92d90c.setContent(html_f20792d5ff1d8e89601e7999c91303df);
+                var html_c1cc029deaf2c0c0fdbd84604127054f = $(`<div id="html_c1cc029deaf2c0c0fdbd84604127054f" style="width: 100.0%; height: 100.0%;"><b>Quantum Monte Carlo Virtual Workshop</b><br>                         ORNL, Oak Ridge, TN (Virtual)<br>                         October 5 - November 23, 2021</div>`)[0];
+                popup_12ff86debaaec0ba9987ef92d0704576.setContent(html_c1cc029deaf2c0c0fdbd84604127054f);
             
         
 
-        marker_6884270e944ec9c463c835e544994c49.bindPopup(popup_b51f6cec8c09b8266e619ff83d92d90c)
+        marker_b0d5296d5a5ab59c5ade96f5e4472d59.bindPopup(popup_12ff86debaaec0ba9987ef92d0704576)
         ;
 
         
     
     
-            var marker_583967baea2d1c2f4b472b3076e84b10 = L.marker(
+            var marker_b57f11688bf9bf100fc3e9de98a946ec = L.marker(
                 [40.8682, -72.8792],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_1d155f5e66abb09102f5f9860d8e5d5b = L.AwesomeMarkers.icon(
+            var icon_6e6632c8e07e80938cf1334350a25df8 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_583967baea2d1c2f4b472b3076e84b10.setIcon(icon_1d155f5e66abb09102f5f9860d8e5d5b);
+            marker_b57f11688bf9bf100fc3e9de98a946ec.setIcon(icon_6e6632c8e07e80938cf1334350a25df8);
         
     
-        var popup_8c053d901ee5e8e43b69b2581017a4b7 = L.popup({"maxWidth": 500});
+        var popup_a5e042eeb83cee0e008f6c41230a22e3 = L.popup({"maxWidth": 500});
 
         
             
-                var html_c1ca7e66bdcc65d64610b96b684590ea = $(`<div id="html_c1ca7e66bdcc65d64610b96b684590ea" style="width: 100.0%; height: 100.0%;"><b>Comscope Summer School</b><br>                         BNL, Upton, NY (Virtual)<br>                         June 21-24, 2021</div>`)[0];
-                popup_8c053d901ee5e8e43b69b2581017a4b7.setContent(html_c1ca7e66bdcc65d64610b96b684590ea);
+                var html_3d883e951ecbbe850d0ecf63d6d8685f = $(`<div id="html_3d883e951ecbbe850d0ecf63d6d8685f" style="width: 100.0%; height: 100.0%;"><b>Comscope Summer School</b><br>                         BNL, Upton, NY (Virtual)<br>                         June 21-24, 2021</div>`)[0];
+                popup_a5e042eeb83cee0e008f6c41230a22e3.setContent(html_3d883e951ecbbe850d0ecf63d6d8685f);
             
         
 
-        marker_583967baea2d1c2f4b472b3076e84b10.bindPopup(popup_8c053d901ee5e8e43b69b2581017a4b7)
+        marker_b57f11688bf9bf100fc3e9de98a946ec.bindPopup(popup_a5e042eeb83cee0e008f6c41230a22e3)
         ;
 
         
     
     
-            var marker_8c103144efa18a0094543e69f08ec601 = L.marker(
+            var marker_64c16ed947b2991d45e8b0b0c8148cb0 = L.marker(
                 [48.148598, 17.107748],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_909be190c875b264dacba461e95a90a3 = L.AwesomeMarkers.icon(
+            var icon_1e51f19f855a0ce136981d9bcde7bcbd = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_8c103144efa18a0094543e69f08ec601.setIcon(icon_909be190c875b264dacba461e95a90a3);
+            marker_64c16ed947b2991d45e8b0b0c8148cb0.setIcon(icon_1e51f19f855a0ce136981d9bcde7bcbd);
         
     
-        var popup_fb9003009d50ffc8da08155325fd0b90 = L.popup({"maxWidth": 500});
+        var popup_c3272b62d7b9e788b00179042d6b36a9 = L.popup({"maxWidth": 500});
 
         
             
-                var html_a11012d1805948381104d5effd317021 = $(`<div id="html_a11012d1805948381104d5effd317021" style="width: 100.0%; height: 100.0%;"><b>PRACE Seasonal School on Modeling Materials using HPC and AI/ML</b><br>                         Centre of Operations, Slovak Academy of Sciences, Bratislava, Slovakia (Virtual)<br>                         June 15-18, 2021</div>`)[0];
-                popup_fb9003009d50ffc8da08155325fd0b90.setContent(html_a11012d1805948381104d5effd317021);
+                var html_5a627fe69d56a51c4f41998c31cd902d = $(`<div id="html_5a627fe69d56a51c4f41998c31cd902d" style="width: 100.0%; height: 100.0%;"><b>PRACE Seasonal School on Modeling Materials using HPC and AI/ML</b><br>                         Centre of Operations, Slovak Academy of Sciences, Bratislava, Slovakia (Virtual)<br>                         June 15-18, 2021</div>`)[0];
+                popup_c3272b62d7b9e788b00179042d6b36a9.setContent(html_5a627fe69d56a51c4f41998c31cd902d);
             
         
 
-        marker_8c103144efa18a0094543e69f08ec601.bindPopup(popup_fb9003009d50ffc8da08155325fd0b90)
+        marker_64c16ed947b2991d45e8b0b0c8148cb0.bindPopup(popup_c3272b62d7b9e788b00179042d6b36a9)
         ;
 
         
     
     
-            var marker_db5ef134d2982ffa43f3971f69af7bb0 = L.marker(
+            var marker_3e87222e2e39d57b63e41b6017ce2cf2 = L.marker(
                 [44.40478, 8.94439],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_c80b8ef6a7802fcdbc7f57e40dd94c6e = L.AwesomeMarkers.icon(
+            var icon_fe7c026e4d1c5336aeb599f0d62eab43 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_db5ef134d2982ffa43f3971f69af7bb0.setIcon(icon_c80b8ef6a7802fcdbc7f57e40dd94c6e);
+            marker_3e87222e2e39d57b63e41b6017ce2cf2.setIcon(icon_fe7c026e4d1c5336aeb599f0d62eab43);
         
     
-        var popup_8fd1748a737e2b9032ab578c3c39bfd0 = L.popup({"maxWidth": 500});
+        var popup_d66281bc2d9c6f38c31035e48773b6e7 = L.popup({"maxWidth": 500});
 
         
             
-                var html_489ec887bc2eea471696e6359c6beeb8 = $(`<div id="html_489ec887bc2eea471696e6359c6beeb8" style="width: 100.0%; height: 100.0%;"><b>Bridging first-principles calculations and effective Hamiltonians</b><br>                         IIT Genova, Italy (Virtual)<br>                         June 7-16, 2021</div>`)[0];
-                popup_8fd1748a737e2b9032ab578c3c39bfd0.setContent(html_489ec887bc2eea471696e6359c6beeb8);
+                var html_0a417f30cce87d7d16c3198cceef888d = $(`<div id="html_0a417f30cce87d7d16c3198cceef888d" style="width: 100.0%; height: 100.0%;"><b>Bridging first-principles calculations and effective Hamiltonians</b><br>                         IIT Genova, Italy (Virtual)<br>                         June 7-16, 2021</div>`)[0];
+                popup_d66281bc2d9c6f38c31035e48773b6e7.setContent(html_0a417f30cce87d7d16c3198cceef888d);
             
         
 
-        marker_db5ef134d2982ffa43f3971f69af7bb0.bindPopup(popup_8fd1748a737e2b9032ab578c3c39bfd0)
+        marker_3e87222e2e39d57b63e41b6017ce2cf2.bindPopup(popup_d66281bc2d9c6f38c31035e48773b6e7)
         ;
 
         
     
     
-            var marker_9a93ae9798a5f11b5dd07c74afed91c4 = L.marker(
+            var marker_882a8ede7f37244a3f321e2b02ad4b8c = L.marker(
                 [45.633331, 13.8],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_112b3008f720877576e9534f06a84b16 = L.AwesomeMarkers.icon(
+            var icon_b543175b4f46f923058ce6614c24cf6e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_9a93ae9798a5f11b5dd07c74afed91c4.setIcon(icon_112b3008f720877576e9534f06a84b16);
+            marker_882a8ede7f37244a3f321e2b02ad4b8c.setIcon(icon_b543175b4f46f923058ce6614c24cf6e);
         
     
-        var popup_c8931245cca352f3851073b43484a498 = L.popup({"maxWidth": 500});
+        var popup_c390244bb54e31d0c2348dc6addd958b = L.popup({"maxWidth": 500});
 
         
             
-                var html_88f79d8698e8fe6f06c941882406a855 = $(`<div id="html_88f79d8698e8fe6f06c941882406a855" style="width: 100.0%; height: 100.0%;"><b>20th International Workshop on Computational Physics and Materials Science: Total Energy and Force Methods</b><br>                         The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy (Virtual)<br>                         February 23-25, 2021</div>`)[0];
-                popup_c8931245cca352f3851073b43484a498.setContent(html_88f79d8698e8fe6f06c941882406a855);
+                var html_6ea207366e0e7845ff4cb03b6b8a1eff = $(`<div id="html_6ea207366e0e7845ff4cb03b6b8a1eff" style="width: 100.0%; height: 100.0%;"><b>20th International Workshop on Computational Physics and Materials Science: Total Energy and Force Methods</b><br>                         The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy (Virtual)<br>                         February 23-25, 2021</div>`)[0];
+                popup_c390244bb54e31d0c2348dc6addd958b.setContent(html_6ea207366e0e7845ff4cb03b6b8a1eff);
             
         
 
-        marker_9a93ae9798a5f11b5dd07c74afed91c4.bindPopup(popup_c8931245cca352f3851073b43484a498)
+        marker_882a8ede7f37244a3f321e2b02ad4b8c.bindPopup(popup_c390244bb54e31d0c2348dc6addd958b)
         ;
 
         
     
     
-            var marker_0a5eed8fa8bb5745b64ffc3588281b1e = L.marker(
+            var marker_0045d759c39b5b62d749da09c307d14f = L.marker(
                 [37.871666, -122.272781],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_b9c041983096930ccbb2b9c775782d7f = L.AwesomeMarkers.icon(
+            var icon_6be0b423e44156a395e78c03ee770899 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_0a5eed8fa8bb5745b64ffc3588281b1e.setIcon(icon_b9c041983096930ccbb2b9c775782d7f);
+            marker_0045d759c39b5b62d749da09c307d14f.setIcon(icon_6be0b423e44156a395e78c03ee770899);
         
     
-        var popup_f6772872f8989ff504423480356096e6 = L.popup({"maxWidth": 500});
+        var popup_6c425a747286640eb4ec44ca724b54ea = L.popup({"maxWidth": 500});
 
         
             
-                var html_e2727d618ebfde084cc8cba527404c08 = $(`<div id="html_e2727d618ebfde084cc8cba527404c08" style="width: 100.0%; height: 100.0%;"><b>2nd Berkeley Excited States Conference (BESC2021)</b><br>                         Berkeley, CA (Virtual)<br>                         January 7-8, 2021</div>`)[0];
-                popup_f6772872f8989ff504423480356096e6.setContent(html_e2727d618ebfde084cc8cba527404c08);
+                var html_baf2796490aed9b74c9686fadd04a404 = $(`<div id="html_baf2796490aed9b74c9686fadd04a404" style="width: 100.0%; height: 100.0%;"><b>2nd Berkeley Excited States Conference (BESC2021)</b><br>                         Berkeley, CA (Virtual)<br>                         January 7-8, 2021</div>`)[0];
+                popup_6c425a747286640eb4ec44ca724b54ea.setContent(html_baf2796490aed9b74c9686fadd04a404);
             
         
 
-        marker_0a5eed8fa8bb5745b64ffc3588281b1e.bindPopup(popup_f6772872f8989ff504423480356096e6)
+        marker_0045d759c39b5b62d749da09c307d14f.bindPopup(popup_6c425a747286640eb4ec44ca724b54ea)
         ;
 
         
     
     
-            var marker_9342ca2e43ecd8fa1f2b807c66ae445b = L.marker(
+            var marker_a81d8a6ec27be87c59fcc539bac6ecfc = L.marker(
                 [37.9, -122.272781],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_3839d89f56502a68f465d531d154b051 = L.AwesomeMarkers.icon(
+            var icon_be3e4eaef79daa408f47828381827651 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_9342ca2e43ecd8fa1f2b807c66ae445b.setIcon(icon_3839d89f56502a68f465d531d154b051);
+            marker_a81d8a6ec27be87c59fcc539bac6ecfc.setIcon(icon_be3e4eaef79daa408f47828381827651);
         
     
-        var popup_c26ed1bff0ef3857cf3130a3669f7136 = L.popup({"maxWidth": 500});
+        var popup_d46ab710b913dc3f7a45ae5a5944e1c2 = L.popup({"maxWidth": 500});
 
         
             
-                var html_be0113f89ee3c97155ef21a0e69e0b44 = $(`<div id="html_be0113f89ee3c97155ef21a0e69e0b44" style="width: 100.0%; height: 100.0%;"><b>BerkeleyGW Tutorial Workshop</b><br>                         Berkeley, CA (Virtual)<br>                         January 4-6, 2021</div>`)[0];
-                popup_c26ed1bff0ef3857cf3130a3669f7136.setContent(html_be0113f89ee3c97155ef21a0e69e0b44);
+                var html_dbcaa0b73ccc98b71d44f2b25936eb3d = $(`<div id="html_dbcaa0b73ccc98b71d44f2b25936eb3d" style="width: 100.0%; height: 100.0%;"><b>BerkeleyGW Tutorial Workshop</b><br>                         Berkeley, CA (Virtual)<br>                         January 4-6, 2021</div>`)[0];
+                popup_d46ab710b913dc3f7a45ae5a5944e1c2.setContent(html_dbcaa0b73ccc98b71d44f2b25936eb3d);
             
         
 
-        marker_9342ca2e43ecd8fa1f2b807c66ae445b.bindPopup(popup_c26ed1bff0ef3857cf3130a3669f7136)
+        marker_a81d8a6ec27be87c59fcc539bac6ecfc.bindPopup(popup_d46ab710b913dc3f7a45ae5a5944e1c2)
         ;
 
         
     
     
-            var marker_be50b7859c1352fbb186fbdb9cdca04b = L.marker(
+            var marker_91bda4a036fb0fd5eeaa2d5e051448b2 = L.marker(
                 [30.601389, -96.314445],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_d6d5f0daba070cb1f8256a81ed0e3531 = L.AwesomeMarkers.icon(
+            var icon_123e12d0bf63b2005b9f52f3a48a291d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_be50b7859c1352fbb186fbdb9cdca04b.setIcon(icon_d6d5f0daba070cb1f8256a81ed0e3531);
+            marker_91bda4a036fb0fd5eeaa2d5e051448b2.setIcon(icon_123e12d0bf63b2005b9f52f3a48a291d);
         
     
-        var popup_a4326f837115883068fbb2f10e1869f2 = L.popup({"maxWidth": 500});
+        var popup_3c123a87d735fb9d33a1b707627971a6 = L.popup({"maxWidth": 500});
 
         
             
-                var html_9c2b7e7b1bbc36bd21e0c09182c38978 = $(`<div id="html_9c2b7e7b1bbc36bd21e0c09182c38978" style="width: 100.0%; height: 100.0%;"><b>Summer School on Computational Materials Science Across Scales</b><br>                         Texas A&M University, College Station, TX (Virtual)<br>                         June 29 - July 10, 2020</div>`)[0];
-                popup_a4326f837115883068fbb2f10e1869f2.setContent(html_9c2b7e7b1bbc36bd21e0c09182c38978);
+                var html_f83e4ba8b4d7aa9ebfe418b7b7898dce = $(`<div id="html_f83e4ba8b4d7aa9ebfe418b7b7898dce" style="width: 100.0%; height: 100.0%;"><b>Summer School on Computational Materials Science Across Scales</b><br>                         Texas A&M University, College Station, TX (Virtual)<br>                         June 29 - July 10, 2020</div>`)[0];
+                popup_3c123a87d735fb9d33a1b707627971a6.setContent(html_f83e4ba8b4d7aa9ebfe418b7b7898dce);
             
         
 
-        marker_be50b7859c1352fbb186fbdb9cdca04b.bindPopup(popup_a4326f837115883068fbb2f10e1869f2)
+        marker_91bda4a036fb0fd5eeaa2d5e051448b2.bindPopup(popup_3c123a87d735fb9d33a1b707627971a6)
         ;
 
         
     
     
-            var marker_ee545a34331e596c11e52177e2826aa3 = L.marker(
+            var marker_ed6ca603867a422103d68a02f2161fb8 = L.marker(
                 [51.7522, -1.256],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_b02c6782887157e7a84de121bde6283b = L.AwesomeMarkers.icon(
+            var icon_4b31e841eafbdb929d33d46cdb79660c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_ee545a34331e596c11e52177e2826aa3.setIcon(icon_b02c6782887157e7a84de121bde6283b);
+            marker_ed6ca603867a422103d68a02f2161fb8.setIcon(icon_4b31e841eafbdb929d33d46cdb79660c);
         
     
-        var popup_f9398127fb7320420053aacb15a48a93 = L.popup({"maxWidth": 500});
+        var popup_5d4705461c06b070f4066d1ccfdd71e4 = L.popup({"maxWidth": 500});
 
         
             
-                var html_bc6033c29a0f663557b67d2ba69b53e2 = $(`<div id="html_bc6033c29a0f663557b67d2ba69b53e2" style="width: 100.0%; height: 100.0%;"><b>School on Wannier90 v3.0: new features and applications</b><br>                         University of Oxford, Oxford, United Kingdom (Virtual)<br>                         March 25-27, 2020</div>`)[0];
-                popup_f9398127fb7320420053aacb15a48a93.setContent(html_bc6033c29a0f663557b67d2ba69b53e2);
+                var html_b5a9dc88e9525970cd39d86f023d7e31 = $(`<div id="html_b5a9dc88e9525970cd39d86f023d7e31" style="width: 100.0%; height: 100.0%;"><b>School on Wannier90 v3.0: new features and applications</b><br>                         University of Oxford, Oxford, United Kingdom (Virtual)<br>                         March 25-27, 2020</div>`)[0];
+                popup_5d4705461c06b070f4066d1ccfdd71e4.setContent(html_b5a9dc88e9525970cd39d86f023d7e31);
             
         
 
-        marker_ee545a34331e596c11e52177e2826aa3.bindPopup(popup_f9398127fb7320420053aacb15a48a93)
+        marker_ed6ca603867a422103d68a02f2161fb8.bindPopup(popup_5d4705461c06b070f4066d1ccfdd71e4)
         ;
 
         
     
     
-            var marker_7a0a3ca74cdaae5d013ccd5d184fcb98 = L.marker(
+            var marker_4876c152777b98974db6f7204194283c = L.marker(
                 [40.440624, -79.995888],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_0c1b62e6fd3ec1f851018c0e62663ee7 = L.AwesomeMarkers.icon(
+            var icon_c80a648aab3bcbef6181cbaa009106c6 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_7a0a3ca74cdaae5d013ccd5d184fcb98.setIcon(icon_0c1b62e6fd3ec1f851018c0e62663ee7);
+            marker_4876c152777b98974db6f7204194283c.setIcon(icon_c80a648aab3bcbef6181cbaa009106c6);
         
     
-        var popup_e4ff73ca9a22b1dcee32d729b6f63480 = L.popup({"maxWidth": 500});
+        var popup_ff2e596396206a1572b82f6ce07f5c40 = L.popup({"maxWidth": 500});
 
         
             
-                var html_4ec81924ad3b351788025579026e1e81 = $(`<div id="html_4ec81924ad3b351788025579026e1e81" style="width: 100.0%; height: 100.0%;"><b>School on Stochastic Approaches to Electronic Structure Calculations</b><br>                         University of Pittsburgh, Pittsburgh, PA<br>                         July 29 - August 2, 2019</div>`)[0];
-                popup_e4ff73ca9a22b1dcee32d729b6f63480.setContent(html_4ec81924ad3b351788025579026e1e81);
+                var html_27ff1e88c41ee40aec47fe354b944797 = $(`<div id="html_27ff1e88c41ee40aec47fe354b944797" style="width: 100.0%; height: 100.0%;"><b>School on Stochastic Approaches to Electronic Structure Calculations</b><br>                         University of Pittsburgh, Pittsburgh, PA<br>                         July 29 - August 2, 2019</div>`)[0];
+                popup_ff2e596396206a1572b82f6ce07f5c40.setContent(html_27ff1e88c41ee40aec47fe354b944797);
             
         
 
-        marker_7a0a3ca74cdaae5d013ccd5d184fcb98.bindPopup(popup_e4ff73ca9a22b1dcee32d729b6f63480)
+        marker_4876c152777b98974db6f7204194283c.bindPopup(popup_ff2e596396206a1572b82f6ce07f5c40)
         ;
 
         
     
     
-            var marker_6bf667dcf70b3d4af3f4fdd4146cbbe4 = L.marker(
+            var marker_9bc7e1550e53a25e940467af1d7f45a4 = L.marker(
                 [39.299236, -76.609383],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_43f8520cf48322c047d1d71f6d4a3194 = L.AwesomeMarkers.icon(
+            var icon_9fa6f8a64f83c58f564bf74cf0f94b5a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_6bf667dcf70b3d4af3f4fdd4146cbbe4.setIcon(icon_43f8520cf48322c047d1d71f6d4a3194);
+            marker_9bc7e1550e53a25e940467af1d7f45a4.setIcon(icon_9fa6f8a64f83c58f564bf74cf0f94b5a);
         
     
-        var popup_e068ec6d7b72a708a6310aa2ea6f78f1 = L.popup({"maxWidth": 500});
+        var popup_578e8b650b19b57dcb6b0ad8468c2139 = L.popup({"maxWidth": 500});
 
         
             
-                var html_50a34df4fd3b1c2421a066f1b62aa9ed = $(`<div id="html_50a34df4fd3b1c2421a066f1b62aa9ed" style="width: 100.0%; height: 100.0%;"><b>3rd Summer School on Materials Growth and Design: Exotic Magnetic States in Quantum Mechanics</b><br>                         Johns Hopkins University, Baltimore, MD<br>                         June 17-22, 2018</div>`)[0];
-                popup_e068ec6d7b72a708a6310aa2ea6f78f1.setContent(html_50a34df4fd3b1c2421a066f1b62aa9ed);
+                var html_efd97b44c502c7b662ff0e40ecf2b909 = $(`<div id="html_efd97b44c502c7b662ff0e40ecf2b909" style="width: 100.0%; height: 100.0%;"><b>3rd Summer School on Materials Growth and Design: Exotic Magnetic States in Quantum Mechanics</b><br>                         Johns Hopkins University, Baltimore, MD<br>                         June 17-22, 2018</div>`)[0];
+                popup_578e8b650b19b57dcb6b0ad8468c2139.setContent(html_efd97b44c502c7b662ff0e40ecf2b909);
             
         
 
-        marker_6bf667dcf70b3d4af3f4fdd4146cbbe4.bindPopup(popup_e068ec6d7b72a708a6310aa2ea6f78f1)
+        marker_9bc7e1550e53a25e940467af1d7f45a4.bindPopup(popup_578e8b650b19b57dcb6b0ad8468c2139)
         ;
 
         
     
     
-            var marker_e57afadff409f8c89453eaca68856f04 = L.marker(
+            var marker_d8817ae218ad6ccb49aeac8bbcd18b62 = L.marker(
                 [40.014984, -105.270546],
                 {}
-            ).addTo(map_f7290ac846388a1b6fc5caf12ad43e28);
+            ).addTo(map_8a9338db922094e88b4499f099d8467e);
         
     
-            var icon_47d02232bde5aa33686f2151755c03c6 = L.AwesomeMarkers.icon(
+            var icon_26c1c77a0194efed09cbd15d6b4bbb42 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_e57afadff409f8c89453eaca68856f04.setIcon(icon_47d02232bde5aa33686f2151755c03c6);
+            marker_d8817ae218ad6ccb49aeac8bbcd18b62.setIcon(icon_26c1c77a0194efed09cbd15d6b4bbb42);
         
     
-        var popup_b6741b57ca30eee32c163671fec805dd = L.popup({"maxWidth": 500});
+        var popup_b11f4ab451577738b4d1b61346d470b1 = L.popup({"maxWidth": 500});
 
         
             
-                var html_e692f0170f8af300833e48b003f0857f = $(`<div id="html_e692f0170f8af300833e48b003f0857f" style="width: 100.0%; height: 100.0%;"><b>CISM Space Weather Summer School</b><br>                         Boulder, CO<br>                         July 11-22, 2016</div>`)[0];
-                popup_b6741b57ca30eee32c163671fec805dd.setContent(html_e692f0170f8af300833e48b003f0857f);
+                var html_3698abb9a4a2fa2411c4a7bf28620f2f = $(`<div id="html_3698abb9a4a2fa2411c4a7bf28620f2f" style="width: 100.0%; height: 100.0%;"><b>CISM Space Weather Summer School</b><br>                         Boulder, CO<br>                         July 11-22, 2016</div>`)[0];
+                popup_b11f4ab451577738b4d1b61346d470b1.setContent(html_3698abb9a4a2fa2411c4a7bf28620f2f);
             
         
 
-        marker_e57afadff409f8c89453eaca68856f04.bindPopup(popup_b6741b57ca30eee32c163671fec805dd)
+        marker_d8817ae218ad6ccb49aeac8bbcd18b62.bindPopup(popup_b11f4ab451577738b4d1b61346d470b1)
         ;
 
         
