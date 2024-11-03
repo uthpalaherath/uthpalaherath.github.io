@@ -22,7 +22,7 @@ Pumpkin carving season just ended so you may be wondering what to do with those 
 - Ground rosemary
 - Salt and pepper
 - Garlic powder
-- Cayenne pepper (or any chili powder depending on your spice tolerance)
+- Cayenne pepper powder (or any chili powder depending on your spice tolerance)
 
 # Steps
 
