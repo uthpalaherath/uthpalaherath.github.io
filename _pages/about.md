@@ -30,7 +30,7 @@ At Duke University, I continue to contribute to advancements in materials scienc
 
 <figure style="width: 40%" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/samknob.jpg" alt="">
-  <figcaption>Backpacking through Pisgah National Forest in the mountains of Western North Carolina.</figcaption>
+  <figcaption>Backpacking through Pisgah National Forest in the mountains of Western North Carolina</figcaption>
 </figure>
 
 When I'm not in the lab, you can find me exploring the great outdoors. Growing up in the mountains of Sri Lanka instilled in me a deep appreciation for nature. I love hiking, backpacking, and camping—activities that allow me to reconnect with those roots.  My time in the "Wild and Wonderful" state of West Virginia was filled with adventures along its rivers and trails, offering breathtaking views of the Appalachian Mountains. Now based in North Carolina, I continue to enjoy its equally stunning landscapes. Check out my [AllTrails](https://www.alltrails.com/members/uthpala-herath/completed) profile for trail recommendations.
