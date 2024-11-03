@@ -30,7 +30,7 @@ Pumpkin carving season just ended so you may be wondering what to do with those 
 
 ![2024-11-01-Carved-a-Pumpkin-Seed-the-Possibilities-20241103130417771](/assets/media/2024-11-01-Carved-a-Pumpkin-Seed-the-Possibilities/2024-11-01-Carved-a-Pumpkin-Seed-the-Possibilities-20241103130417771.jpg)
 
-2\. **Season the seeds:** On a baking try, toss the seeds with with olive oil, ground rosemary, salt and pepper, garlic powder and Cayenne pepper powder. You may replace the Cayenne pepper powder with a different type of chili powder depending on your spice tolerance. 
+2\. **Season the seeds:** On a baking tray, toss the seeds with with olive oil, ground rosemary, salt and pepper, garlic powder and Cayenne pepper powder. You may replace the Cayenne pepper powder with a different type of chili powder depending on your spice tolerance. 
 
 ![2024-11-01-Carved-a-Pumpkin-Seed-the-Possibilities-20241103130427326](/assets/media/2024-11-01-Carved-a-Pumpkin-Seed-the-Possibilities/2024-11-01-Carved-a-Pumpkin-Seed-the-Possibilities-20241103130427326.jpg)
 
