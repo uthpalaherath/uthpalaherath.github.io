@@ -49,10 +49,12 @@ layout: default
           </aside>
         {% endif %}
         {{ content }}
+        {% if page.subscription_form %}
+          {% include subscription_form.html %}
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
-      {% include subscription_form.html %}
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}

@@ -244,6 +244,7 @@ defaults:
       author_profile: false
       toc: true
       toc_sticky: true
+      subscription_form: true
 
   # _pages
   - scope:
