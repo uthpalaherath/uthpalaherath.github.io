@@ -61,6 +61,7 @@ Next, we have to configure Atomate2 to use FHI-aims. This is done through two `y
 1. `atomate2.yaml:`
     ```yaml
     AIMS_CMD: mpirun aims.x > aims.out
+    AIMS_ZIP_FILES: atomate
     ```
 
     Here, `aims.x` is the FHI-aims binary. Consider adding the location of `aims.x` to the `$PATH` environmental variable to provide global access to it.
@@ -210,6 +211,7 @@ On the **remote** server, create the file `~/.config/atomate2/atomate2.yaml` wit
 `atomate2.yaml:`
 ```yaml
 AIMS_CMD: srun aims.x > aims.out
+AIMS_ZIP_FILES: atomate
 ```
 
 Then add the following line to the `~/.bashrc` on the **remote** server,
