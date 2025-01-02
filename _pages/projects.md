@@ -13,29 +13,42 @@ feature_row1:
     title: "PyProcar"
     excerpt: "
     *A Python library for electronic structure pre/post-processing* <br><br>
-    PyProcar is a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations."
+    PyProcar is a robust, open-source Python library used for pre- and post-processing of the electronic structure data coming from DFT calculations. It provides a set of functions that manage data obtained from the PROCAR format. Basically, the PROCAR format is a projection of the Kohn-Sham states over atomic orbitals. That projection is performed to every k-point in the considered mesh, every energy band and every atom. PyProcar is capable of performing a multitude of tasks including plotting plain and spin/atom/orbital projected band structures and Fermi surfaces- both in 2D and 3D, Fermi velocity plots, unfolding bands of a super cell, comparing band structures from multiple DFT calculations, plotting partial density of states, filtering bands and generating a k-path for a given crystal structure. Currently supports VASP, Elk, Quantum Espresso, Abinit, Lobster, Siesta and DFTB+.<br><br>
+
+    **Reference:**<br>
+    1. Lang, L., Tavadze, P., Tellez, A., Bousquet, E., Xu, H., Muñoz, F., Vasquez, N., Herath, U., & Romero, A. H. Expanding PyProcar for new features,
+maintainability, and reliability. Computer Physics Communications 297, 109063 (2024). DOI: [https://doi.org/10.1016/j.cpc.2023.109063](https://doi.org/10.1016/j.cpc.2023.109063)<br>
+    2. Herath, U., Tavadze, P., He, X., Bousquet, E., Singh, S., Muñoz, F., & Romero, A. H. PyProcar: A Python library for electronic structure pre/post‑processing. Computer Physics Communications 251, 107080 (2020). DOI: [https://doi.org/10.1016/j.cpc.2019.107080](https://doi.org/10.1016/j.cpc.2019.107080)"
     url: "https://github.com/romerogroup/pyprocar/"
     btn_label: "Code"
     btn_class: "btn--primary"
 
 feature_row2:
-  - image_path: "/assets/images/projects/dmftwdft_logo.png"
+  - image_path: "/assets/images/projects/dmftwdft.svg"
     alt: "DMFTwDFT"
     title: "DMFTwDFT"
     excerpt: "
-    *An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages*<br><br>
-    An open-source computational package (and a library) combining DMFT with various DFT codes interfaced through the Wannier90 package."
+    *An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages to study strongly correlated materials*<br><br>
+    DMFTwDFT is an open-source, user-friendly framework developed in Python, Fortran and C/C++, combining DMFT with various DFT codes interfaced through the Wannier90 package. It allows users to perform full charge self-consistent DFT+DMFT calculations using minimal commands followed by post-processing functions including DMFT self-energy, total energy, band structures, projected DOS, and effective mass enhancements. DMFTwDFT uses Wannier orbitals for constructing the hybridization and correlation subspaces to perform DMFT loops by taking advantage of the Wannier90 interface between various DFT codes. It also equips a library mode to link the module for computing a DMFT density matrix and updating a charge density within the DFT loops allowing implementing full charge self-consistency within various DFT codes without modifying their source codes significantly. Currently supports VASP, Quantum Espresso (one-shot DMFT), and Siesta (one-shot DMFT). <br><br>
+
+    **Reference:**<br>
+    Singh, V., Herath, U., Wah, B., Liao, X., Romero, A. H., & Park, H. DMFTwDFT: An open‑source code combining Dynamical Mean Field Theory with various density functional theory packages. Computer Physics Communications 261, 107778 (2021). DOI: [https://doi.org/10.1016/j.cpc.2020.107778](https://doi.org/10.1016/j.cpc.2020.107778)"
     url: "https://github.com/DMFTwDFT-project/DMFTwDFT"
     btn_label: "Code"
     btn_class: "btn--primary"
 
 feature_row3:
-  - image_path: "/assets/images/projects/mechelastic.png"
+  - image_path: "/assets/images/projects/mechelastic.svg"
     alt: "MechElastic"
     title: "MechElastic"
     excerpt: "
     *A Python Library for Analysis of Mechanical and Elastic Properties of Bulk and 2D Materials*<br><br>
-    A Python library to calculate elastic properties of materials."
+    MechElastic allows users to calculate several important physical properties such as elastic moduli, melting temperature, Debye temperature, elastic wave velocities, elastic anisotropy, etc. for all crystalline 2D and 3D systems using output data from an elastic tensor calculation. It can also be used to test the mechanical stability of any bulk system. Additionally, MechElastic allows performing Equation of State (EOS) analysis provided inputs of Volume and Energy or Volume and Pressure and automatically provides information on phase transitions. Currently supports VASP, Abinit and Quantum Espresso.
+
+    <br><br>
+
+    **Reference:**<br>
+    Singh, S., Lang, L., Dovale‑Farelo, V., Herath, U., Tavadze, P., Coudert, F.‑X., & Romero, A. H. MechElastic: A Python library for analysis of mechanical and elastic properties of bulk and 2D materials. Computer Physics Communications 267, 108068 (2021). DOI: [https://doi.org/10.1016/j.cpc.2021.108068](https://doi.org/10.1016/j.cpc.2021.108068)"
     url: "https://github.com/romerogroup/MechElastic"
     btn_label: "Code"
     btn_class: "btn--primary"
@@ -46,7 +59,10 @@ feature_row4:
     title: "FHI-aims"
     excerpt: "
     *An all-electron electronic structure theory with numeric atom-centered orbitals*<br><br>
-    FHI-aims is an all-electron electronic structure code based on numeric atom-centered orbitals. It enables first-principles simulations with very high numerical accuracy for production calculations, with excellent scalability up to very large system sizes (thousands of atoms) and up to very large, massively parallel supercomputers (ten thousand CPU cores)."
+    FHI-aims is an all-electron electronic structure code based on numeric atom-centered orbitals. It enables first-principles simulations with very high numerical accuracy for production calculations, with excellent scalability up to very large system sizes (thousands of atoms) and up to very large, massively parallel supercomputers (ten thousand CPU cores).<br><br>
+
+    **Reference:**<br>
+    V. Blum, R. Gehrke, F. Hanke, P. Havu, V. Havu, X. Ren, K. Reuter, and M. Scheffler, Ab initio molecular simulations with numeric atom-centered orbitals, Computer Physics Communications 180, 2175 (2009). DOI: [https://doi.org/10.1016/j.cpc.2009.06.022](https://doi.org/10.1016/j.cpc.2009.06.022)"
     url: "https://fhi-aims.org"
     btn_label: "Code"
     btn_class: "btn--primary"
@@ -57,7 +73,11 @@ feature_row5:
     title: "ELSI (ELectronic Structure Infrastructure)"
     excerpt: "
     *A unified software interface designed for electronic structure codes to connect with various high-performance eigensolvers and density matrix solvers*<br><br>
-    ELSI provides and enhances scalable, open-source software library solutions for electronic structure calculations in materials science, condensed matter physics, chemistry, and many other fields. ELSI focuses on methods that solve or circumvent eigenvalue problems in electronic structure theory. The ELSI infrastructure should also be useful for other challenging eigenvalue problems."
+    ELSI provides and enhances scalable, open-source software library solutions for electronic structure calculations in materials science, condensed matter physics, chemistry, and many other fields. ELSI focuses on methods that solve or circumvent eigenvalue problems in electronic structure theory. The ELSI infrastructure should also be useful for other challenging eigenvalue problems.<br><br>
+
+    **Reference:**<br>
+    1. V. W. Yu et al., ELSI — An open infrastructure for electronic structure solvers, Computer Physics Communications 256, 107459 (2020). DOI: [https://doi.org/10.1016/j.cpc.2020.107459](https://doi.org/10.1016/j.cpc.2020.107459)<br>
+    2. V. W. Yu et al., ELSI: A unified software interface for Kohn–Sham electronic structure solvers, Computer Physics Communications 222, 267 (2018). DOI: [https://doi.org/10.1016/j.cpc.2017.09.007](https://doi.org/10.1016/j.cpc.2017.09.007)"
     url: "https://wordpress.elsi-interchange.org"
     btn_label: "Code"
     btn_class: "btn--primary"
@@ -68,7 +88,10 @@ feature_row6:
     title: "HybriD3"
     excerpt: "
     *A curatable database for experimental and theoretical data on hybrid organic-inorganic materials*<br><br>
-    Hybrid organic-inorganic materials offer a unique opportunity for the discovery and refinement of new functional semiconductor materials with fine-tuned properties, controlled at the atomic scale by organic chemistry and organic-inorganic synthesis and processing. The HybriD3 project accelerates the Design, Discovery and Dissemination (D3) of new crystalline organic-inorganic hybrid semiconductors in a collaborative effort between a consortium of researchers in the NC Triangle area and beyond."
+    Hybrid organic-inorganic materials offer a unique opportunity for the discovery and refinement of new functional semiconductor materials with fine-tuned properties, controlled at the atomic scale by organic chemistry and organic-inorganic synthesis and processing. The HybriD3 project accelerates the Design, Discovery and Dissemination (D3) of new crystalline organic-inorganic hybrid semiconductors in a collaborative effort between a consortium of researchers in the NC Triangle area and beyond. <br><br>
+
+    **Reference:**<br>
+    R. Laasner, X. Du, A. Tanikanti, C. Clayton, M. Govoni, G. Galli, M. Ropo, and V. Blum, MatD$^3$: A Database and Online Presentation Package for Research Data Supporting Materials Discovery, Design, and Dissemination, JOSS 5, 1945 (2020). DOI: [https://doi.org/10.21105/joss.01945](https://doi.org/10.21105/joss.01945)"
     url: "https://materials.hybrid3.duke.edu"
     btn_label: "Database"
     btn_class: "btn--primary"
