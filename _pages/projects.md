@@ -88,7 +88,7 @@ feature_row6:
     title: "HybriD3"
     excerpt: "
     *A curatable database for experimental and theoretical data on hybrid organic-inorganic materials*<br><br>
-    Hybrid organic-inorganic materials offer a unique opportunity for the discovery and refinement of new functional semiconductor materials with fine-tuned properties, controlled at the atomic scale by organic chemistry and organic-inorganic synthesis and processing. The HybriD3 project accelerates the Design, Discovery and Dissemination (D3) of new crystalline organic-inorganic hybrid semiconductors in a collaborative effort between a consortium of researchers in the NC Triangle area and beyond. <br><br>
+    Hybrid organic-inorganic materials offer a unique opportunity for the discovery and refinement of new functional semiconductor materials with fine-tuned properties, controlled at the atomic scale by organic chemistry and organic-inorganic synthesis and processing. The HybriD$^3$ project accelerates the Design, Discovery and Dissemination (D3) of new crystalline organic-inorganic hybrid semiconductors in a collaborative effort between a consortium of researchers in the NC Triangle area and beyond. It is based on the MatD$^3$ framework written in Python-Django and uses SQL for database functions.<br><br>
 
     **Reference:**<br>
     R. Laasner, X. Du, A. Tanikanti, C. Clayton, M. Govoni, G. Galli, M. Ropo, and V. Blum, MatD$^3$: A Database and Online Presentation Package for Research Data Supporting Materials Discovery, Design, and Dissemination, JOSS 5, 1945 (2020). DOI: [https://doi.org/10.21105/joss.01945](https://doi.org/10.21105/joss.01945)"
