@@ -10,7 +10,7 @@ excerpt: '\- salutation wishing the recipient a long life'
 ---
 **Hello and welcome!** 👋
 
-I'm Uthpala, a postdoc in the [Ab-Initio Materials Simulations (AIMS)](https://aims.pratt.duke.edu) group at Duke University. As a computational physicist, I currently focus on developing computational methods and frameworks to design, discover and characterize novel materials.
+I'm Uthpala, a postdoc in the [Ab-Initio Materials Simulations (AIMS)](https://aims.pratt.duke.edu) group at Duke University. As a computational physicist, I currently focus on developing and applying computational methods and frameworks to design, discover and characterize novel materials.
 
 This website serves as my digital corner in cyberspace where I share insights and musings about my [research](/research) and other interests through my [blog](/year-archive). You can explore a list of my [publications](/publications/) derived from my research endeavors and a portfolio of [projects](/projects) I have contributed to. For an in-depth overview of my professional journey, please refer to my [CV](/cv/). Learn about the [talks](/talks/) I've given over the years and check out the [about](/about/) page for a more personal glimpse into my life and passions.
 
