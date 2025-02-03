@@ -7,7 +7,7 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 Please click on the location pins for more details.<br>
-<span style="color:blue">Blue</span> pins represent conference talks or posters.
+<span style="color:blue">Blue</span> pins represent oral presentations.
 <span style="color:red">Red</span> pins represent workshops or seminars.<br>
 Scroll down for a list of recorded talks.
 
