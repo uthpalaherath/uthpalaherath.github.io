@@ -11,7 +11,7 @@ header:
   teaser: /assets/media/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters-20250206132157590.png
 ---
 {: .notice--primary}
-*In this post, I share a script that utilizes seff, sstat and sacct for advanced resource monitoring on HPC clusters.*
+*In this post, I share a script that utilizes seff, sstat, and sacct for advanced resource monitoring on HPC clusters.*
 
 ![2025-02-05-Advanced-resource-monitoring-on-HPC-clusters-20250206132157590](/assets/media/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters-20250206132157590.png)
 
