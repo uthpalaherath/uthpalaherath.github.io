@@ -45,7 +45,7 @@ The resource monitoring script, `jobstats.sh` is provided below.
 to_bytes() {
     local val="$1"
     # If empty or not recognized, return 0.
-    [ -z "$val" ](%20-z%20"$val"%20) && echo 0 && return
+    [[ -z "$val" ]] && echo 0 && return
 
     # Regex: optionally a decimal number, then optionally K/M/G
     # Examples that match:
@@ -54,7 +54,7 @@ to_bytes() {
     #   "186.30M"
     #   "11521316K"
     #   "5.73M"
-    if [ "$val" =~ ^([0-9]([0-9); then
+    if [[ "$val" =~ ^([0-9]+(\.[0-9]+)?)([KMG])?$ ]]; then
         local num="${BASH_REMATCH[1]}"   # e.g. "186.30"
         local unit="${BASH_REMATCH[3]}"  # e.g. "M"
         local factor=1
@@ -75,7 +75,7 @@ to_bytes() {
         }'
     else
         # If purely integer digits, assume raw bytes
-        if [ "$val" =~ ^[0-9](%20"$val"%20=~%20^[0-9); then
+        if [[ "$val" =~ ^[0-9]+$ ]]; then
             echo "$val"
         else
             # Unrecognized format
@@ -106,7 +106,7 @@ jobstats() {
     local jobid="$1"
     local maxSteps="$2"   # optional second argument
 
-    if [ -z "$jobid" ](%20-z%20"$jobid"%20); then
+    if [[ -z "$jobid" ]]; then
         echo "Usage: jobstats.sh <job_id> [<n_steps>]"
         return 1
     fi
@@ -121,7 +121,7 @@ jobstats() {
     # Parse "Nodes: X" from seff, if present
     local numNodes
     numNodes="$(echo "$seff_output" | sed -n 's/^Nodes:\s*\([0-9]\+\).*/\1/p')"
-    [ -z "$numNodes" ](%20-z%20"$numNodes"%20) && numNodes=1
+    [[ -z "$numNodes" ]] && numNodes=1
 
     # (B) sstat summary
     echo "=== [2/3] sstat summary (LIVE) ==="
@@ -131,15 +131,15 @@ jobstats() {
               -j "${jobid}" 2>/dev/null
     )"
 
-    if [ -z "$sstat_out" ](%20-z%20"$sstat_out"%20); then
+    if [[ -z "$sstat_out" ]]; then
         echo "Job ${jobid} is not running. Check sacct summary."
     else
         echo "JobID step      | MaxRSS/node | Total MaxRSS | MaxDiskWrite"
         echo "----------------|------------ | ------------ | ------------"
         while IFS= read -r line; do
-            [ -z "$line" ](%20-z%20"$line"%20) && continue
+            [[ -z "$line" ]] && continue
             IFS=' ' read -r stepJobID rawRss rawDisk <<< "$line"
-            [ -z "$stepJobID" ](%20-z%20"$stepJobID"%20) && continue
+            [[ -z "$stepJobID" ]] && continue
 
             local rssBytes diskBytes
             rssBytes="$(to_bytes "$rawRss")"
@@ -168,14 +168,14 @@ jobstats() {
               -j "${jobid}" 2>/dev/null
     )"
 
-    if [ -z "$sacct_out" ](%20-z%20"$sacct_out"%20); then
+    if [[ -z "$sacct_out" ]]; then
         echo "No sacct info found."
     else
         # Convert sacct_out into an array so we can optionally truncate
         mapfile -t sacct_lines <<< "$sacct_out"
 
         # If maxSteps is given and numeric, we tail only last N lines
-        if [ -n "$maxSteps" && "$maxSteps" =~ ^[0-9](%20-n%20"$maxSteps"%20&&%20"$maxSteps"%20=~%20^[0-9); then
+        if [[ -n "$maxSteps" && "$maxSteps" =~ ^[0-9]+$ ]]; then
             if (( maxSteps < ${#sacct_lines[@]} )); then
                 # Truncate to last N lines
                 sacct_lines=("${sacct_lines[@]: -$maxSteps}")
@@ -185,9 +185,9 @@ jobstats() {
         echo "JobID step      | JobName                    | MaxRSS/node | Total MaxRSS | MaxDiskWrite"
         echo "----------------|----------------------------|-------------|--------------|-------------"
         for line in "${sacct_lines[@]}"; do
-            [ -z "$line" ](%20-z%20"$line"%20) && continue
+            [[ -z "$line" ]] && continue
             IFS=' ' read -r cJobID cJobName cMaxRSS cMaxDiskWrite <<< "$line"
-            [ -z "$cJobID" ](%20-z%20"$cJobID"%20) && continue
+            [[ -z "$cJobID" ]] && continue
 
             local rssBytes diskBytes
             rssBytes="$(to_bytes "$cMaxRSS")"
@@ -213,7 +213,7 @@ jobstats "$@"
 
 # Usage
 
-Place this script in a directory which is included in your `$PATH` variable to access it globally (e.g., in `~/dotfiles`). You may also need to make it executable by typing the following command in the terminal.
+Place this script in a directory which is included in your `$PATH` variable to access it globally (e.g., to make  `/hpc/home/ukh/dotfiles` directory globally accessible, add the line `export PATH="/hpc/home/ukh/dotfiles/:$PATH"`  to your `~/.bashrc` and source it). You may also need to make it executable by typing the following command in the terminal.
 
 ```
 chmod +x jobstats.sh
