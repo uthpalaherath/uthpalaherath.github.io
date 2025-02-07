@@ -319,7 +319,7 @@ $$
 \text {CPU Efficiency}=\frac{\text {CPU Utilized time in seconds}}{(\text {Total no. of CPU cores }) \times(\text {Wall-clock time in seconds})} \times 100 \%
 $$
 
-The CPU Utilized time is the *actual* CPU time used by all the processes across all cores. Wall-clock time is the *real* clock time the job spent in the "RUNNING" state. The CPU Efficiency is a measure of *actual* CPU usage vs. total *possible* CPU usage. This job shows a 46.44% CPU Efficiency, which could be improved by lowering the total number of cores used.
+The CPU Utilized time is the *actual* CPU time used by all the processes across all cores. Wall-clock time is the *real* clock time the job spent in the "RUNNING" state. The CPU Efficiency is a measure of *actual* CPU usage vs. total *possible* CPU usage. This job shows a 46.44% CPU Efficiency, which may be improved by changing the total number of cores used. However, it very much depends on how well your code is written to efficiently utilize resources.
 
 The JobID step comprises of different stages of the job process, namely,  
 - 25623378 - The top-level parent job record
