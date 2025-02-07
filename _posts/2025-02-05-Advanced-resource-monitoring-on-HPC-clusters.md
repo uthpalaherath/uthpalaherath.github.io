@@ -322,7 +322,7 @@ $$
 The CPU Utilized time is the *actual* CPU time used by all the processes across all cores. Wall-clock time is the *real* clock time the job spent in the "RUNNING" state. The CPU Efficiency is a measure of *actual* CPU usage vs. total *possible* CPU usage. This job shows a 46.44% CPU Efficiency, which may be improved by changing the total number of cores used. However, it very much depends on how well your code is written to efficiently utilize resources. 
 
 {: .notice--warning}
-SLURM's resource usage statistics are best-effort approximations obtained via periodic sampling and kernel cgroup counters, so they may not capture transient peaks precisely and should be regarded as estimates rather than exact measurements. 
+WARNING: SLURM's resource usage statistics are best-effort approximations obtained via periodic sampling and kernel cgroup counters, so they may not capture transient peaks precisely and should be regarded as estimates rather than exact measurements. 
 
 The JobID step comprises of different stages of the job process, namely,  
 - 25623378 - The top-level parent job record
