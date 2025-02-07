@@ -255,7 +255,7 @@ JobID step      | MaxRSS/node | Total MaxRSS | MaxDiskWrite
 ----------------|------------ | ------------ | ------------
 25623378.0      | 269.17GB    | 1345.87GB    | 175.70MB
 
-=== [3/3] sacct summary (WARNING: Inactive until job completion!) ===
+=== [3/3] sacct summary (WARNING: Inactive until job step completion!) ===
 JobID step      | JobName                    | MaxRSS/node | Total MaxRSS | MaxDiskWrite
 ----------------|----------------------------|-------------|--------------|-------------
 25623378        | paracetamol-5N             | 0.00MB      | 0.00MB       | 0.00MB
@@ -302,7 +302,7 @@ The task which had the largest memory consumption differs by 100.12% from the av
 === [2/3] sstat summary (LIVE) ===
 Job 25623378 is not running. Check sacct summary.
 
-=== [3/3] sacct summary (WARNING: Inactive until job completion!) ===
+=== [3/3] sacct summary (WARNING: Inactive until job step completion!) ===
 JobID step      | JobName                    | MaxRSS/node | Total MaxRSS | MaxDiskWrite
 ----------------|----------------------------|-------------|--------------|-------------
 25623378        | paracetamol-5N             | 0.00MB      | 0.00MB       | 0.00MB
