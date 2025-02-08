@@ -11,7 +11,7 @@ header:
   teaser: /assets/media/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters-20250206132157590.png
 ---
 {: .notice--primary}
-*In this post, I share a script that utilizes seff, sstat, and sacct for advanced resource monitoring on HPC clusters.*
+*Efficient resource monitoring is key to maximizing HPC performance. In this post, I explore techniques for advanced resource monitoring on HPC clusters and provide a script that utilizes seff, sstat, and sacct to track CPU and memory usage effectively* 
 
 ![2025-02-05-Advanced-resource-monitoring-on-HPC-clusters-20250206132157590](/assets/media/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters-20250206132157590.png)
 
@@ -358,7 +358,7 @@ JobID step      | MaxRSS/node | Total MaxRSS | MaxDiskWrite
 ----------------|------------ | ------------ | ------------
 1839519.658     | 3.74GB      | 7.49GB       | 913.36MB
 
-=== [3/3] sacct summary (WARNING: Inactive until job completion!) ===
+=== [3/3] sacct summary (WARNING: Inactive until job step completion!) ===
 JobID step      | JobName                    | MaxRSS/node | Total MaxRSS | MaxDiskWrite
 ----------------|----------------------------|-------------|--------------|-------------
 1839519.649     | wannier90.x                | 561.31MB    | 1.10GB       | 137.15MB
