@@ -11,7 +11,7 @@ header:
   teaser: /assets/media/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters-20250206132157590.png
 ---
 {: .notice--primary}
-*Efficient resource monitoring is key to maximizing HPC performance. In this post, I explore techniques for advanced resource monitoring on HPC clusters and provide a script that utilizes seff, sstat, and sacct to track CPU and memory usage effectively* 
+*Efficient resource monitoring is key to maximizing HPC performance. In this post, I explore techniques for advanced resource monitoring on HPC clusters and provide a script that utilizes seff, sstat, and sacct to track CPU and memory usage effectively.* 
 
 ![2025-02-05-Advanced-resource-monitoring-on-HPC-clusters-20250206132157590](/assets/media/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters/2025-02-05-Advanced-resource-monitoring-on-HPC-clusters-20250206132157590.png)
 
