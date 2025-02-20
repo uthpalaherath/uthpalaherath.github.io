@@ -16,13 +16,13 @@ We're excited to announce the upcoming release of ***Duke Dialogues***, our newe
 
 Here’s a sneak preview of the content you can look forward to in each episode of the podcast series.  
 
-**Episode 1: Building Inclusive Communities and International Perspectives**<br>
+**Episode 1: Building inclusive communities and international perspectives**<br>
 Learn how a diverse Duke community fosters a supportive environment at Duke and the resources available for international students and scholars. 
 
-**Episode 2: Navigating Professional Growth-Alumni Insights, AI Tools, and Academic Paths**<br>
+**Episode 2: Navigating professional growth-alumni insights, AI tools, and academic paths**<br>
 Ever wonder how to leverage alumni networks, harness AI for efficiency, or chart the right career path for you? In this episode, we bring you practical wisdom from successful Duke graduates and postdocs and offer insider tips to keep you moving forward in your career.
 
-**Episode 3: Thriving in Balance-Mental Health and Work-Life Strategies**<br>
+**Episode 3: Thriving in balance-mental health and work-life strategies**<br>
 Balancing responsibilities in academia can be a challenge. We’ll explore proven methods to manage stress, maintain mental well-being, and cultivate a holistic, sustainable work-life rhythm.
 
 # Behind the scenes
