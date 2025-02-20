@@ -27,7 +27,7 @@ Balancing responsibilities in academia can be a challenge. We’ll explore prove
 
 # Behind the scenes
 
-We recently did a recording session at Duke's Bryan Center Studios[^5], which was equipped with everything we needed for our podcast. From brainstorming topics to crafting outlines and doing the actual recording, this project has been a wonderful collaborative and creative journey for our ELI dream team. 
+We recently recorded a podcast session at Duke's Bryan Center Studios[^5], which is equipped with everything we needed for our endeavor. From brainstorming topics to crafting outlines and doing the actual recording, this project has been a wonderful collaborative and creative journey for our ELI dream team. 
 
 ![2025-02-19-New-podcast-release-20250219213912773](/assets/media/2025-02-19-New-podcast-release/2025-02-19-New-podcast-release-20250219213912773.jpeg)*Behind the scenes in the recording studio. From near left going clockwise; Sheilla, Jacey, Uthpala, and Shamitha.*
 
