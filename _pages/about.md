@@ -7,14 +7,9 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 
-<!-- <figure style="width: 30%" class="align-right"> -->
-<!--   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/samknob.HEIC" alt=""> -->
-<!--   <figcaption>Me in the wild.</figcaption> -->
-<!-- </figure> -->
-
-<!-- ![image](/assets/images/samknob.jpg){: .align-right style="width: 40%;"} -->
-
+<div class="my-custom-notice">
 Hello! I'm Uthpala, a Postdoctoral Associate in the Department of Mechanical Engineering and Materials Science (MEMS) at Duke University. I work with [Dr. Volker Blum's](https://aims.pratt.duke.edu) research group, exploring computational materials science-the fascinating intersection of physics, engineering, chemistry, and computer science.
+</div>
 
 ## My journey
 
