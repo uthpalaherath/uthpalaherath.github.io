@@ -51,7 +51,7 @@ I am a developer of the open-source [DMFTwDFT](https://github.com/DMFTwDFT-proje
 
 **Investigating defects in SCM**<br>
 
-My research has highlighted the effects of oxygen vacancies and hydrogen doping on metal-insulator transitions and diffusion in transition metal and rare-earth nickelate perovskites, with implications for neuromorphic computing and microelectronics.<br>
+My research has highlighted the effects of oxygen vacancies ([U. Herath et al., arXiv:2212.07348v1 [cond-mat.str-el] (2022)](https://arxiv.org/abs/2212.07348)) and hydrogen doping ([S. S. Bhat et al., Phys. Rev. B 109, 205124 (2024)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.205124)) on metal-insulator transitions and diffusion in transition metal and rare-earth nickelate perovskites, with implications for neuromorphic computing and microelectronics.<br>
 I also implemented a symmetry based method to investigate alloying/defects in SCM with higher computational efficiency.
 
 **High-accuracy machine learning interatomic potentials for SCM**<br>
