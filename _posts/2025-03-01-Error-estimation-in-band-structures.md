@@ -1,7 +1,7 @@
 ---
 title: Error estimation in band structures
 excerpt: 
-date: 2025-03-01
+date: 2025-03-03
 toc: true
 tags:
   - condensed-matter-physics
@@ -179,7 +179,7 @@ In Fig. 3, we notice that disabling the spin-orbit coupling in the HSE06 calcula
 
 **3\. GaN_ZB with and without auxiliary basis functions**
 
-Fig. 4 showcases the differences in the GW band structures of GaN in its Zincblende (ZB) phase calculated with and without auxiliary basis functions. Auxiliary basis functions are additional basis functions to represent the Coulomb operator and help improve the band structure accuracy, especially for materials with higher densities such as MgO (Rocksalt), GaN (Wurtzite) and GaN (Zincblende). As we note in Fig. 4, including an additional auxiliary function to represent a $4f$ orbital to the basis resolves the erroneous band structure of conductions bands obtained from the default calculation. The differences between these two are quantified with a high RMSE value of 1.785 eV. 
+Fig. 4 showcases the differences in the GW band structures of GaN in its Zincblende (ZB) phase calculated with and without auxiliary basis functions. Auxiliary basis functions are additional basis functions to represent the Coulomb operator and help improve the band structure accuracy, especially for materials with higher densities such as MgO (Rocksalt), GaN (Wurtzite) and GaN (Zincblende). As we note in Fig. 4, including an additional auxiliary function to represent a $4f$ orbital to the basis resolves the erroneous band structure of conduction bands obtained from the default calculation. The differences between these two are quantified with a high RMSE value of 1.785 eV. 
 
 ![2025-03-01-Error-estimation-in-band-structures-20250303140106072](/assets/media/2025-03-01-Error-estimation-in-band-structures/2025-03-01-Error-estimation-in-band-structures-20250303140106072.png)*Figure 4: The comparison of GW band structures of GaN_ZB calculated with and without 4f0 auxiliary functions. The difference is quantified with a RMSE value of 1.785 eV.*
 
