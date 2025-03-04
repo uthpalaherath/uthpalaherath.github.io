@@ -1,6 +1,5 @@
 ---
 layout: home
-paginate: 5
 author_profile: true
 title: "ආයුබෝවන්! (Āyubōvan!)"
 header:
