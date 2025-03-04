@@ -65,7 +65,7 @@ layout: default
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
-      {% comment %}<!-- {% include post_pagination.html %} -->{% endcomment %}
+      {% include post_pagination.html %}
     </div>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
