@@ -44,7 +44,7 @@ Provided these conditions, the code then filters out all the bands that lie enti
 Mathematically, for a given energy window, 
 
 $$
-\mathrm{RMSE}=\sqrt{\frac{1}{N} \sum_{k=1}^{N_k} \sum_{i=1}^{n_{bands}}\left(E_2(k, i)-E_1(k, i)\right)^2}
+RMSE=\sqrt{\frac{1}{N} \sum_{k=1}^{N_k} \sum_{i=1}^{n_{bands}}\left(E_2(k, i)-E_1(k, i)\right)^2}
 $$
 
 where, $N = N_k \times n_{bands}$ is summed over all band segments.
