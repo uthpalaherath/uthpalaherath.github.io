@@ -13,8 +13,9 @@ header:
 
 ## In preparation
 1. Chakraborty, R., **Herath, U.**, & Blum, V. HybriD3 : A Curated Materials Database for Hybrid Organic‐Inorganic Semiconductors.
-2. **Herath, U.**, Singh, V., Bhat, S. S., Park, H., & Romero, A. H. Stability and diffusion of oxygen vacancies in LaNiO3: a DMFT study. arXiv.
-3. **Herath, U.**, Bhat, S. S., Singh, V., Park, H. & Romero, A. H. Investigating strongly correlated alloys via Dynamical Mean Field Theory.
+2. Zhang, M.‑Y., **Herath, U.**, Merz, F., Yao, Y., Rampp, M., Ren, X., Blum, V., & Scheffler, M. All‑electron periodic GW method in numeric atom‑centered basis framework: a thorough benchmark.
+3. **Herath, U.**, Singh, V., Bhat, S. S., Park, H., & Romero, A. H. Stability and diffusion of oxygen vacancies in LaNiO3: a DMFT study. arXiv.
+4. **Herath, U.**, Bhat, S. S., Singh, V., Park, H. & Romero, A. H. Investigating strongly correlated alloys via Dynamical Mean Field Theory.
 
 <!-- Please visit my [Google Scholar](https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en&authuser=1) profile for an updated list of publications. -->
 
