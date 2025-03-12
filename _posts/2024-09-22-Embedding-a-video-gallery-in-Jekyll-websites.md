@@ -1,9 +1,8 @@
 ---
 title: Embedding a video gallery in Jekyll websites
-excerpt: 
+excerpt:
 date: 2024-09-22
 toc: false
-classes: wide
 tags:
   - tutorials
   - jekyll
@@ -13,11 +12,11 @@ header:
   teaser: /assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495.png
 ---
 {: .notice--primary}
-*A simple tutorial on embedding a video gallery in a Minimal Mistakes themed Jekyll website.* 
+*A simple tutorial on embedding a video gallery in a Minimal Mistakes themed Jekyll website.*
 
 ![2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495](/assets/media/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites/2024-09-22-Embedding-a-video-gallery-in-Jekyll-websites-20240922105246495.png)
 
-The [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme [^1] for Jekyll websites by Michael Rose offers a great way to embed images in a [gallery layout](https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/). I wanted to do the same for videos. In this post I will show you how I achieved that. 
+The [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme [^1] for Jekyll websites by Michael Rose offers a great way to embed images in a [gallery layout](https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/). I wanted to do the same for videos. In this post I will show you how I achieved that.
 
 First, we create a gallery layout using a custom CSS by adding the following snippet in `assets/css/main.scss`.
 
@@ -40,9 +39,9 @@ First, we create a gallery layout using a custom CSS by adding the following sni
 }
 ```
 
-Here, we use `flex-wrap:wrap;` to wrap items onto the next line. `flex: 1 1 calc(33.33% - 20px);` ensures that each video takes up one-third of the available space (minus the gap) such that we limit 3 videos per row. You can modify this according to your needs. 
+Here, we use `flex-wrap:wrap;` to wrap items onto the next line. `flex: 1 1 calc(33.33% - 20px);` ensures that each video takes up one-third of the available space (minus the gap) such that we limit 3 videos per row. You can modify this according to your needs.
 
-Next, in your markdown file you can embed the video gallery using a HTML structure as follows. 
+Next, in your markdown file you can embed the video gallery using a HTML structure as follows.
 
 ```html
 <div class="video-gallery">
@@ -68,22 +67,22 @@ Next, in your markdown file you can embed the video gallery using a HTML structu
 </div>
 ```
 
-Optionally, you may also want to set, 
+Optionally, you may also want to set,
 
 ```markdown
 toc: false
 classes: wide
 ```
 
-in your YAML front matter to ensure all the available space is being used for the gallery layout. 
+in your YAML front matter to ensure all the available space is being used for the gallery layout.
 
-On some browsers (e.g.- Chrome), `.mov` files aren't rendered correctly so we have to convert them to `.mp4` with the `H.264` codec. I used the [ffmpeg](https://www.ffmpeg.org) [^2] utility to do the conversion as follows, 
+On some browsers (e.g.- Chrome), `.mov` files aren't rendered correctly so we have to convert them to `.mp4` with the `H.264` codec. I used the [ffmpeg](https://www.ffmpeg.org) [^2] utility to do the conversion as follows,
 
 ```shell
 ffmpeg -i video1.mov -vcodec h264 -acodec aac video1.mp4
 ```
 
-To showcase the gallery layout view, I am sharing some videos I captured from a Breaking Benjamin, Staind, Daughtry and Lakeview concert [^3] I attended in Raleigh the other day. Enjoy some of my favorite bands I've been listening to since high school! 
+To showcase the gallery layout view, I am sharing some videos I captured from a Breaking Benjamin, Staind, Daughtry and Lakeview concert [^3] I attended in Raleigh the other day. Enjoy some of my favorite bands I've been listening to since high school!
 
 <div class="video-gallery">
   <div class="video-item">
@@ -128,4 +127,4 @@ To showcase the gallery layout view, I am sharing some videos I captured from a 
 
 [^1]: [https://mmistakes.github.io/minimal-mistakes/](https://mmistakes.github.io/minimal-mistakes/)
 [^2]: [https://www.ffmpeg.org](https://www.ffmpeg.org)
-[^3]: [https://www.livenationentertainment.com/2024/03/rock-icons-staind-and-breaking-benjamin-announce-co-headline-tour-with-special-guests-daughtry-and-lakeview/](https://www.livenationentertainment.com/2024/03/rock-icons-staind-and-breaking-benjamin-announce-co-headline-tour-with-special-guests-daughtry-and-lakeview/) 
+[^3]: [https://www.livenationentertainment.com/2024/03/rock-icons-staind-and-breaking-benjamin-announce-co-headline-tour-with-special-guests-daughtry-and-lakeview/](https://www.livenationentertainment.com/2024/03/rock-icons-staind-and-breaking-benjamin-announce-co-headline-tour-with-special-guests-daughtry-and-lakeview/)
