@@ -9,7 +9,7 @@ header:
 <script src="https://bibbase.org/show?bib=https://bibbase.org/network/files/EmqHbeD53PJXJiHe4&jsonp=1"></script>
 
 ## Submitted
-1. Biliroglu, M., Seyitliyev, D., Kotyrov, M., Abdelsamei, M., Qin, X., Findik, G., Alma, G. A., **Herath, U.**, Lei, L., Chai, J., Mehta, Y., Swan, A., Temnov, V., Blum, V., So, F. & Gundogdu, K. Two-Step Phase Transition in Superfluorescence of Lead-Halide Perovskites. Submitted to Nature (2024).
+1. Biliroglu, M., Seyitliyev, D., Kotyrov, M., Abdelsamei, M., Qin, X., Findik, G., Alma, G. A., **Herath, U.**, Lei, L., Chai, J., Mehta, Y., Swan, A., Temnov, V., Blum, V., So, F. & Gundogdu, K. Two-Step Phase Transition in Superfluorescence of Lead-Halide Perovskites.
 
 ## In preparation
 1. Chakraborty, R., **Herath, U.**, & Blum, V. HybriD3 : A Curated Materials Database for Hybrid Organic‐Inorganic Semiconductors.
