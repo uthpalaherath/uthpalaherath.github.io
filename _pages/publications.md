@@ -9,7 +9,8 @@ header:
 <script src="https://bibbase.org/show?bib=https://bibbase.org/network/files/EmqHbeD53PJXJiHe4&jsonp=1"></script>
 
 ## Submitted
-1. Biliroglu, M., Seyitliyev, D., Kotyrov, M., Abdelsamei, M., Qin, X., Findik, G., Alma, G. A., **Herath, U.**, Lei, L., Chai, J., Mehta, Y., Swan, A., Temnov, V., Blum, V., So, F. & Gundogdu, K. Two-Step Phase Transition in Superfluorescence of Lead-Halide Perovskites.
+1. Karpov, P., Marek, A., Melson, T., Pöppl, A., Yu, V. W.‐z., Hourahine, B., Garcia, A., Dawson, W., Yao, Y., Huhn, W., Moussa, J., Hall, S., Maurer, R., **Herath, U.**, Lion, K., Kokott, S., & Blum, V. Solvers for Large‐Scale Electronic Structure Theory: ELPA and ELSI. arXiv (2025).
+2. Biliroglu, M., Seyitliyev, D., Kotyrov, M., Abdelsamei, M., Qin, X., Findik, G., Alma, G. A., **Herath, U.**, Lei, L., Chai, J., Mehta, Y., Swan, A., Temnov, V., Blum, V., So, F. & Gundogdu, K. Two-Step Phase Transition in Superfluorescence of Lead-Halide Perovskites.
 
 ## In preparation
 1. Chakraborty, R., **Herath, U.**, & Blum, V. HybriD3 : A Curated Materials Database for Hybrid Organic‐Inorganic Semiconductors.
