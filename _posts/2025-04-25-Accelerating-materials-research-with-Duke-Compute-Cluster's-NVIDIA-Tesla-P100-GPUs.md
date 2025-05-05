@@ -147,7 +147,7 @@ As an example, the break down of several key timing steps for a single SCF itera
 
 Table 1 shows the different calculation steps that were accelerated with GPUs in comparison to their CPU-only counterparts. For this case, the most significant speedup (~2.2x) is due to the eigensolver, which is expected since this is essentially the workhorse of DFT.
 
-Looking at the outcomes in Fig. 3, we observe an average **~2×** acceleration for CBTS and **~1.7×** for SiC‑Graphene, measured per SCF iteration at equal core/GPU counts. This is already a significant improvement in speedup considering these system sizes and may be improved further by, 
+Looking at the outcomes in Fig. 3, we observe an average **~2×** acceleration for CBTS and **~1.7×** for SiC‑Graphene, measured per SCF iteration at equal core/GPU counts. This is already a significant improvement in speedup considering these large system sizes and may be improved further by, 
 
 - Building FHI-aims with a more recent version of the ELPA eigensolver that features more modern and efficient GPU optimizations. 
 
