@@ -145,7 +145,7 @@ As an example, the break down of several key timing steps for a single SCF itera
 | Charge density update                     | 106.85  | 54.767      |
 | Kohn-Sham equation solution (eigensolver) | 1331.15 | 596.42      |
 
-Table 1 shows the different calculation steps that were accelerated with GPUs in comparison to their CPU-only counterparts. For this case, the most significant speedup (~2.2 x) is due to the eigensolver, which is expected since this is essentially the workhorse of DFT.
+Table 1 shows the different calculation steps that were accelerated with GPUs in comparison to their CPU-only counterparts. For this case, the most significant speedup (~2.2x) is due to the eigensolver, which is expected since this is essentially the workhorse of DFT.
 
 Looking at the outcomes in Fig. 3, we observe an average **~2 ×** acceleration for CBTS and **~1.7 ×** for SiC‑Graphene, measured per SCF iteration at equal core/GPU counts. This is already a significant improvement in speedup considering these system sizes and may be improved further by, 
 
