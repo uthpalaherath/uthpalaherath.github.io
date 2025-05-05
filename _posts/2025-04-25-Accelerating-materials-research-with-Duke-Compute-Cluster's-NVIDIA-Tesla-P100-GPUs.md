@@ -76,7 +76,7 @@ This process is depicted in Fig. 1.
 
 Similar to the GPU offloaded real-space operations discussed earlier, data stay resident on the GPU between stages to minimize communication latency.
 
-# Benchmark system and platform
+# Benchmark systems and platform
 
 To demonstrate the GPU acceleration in the code, I ran benchmark tests on the following two materials systems,
 
