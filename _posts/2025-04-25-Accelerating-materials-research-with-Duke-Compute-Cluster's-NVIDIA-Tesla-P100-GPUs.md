@@ -160,7 +160,7 @@ In summary, the NVIDIA Tesla P100 GPUs on DCC do a great job accelerating calcul
 # References
 
 [^1]: V. Blum, R. Gehrke, F. Hanke, P. Havu, V. Havu, X. Ren, K. Reuter, and M. Scheffler, Ab initio molecular simulations with numeric atom-centered orbitals, Computer Physics Communications 180, 2175 (2009). DOI: [https://doi.org/10.1016/j.cpc.2009.06.022](https://doi.org/10.1016/j.cpc.2009.06.022)
-[^2]: P. Hohenberg and W. Kohn, Inhomogeneous Electron Gas, Phys. Rev. **136**, B864 (1964).
+[^2]: P. Hohenberg and W. Kohn, Inhomogeneous Electron Gas, Phys. Rev. **136**, B864 (1964). DOI: <https://doi.org/10.1103/PhysRev.136.B864>
 [^3]: Hans-Joachim Bungartz et. al.: ELPA: A Parallel Solver for the Generalized Eigenvalue Problem, Advances in Parallel Computing, Vol. 36 Parallel Computing: Technology Trends, DOI: 10.3233/APC200095 Online version: [https://ebooks.iospress.nl/doi/10.3233/APC200095](https://ebooks.iospress.nl/doi/10.3233/APC200095)
-[^4]: W. P. Huhn, B. Lange, V. W. Yu, M. Yoon, and V. Blum, GPU acceleration of all-electron electronic structure theory using localized numeric atom-centered basis functions, Computer Physics Communications **254**, 107314 (2020).
-[^5]: V. W. Yu, J. Moussa, P. Kůs, A. Marek, P. Messmer, M. Yoon, H. Lederer, and V. Blum, GPU-acceleration of the ELPA2 distributed eigensolver for dense symmetric and hermitian eigenproblems, Computer Physics Communications **262**, 107808 (2021).
+[^4]: W. P. Huhn, B. Lange, V. W. Yu, M. Yoon, and V. Blum, GPU acceleration of all-electron electronic structure theory using localized numeric atom-centered basis functions, Computer Physics Communications **254**, 107314 (2020). DOI: <https://doi.org/10.1016/j.cpc.2020.107314>
+[^5]: V. W. Yu, J. Moussa, P. Kůs, A. Marek, P. Messmer, M. Yoon, H. Lederer, and V. Blum, GPU-acceleration of the ELPA2 distributed eigensolver for dense symmetric and hermitian eigenproblems, Computer Physics Communications **262**, 107808 (2021). DOI: <https://doi.org/10.1016/j.cpc.2020.107808>
