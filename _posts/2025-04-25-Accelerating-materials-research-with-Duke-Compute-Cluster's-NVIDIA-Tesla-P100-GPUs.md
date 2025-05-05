@@ -54,7 +54,7 @@ $$
 h_{i j}^{u c}\left[B_\nu\right]=\sum_{\boldsymbol{r} \in B_\nu} w(\boldsymbol{r}) \varphi_i^*(\boldsymbol{r}) \hat{h}_{K S} \varphi_j(\boldsymbol{r})
 $$
 
-is the contribution of batch $B_\nu$ to the real-space Hamiltonian matrix element $h_{i j}^{u c}$. Each batch becomes a small dense matrix that is offloaded to the GPU as cuBLAS function calls. A large number of such batches stream through in parallel while keeping the CPU-GPU communication minimal by keeping batches on-device until calculations are finished. An analogous method is used for the density matrix $n_{ij}[B_\nu]$ and force calculations. 
+is the contribution of batch $B_\nu$ to the real-space Hamiltonian matrix element $h_{i j}^{u c}$. Each batch becomes a small dense matrix that is offloaded to the GPU as cuBLAS function calls. A large number of such batches stream through in parallel while keeping the CPU-GPU communication minimal by holding batches on-device until calculations are finished. An analogous method is used for the density matrix $n_{ij}[B_\nu]$ and force calculations. 
 
 ## 2\. Kohn-Sham eigensolver (ELPA)
 
@@ -78,7 +78,12 @@ Similar to the GPU offloaded real-space operations discussed earlier, data stay 
 
 # Benchmark system and platform
 
-Test systems are the 3,000 atom Cu$_2$BaSnS$_4$ semiconductor (CBTS) supercell with 80,250 basis functions and the 3,376 atom Graphene-covered SiC surface model with 51,576 basis functions. Their crystal structures are shown in Fig. 2. 
+To demonstrate the GPU acceleration, I ran benchmark tests on the following two materials systems,
+
+1\. 3,000 atom Cu$_2$BaSnS$_4$ semiconductor (CBTS) supercell with 80,250 basis functions
+2\. 3,376 atom Graphene-covered SiC surface model with 51,576 basis functions
+
+Their crystal structures are shown in Fig. 2. 
 
 ![2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs-20250504215917066](/assets/media/2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs/2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs-20250504215917066.png)*Figure 2: The crystal structures of Cu$_2$BaSnS$_4$ (left) and Graphene-covered SiC (right).*
 
