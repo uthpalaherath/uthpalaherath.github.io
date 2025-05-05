@@ -133,7 +133,7 @@ Error in cudaMalloc: out of memory
 
 Since a single node only provides 16 GB of GPU RAM, increasing the node count resolved this issue. The results of the benchmark tests are shown in Fig. 3. 
 
-![2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs-20250504124227321](/assets/media/2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs/2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs-20250504124227321.png)*Figure 3: The benchmark results for CBTS and SiC-covered Graphene calculated with FHI-aims comparing timing for a single SCF iteration with and without GPU acceleration. Solid lines represent CPU only runs and dotted lines represent runs with GPU acceleration enabled. The dotted black line represents ideal scaling.*
+![2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs-20250504124227321](/assets/media/2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs/2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs-20250504124227321.png)*Figure 3: The benchmark results for CBTS (blue) and SiC-covered Graphene (orange) calculated with FHI-aims comparing timing for a single SCF iteration with and without GPU acceleration. Solid lines represent CPU only runs and dotted lines represent runs with GPU acceleration enabled. The dotted black line represents ideal scaling.*
 
 As an example, the break down of several key timing steps for a single SCF iteration for the 252 core/12 GPU CBTS run is given in Table 1. 
 
