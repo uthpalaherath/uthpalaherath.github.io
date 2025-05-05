@@ -153,7 +153,7 @@ Looking at the outcomes in Fig. 3, we observe an average **~2×** acceleration f
 
 - Experimenting with different Scalapack matrix block sizes by adjusting the `scalapack_block_size <block_size>` parameter and changing the `points_in_batch <value>` value that targets the number of integration points per batch offloaded to the GPU. 
 
-- Enabling the NVIDIA [Multi-Process Service (MPS)](https://docs.nvidia.com/deploy/mps/index.html), allows work from different MPI processes to be executed concurrently on the GPU, so that memory transfer and computation requests from different MPI processes are automatically overlapped whenever possible. This typically increases the overall GPU utilization. 
+- Enabling the NVIDIA [Multi-Process Service (MPS)](https://docs.nvidia.com/deploy/mps/index.html) allows work from different MPI processes to be executed concurrently on the GPU, so that memory transfer and computation requests from different MPI processes are automatically overlapped whenever possible. This typically increases the overall GPU utilization. 
 
 In summary, the NVIDIA Tesla P100 GPUs on DCC does a great job accelerating calculations for materials simulations, especially for large scale systems. Feel free to leave any feedback in the comments and please reach out if you need any help setting up your calculations with GPU acceleration.  
 
