@@ -14,7 +14,7 @@ header:
   teaser: /assets/media/2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs/2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs-20250504215917066.png
 ---
 {: .notice--primary}
-*Leveraging DCC's NVIDIA Tesla P100 GPUs, in this post I demonstrate how GPU acceleration within FHI‑aims and ELPA can speed up all-electron DFT calculations by a factor of ~2 on systems exceeding 3,000 atoms and 50,000 basis functions.*
+*Leveraging DCC's NVIDIA Tesla P100 GPUs, in this post I demonstrate how GPU acceleration within FHI‑aims and ELPA can speed up all-electron DFT calculations by a factor of ~2x on systems exceeding 3,000 atoms and 50,000 basis functions.*
 
 Firstly, May the 4th be with you!
 
