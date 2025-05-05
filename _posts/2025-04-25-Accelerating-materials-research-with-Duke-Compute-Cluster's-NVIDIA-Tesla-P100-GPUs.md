@@ -87,7 +87,7 @@ Their crystal structures are shown in Fig. 2.
 
 ![2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs-20250504215917066](/assets/media/2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs/2025-04-25-Accelerating-materials-research-with-Duke-Compute-Cluster's-NVIDIA-Tesla-P100-GPUs-20250504215917066.png)*Figure 2: The crystal structures of Cu$_2$BaSnS$_4$ (left) and Graphene-covered SiC (right).*
 
-These benchmarks were performed on DCC's `courses-gpu` nodes. Each of these nodes consist of 44 $\times$ Intel(R) Xeon(R) CPU E5-2699 v4 physical cores (88 hyperthreads) operating at a nominal frequency of 2.2 GHz and 479 GB of RAM. However, one core is reserved for the virtualization hypervisor (VMWare ESXi) and another for the guest OS, making 42 physical cores (84 hyperthreads) available for calculations. The nodes are networked through Mellanox ConnectX-4 Infiniband connections. Additionally, each node has 2 $\times$ NVIDIA P100 GPUs with 16 GB RAM. 
+These benchmarks were performed on DCC's `courses-gpu` nodes. Each of these nodes consist of 44 $\times$ Intel(R) Xeon(R) CPU E5-2699 v4 physical cores (88 hyperthreads) operating at a nominal frequency of 2.2 GHz and 479 GB of RAM. However, one core is reserved for the virtualization hypervisor (VMWare ESXi) and another for the guest OS, making 42 physical cores (84 hyperthreads) available for calculations. The nodes are networked through Mellanox ConnectX-4 Infiniband connections. Additionally, each node is equipped with 2 $\times$ NVIDIA P100 GPUs with 16 GB RAM. 
 
 `nvidia-smi` provides the following information on a typical `courses-gpu` node. 
 
