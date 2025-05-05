@@ -64,7 +64,7 @@ $$
 H C=S C \Sigma
 $$
 
-where, H is the Hamiltonian,  S is the overlap, C is the eigen vector, and $\Sigma$ is the eigenvalue matrix of the system. FHI-aims delegates this step to the [ELPA](https://elpa.mpcdf.mpg.de)[^3] eigensolver, whose ELPA2 *two-stage tridiagonlization* replaces local BLAS calls with their cuBLAS equivalent and adds a CUDA kernel for the computationally complex Householder back-transformation step to an eigenvector $\boldsymbol{x}$,
+where, H is the Hamiltonian,  S is the overlap, C is the eigen vector, and $\Sigma$ is the eigenvalue matrix of the system. FHI-aims delegates this step to the [ELPA](https://elpa.mpcdf.mpg.de)[^3] eigensolver through the [ELSI](https://wordpress.elsi-interchange.org) interface, whose ELPA2 *two-stage tridiagonlization* replaces local BLAS calls with their cuBLAS equivalent and adds a CUDA kernel for the computationally complex Householder back-transformation step to an eigenvector $\boldsymbol{x}$,
 
 $$
 \left(\boldsymbol{I}-\tau \boldsymbol{v} \boldsymbol{v}^*\right) \boldsymbol{x}=\boldsymbol{x}-\tau \boldsymbol{v}\left(\boldsymbol{v}^* \boldsymbol{x}\right) .
