@@ -34,7 +34,7 @@ $$
 \hat{h}_{KS}=\hat{t}_s+\hat{v}_{ext}+\hat{v}_H[n]+\hat{v}_{xc}[n].
 $$
 
-Here, $\hat{t}\_s$ is the kinetic‑energy operator, $\hat{v}\_{ext}$ is the external potential, $\hat{v}\_H[n]$ is the Hartree potential of the electrons, and $\hat{v}\_{xc}[n]$ is the exchange–correlation potential. The density $n$ that minimizes the total energy is obtained through a self‑consistent‑field (SCF) cycle.
+Here, $\hat{t}\_s$ is the kinetic‑energy operator, $\hat{v}\_{ext}$ is the external potential, $\hat{v}\_H[n]$ is the Hartree potential of the electrons, and $\hat{v}\_{xc}[n]$ is the exchange-correlation potential. The density $n$ that minimizes the total energy is obtained through a self‑consistent‑field (SCF) cycle.
 
 Recent improvements in the code have made it possible to utilize GPUs to accelerate segments of this process. Readers are referred to *W.P. Huhn, B. Lange, V.W.-z. Yu et al./Comput. Phys. Commun. 254 (2020) 107314*[^4]  and *V.W.-z. Yu, J. Moussa, P. Kůs et al./Comput. Phys. Commun. 262 (2021) 107808*[^5] for a deeper dive into the implementation.
 
