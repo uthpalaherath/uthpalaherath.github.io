@@ -18,7 +18,7 @@ header:
 
 Firstly, May the 4th be with you!
 
-As mentioned in an earlier [post](https://uthpalaherath.com/Advanced-resource-monitoring-on-HPC-clusters/), this semester I had the privilege of setting up and optimizing the Density Functional Theory (DFT)[^2] code [FHI-aims](https://fhi-aims.org)[^1] on the [Duke Compute Cluster (DCC)](https://dcc.duke.edu) for students in the [ME511](https://graduateschool.bulletins.duke.edu/courses/0261981) (Computational Materials Science) course as well as for lab members of the [AIMS Group](https://aims.pratt.duke.edu) to perform materials simulations for research and education. As part of this process, I explored how utilizing GPUs can accelerate electronic structure calculations. I have documented my efforts to configure this setup [here](https://github.com/uthpalaherath/fhiaims-dcc). 
+As mentioned in an earlier [post](https://uthpalaherath.com/Advanced-resource-monitoring-on-HPC-clusters/), this semester I had the privilege of setting up and optimizing the Density Functional Theory (DFT)[^2] code [FHI-aims](https://fhi-aims.org)[^1] on the [Duke Compute Cluster (DCC)](https://dcc.duke.edu) for students in the [ME511](https://graduateschool.bulletins.duke.edu/courses/0261981) (Computational Materials Science) course as well as for lab members of the [AIMS Group](https://aims.pratt.duke.edu) to perform materials simulations for research and education. As part of this endeavor, I explored how utilizing GPUs can accelerate electronic structure calculations. I have documented my efforts to configure this setup [here](https://github.com/uthpalaherath/fhiaims-dcc). 
 
 # GPU implementation
 
