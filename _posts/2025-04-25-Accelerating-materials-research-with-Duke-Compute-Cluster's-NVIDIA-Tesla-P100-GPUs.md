@@ -80,8 +80,8 @@ Similar to the GPU offloaded real-space operations discussed earlier, data stay 
 
 To demonstrate the GPU acceleration in the code, I ran benchmark tests on the following two materials systems,
 
-1\. 3,000 atom Cu$_2$BaSnS$_4$ semiconductor (CBTS) supercell with 80,250 basis functions <br>
-2\. 3,376 atom Graphene-covered SiC surface model with 51,576 basis functions
+(1)\. 3,000 atom Cu$_2$BaSnS$_4$ semiconductor (CBTS) supercell with 80,250 basis functions <br>
+(2)\. 3,376 atom Graphene-covered SiC surface model with 51,576 basis functions
 
 Their crystal structures are shown in Fig. 2. 
 
