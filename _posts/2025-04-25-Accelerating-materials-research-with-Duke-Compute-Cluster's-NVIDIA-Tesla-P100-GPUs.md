@@ -124,7 +124,7 @@ These calculations were performed with FHI-aims v250403 built with Intel oneAPI 
 
 # Benchmark results
 
-For the 3,000 atom Cu$_2$BaSnS$_4$ structure with 80,250 basis functions, the calculation run on two nodes halted with the following error message, due to the insufficient GPU memory.
+For the 3,000 atom Cu$_2$BaSnS$_4$ structure with 80,250 basis functions, the calculation run on two nodes halted with the following error message, due to insufficient GPU memory.
 
 ```
 /hpc/home/ukh/local/FHIaims/FHIaims-intel-gpu/external_libraries/elsi_interface/external/ELPA/ELPA-2020.05.001/src/cudaFunctions.cu:90
