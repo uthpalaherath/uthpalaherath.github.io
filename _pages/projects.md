@@ -125,6 +125,15 @@ feature_row9:
     btn_label: "Code"
     btn_class: "btn--primary"
 
+feature_row10:
+  - image_path: "/assets/images/projects/pychemia.png"
+    alt: "PyChemia"
+    title: "PyChemia"
+    excerpt: "PyChemia is an open-source Python library for materials structural search providing an agnostic framework for materials discovery and design using a variety of methods from Minima Hoping to Soft-computing based methods. PyChemia is also a library for data-mining, using several methods to discover interesting candidates among the materials already processed. Currently supports VASP, ABINIT, Octopus, DFTB+ and Fireball."
+    url: "https://github.com/MaterialsDiscovery/PyChemia"
+    btn_label: "Code"
+    btn_class: "btn--primary"
+
 ---
 The following is a list of research projects I have contributed to.
 
@@ -137,3 +146,4 @@ The following is a list of research projects I have contributed to.
 {% include feature_row id="feature_row7" type="left" %}
 {% include feature_row id="feature_row8" type="left" %}
 {% include feature_row id="feature_row9" type="left" %}
+{% include feature_row id="feature_row10" type="left" %}
