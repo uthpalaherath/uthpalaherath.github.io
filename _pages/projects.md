@@ -129,8 +129,17 @@ feature_row10:
   - image_path: "/assets/images/projects/pychemia.png"
     alt: "PyChemia"
     title: "PyChemia"
-    excerpt: "PyChemia is an open-source Python library for materials structural search providing an agnostic framework for materials discovery and design using a variety of methods from Minima Hoping to Soft-computing based methods. PyChemia is also a library for data-mining, using several methods to discover interesting candidates among the materials already processed. Currently supports VASP, ABINIT, Octopus, DFTB+ and Fireball."
+    excerpt: "PyChemia is an open-source Python library for materials structural search providing an agnostic framework for materials discovery and design using a variety of methods from Minima Hoping to Soft-computing based methods. PyChemia is also a library for data-mining, using several methods to discover interesting candidates among the materials already processed. Currently supports VASP, ABINIT, Octopus, DFTB+, and Fireball."
     url: "https://github.com/MaterialsDiscovery/PyChemia"
+    btn_label: "Code"
+    btn_class: "btn--primary"
+
+feature_row11:
+  - image_path: "/assets/images/projects/mdwc3.gif"
+    alt: "mdwc3"
+    title: "mdwc3"
+    excerpt: "The molecular dynamics with constraints (mdwc3) package is a command line open source Python program for molecular dynamics simulations. It performs constraint MD simulations with either NPT (keeping pressure constant with the Parrinello Rahman lagrangian, and keeping the temperature constant with the Nose thermostat) or NVT (keeping the temperature constant with the Nose thermostat). mdwc3 performs constraint MD simulations following the SHAKE algorithm and allows constraints for bond distances, angles, atomic positions, lattice parameters (a, b, c), angles between lattice vectors, and volume of the unit cell."
+    url: "https://github.com/romerogroup/mdwc3"
     btn_label: "Code"
     btn_class: "btn--primary"
 
@@ -147,3 +156,4 @@ The following is a list of research projects I have contributed to.
 {% include feature_row id="feature_row8" type="left" %}
 {% include feature_row id="feature_row9" type="left" %}
 {% include feature_row id="feature_row10" type="left" %}
+{% include feature_row id="feature_row11" type="left" %}
