@@ -138,7 +138,7 @@ feature_row11:
   - image_path: "/assets/images/projects/mdwc3.gif"
     alt: "mdwc3"
     title: "mdwc3"
-    excerpt: "The molecular dynamics with constraints (mdwc3) package is a command line open source Python program for molecular dynamics simulations. It performs constraint MD simulations with either NPT (keeping pressure constant with the Parrinello Rahman lagrangian, and keeping the temperature constant with the Nose thermostat) or NVT (keeping the temperature constant with the Nose thermostat). mdwc3 performs constraint MD simulations following the SHAKE algorithm and allows constraints for bond distances, angles, atomic positions, lattice parameters (a, b, c), angles between lattice vectors, and volume of the unit cell."
+    excerpt: "The molecular dynamics with constraints (mdwc3) package is a command line open-source Python program for molecular dynamics simulations. It performs constraint MD simulations with either NPT (keeping pressure constant with the Parrinello-Rahman Lagrangian, and keeping the temperature constant with the Nosé-Hoover thermostat) or NVT (keeping the temperature constant with the Nosé-Hoover thermostat). mdwc3 performs constraint MD simulations following the SHAKE algorithm and allows constraints for bond distances, angles, atomic positions, lattice parameters (a, b, c), angles between lattice vectors, and volume of the unit cell."
     url: "https://github.com/romerogroup/mdwc3"
     btn_label: "Code"
     btn_class: "btn--primary"
