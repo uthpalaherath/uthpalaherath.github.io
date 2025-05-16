@@ -11,13 +11,13 @@ header:
 ## Submitted
 1. Abbott, J. W. et al. Roadmap on Advancements of the FHI‐aims Software Package. arXiv (2025).
 2. Karpov, P., Marek, A., Melson, T., Pöppl, A., Yu, V. W.‐z., Hourahine, B., Garcia, A., Dawson, W., Yao, Y., Huhn, W., Moussa, J., Hall, S., Maurer, R., **Herath, U.**, Lion, K., Kokott, S., & Blum, V. Solvers for Large‐Scale Electronic Structure Theory: ELPA and ELSI. arXiv (2025).
-3. Biliroglu, M., Seyitliyev, D., Kotyrov, M., Abdelsamei, M., Qin, X., Findik, G., Alma, G. A., **Herath, U.**, Lei, L., Chai, J., Mehta, Y., Swan, A., Temnov, V., Blum, V., So, F. & Gundogdu, K. Two-Step Phase Transition in Superfluorescence of Lead-Halide Perovskites.
+3. **Herath, U.**, Bhat, S. S., Singh, V., Lee, A. T., Ngo, A. T., Park, H., & Romero, A. H. Stability and diffusion of oxygen vacancies in LaNiO3: a DMFT study. (2025).
+4. Biliroglu, M., Seyitliyev, D., Kotyrov, M., Abdelsamei, M., Qin, X., Findik, G., Alma, G. A., **Herath, U.**, Lei, L., Chai, J., Mehta, Y., Swan, A., Temnov, V., Blum, V., So, F. & Gundogdu, K. Two-Step Phase Transition in Superfluorescence of Lead-Halide Perovskites.
 
 ## In preparation
 1. Chakraborty, R., **Herath, U.**, & Blum, V. HybriD3 : A Curated Materials Database for Hybrid Organic‐Inorganic Semiconductors.
 2. Zhang, M.‑Y., **Herath, U.**, Merz, F., Yao, Y., Rampp, M., Ren, X., Blum, V., & Scheffler, M. All‑electron periodic GW method in numeric atom‑centered basis framework: a thorough benchmark.
-3. **Herath, U.**, Singh, V., Bhat, S. S., Park, H., & Romero, A. H. Stability and diffusion of oxygen vacancies in LaNiO3: a DMFT study. arXiv.
-4. **Herath, U.**, Bhat, S. S., Singh, V., Park, H. & Romero, A. H. Investigating strongly correlated alloys via Dynamical Mean Field Theory.
+3. **Herath, U.**, Bhat, S. S., Singh, V., Park, H. & Romero, A. H. Investigating strongly correlated alloys via Dynamical Mean Field Theory.
 
 <!-- Please visit my [Google Scholar](https://scholar.google.com/citations?user=m6VPFYoAAAAJ&hl=en&authuser=1) profile for an updated list of publications. -->
 
