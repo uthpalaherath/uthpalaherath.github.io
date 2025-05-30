@@ -12,7 +12,6 @@ header:
 1. Abbott, J. W. et al. Roadmap on Advancements of the FHI‐aims Software Package. arXiv (2025).
 2. Karpov, P., Marek, A., Melson, T., Pöppl, A., Yu, V. W.‐z., Hourahine, B., Garcia, A., Dawson, W., Yao, Y., Huhn, W., Moussa, J., Hall, S., Maurer, R., **Herath, U.**, Lion, K., Kokott, S., & Blum, V. Solvers for Large‐Scale Electronic Structure Theory: ELPA and ELSI. arXiv (2025).
 3. **Herath, U.**, Bhat, S. S., Singh, V., Lee, A. T., Ngo, A. T., Park, H., & Romero, A. H. Stability and diffusion of oxygen vacancies in LaNiO3: a DMFT study. (2025).
-4. Biliroglu, M., Seyitliyev, D., Kotyrov, M., Abdelsamei, M., Qin, X., Findik, G., Alma, G. A., **Herath, U.**, Lei, L., Chai, J., Mehta, Y., Swan, A., Temnov, V., Blum, V., So, F. & Gundogdu, K. Two-Step Phase Transition in Superfluorescence of Lead-Halide Perovskites.
 
 ## In preparation
 1. Chakraborty, R., **Herath, U.**, & Blum, V. HybriD3 : A Curated Materials Database for Hybrid Organic‐Inorganic Semiconductors.
