@@ -26,9 +26,9 @@ The GW approximation is a Green’s function based many-body perturbation method
 
 Spin-orbit coupling (SOC) is a relativistic effect that can radically alter electronic structures in materials with heavy elements. My work on the implementation of SOC into periodic GW in [FHI-aims](https://fhi-aims.org) will ensure such effects are taken into account for excited state simulations of compound semiconductors and HOIP.
 
-**High-temperature superfluorescence simulations**<br>
+**Discovering high-temperature superfluorescence**<br>
 
-Through a novel $\Delta$-SCF implementation to simulate excited electrons within [FHI-aims](https://fhi-aims.org) and [ELSI](https://wordpress.elsi-interchange.org), I collaborate with experimental teams to investigate spontaneous polaron synchronization driven high-temperature superfluorescence phenomena in perovskites. These insights show promising potential in quantum computing and ultrafast photonics applications.
+Through a novel $\Delta$-SCF implementation to simulate excited electrons within [FHI-aims](https://fhi-aims.org) and [ELSI](https://wordpress.elsi-interchange.org), I collaborate with experimental teams to investigate spontaneous polaron synchronization driven high-temperature superfluorescence phenomena in perovskites. These insights show promising potential in quantum computing and ultrafast photonics applications [[Biliroglu, M., *et al.* Nature (May 2025)](https://www.nature.com/articles/s41586-025-09030-x#citeas)].
 
 # Strongly Correlated Materials and DMFT
 
