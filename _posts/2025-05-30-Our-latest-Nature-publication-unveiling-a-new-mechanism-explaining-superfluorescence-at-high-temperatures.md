@@ -26,7 +26,7 @@ I was privileged with the opportunity to develop the computational algorithms in
 
 Congratulations to a truly multidisciplinary team-**Kenan Gundogdu, Melike Biliroglu, Mustafa Türe, Antonia Ghita, Myratgeldi Kotyrov, Xixi Qin, Dovletgeldi Seyitliyev, Natchanun Phonthiptokun, Malek Abdelsamei, Jingshan Chai, Rui Su, Anna Swan, Vasily Temnov, Volker Blum,** and **Franky So** for an inspiring collaboration.
   
-**Read more**<br>
+**Read more:**<br>
 Nature article: [https://rdcu.be/eoeUQ](https://rdcu.be/eoeUQ)  
 News release: [https://shorturl.at/C39yA](https://shorturl.at/C39yA)
 
