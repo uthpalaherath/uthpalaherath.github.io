@@ -22,7 +22,7 @@ Our latest paper was just published in [Nature](https://www.nature.com/articles/
 
 Macroscopic exotic quantum phenomena such as superconductivity, superfluidity and superradiance usually collapse once thermal noise sets in. In our work we show that, once a critical density of polarons (quasiparticles formed by charge carriers coupled to the lattice) is excited, they self-organize into solitons: large, coherent groupings that effectively shield the system from thermal disturbances. This soliton-mediated damping provides a clear, quantitative mechanism for sustaining long-range quantum coherence at, and even above, room temperature. These insights point directly toward new classes of materials for quantum computing, secure communications, and photonic devices that can operate without cryogenic cooling.
 
-I was privileged with the opportunity to develop the computational algorithms in [FHI-aims ](https://fhi-aims.org/) and [ELSI](https://lnkd.in/extWGpeC) that helped validate the experimental observations of the solitonic mechanism in this work. 
+I was privileged with the opportunity to develop the computational algorithms in [FHI-aims ](https://fhi-aims.org/) and [ELSI](https://wordpress.elsi-interchange.org/) that helped validate the experimental observations of the solitonic mechanism in this work. 
 
 Congratulations to a truly multidisciplinary team-**Kenan Gundogdu, Melike Biliroglu, Mustafa Türe, Antonia Ghita, Myratgeldi Kotyrov, Xixi Qin, Dovletgeldi Seyitliyev, Natchanun Phonthiptokun, Malek Abdelsamei, Jingshan Chai, Rui Su, Anna Swan, Vasily Temnov, Volker Blum,** and **Franky So** for an inspiring collaboration.
   
