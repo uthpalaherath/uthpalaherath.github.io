@@ -28,7 +28,7 @@ Spin-orbit coupling (SOC) is a relativistic effect that can radically alter elec
 
 **Discovering high-temperature superfluorescence**<br>
 
-Through a novel $\Delta$-SCF implementation to simulate excited electrons within [FHI-aims](https://fhi-aims.org) and [ELSI](https://wordpress.elsi-interchange.org), I collaborate with experimental teams to investigate spontaneous polaron synchronization driven high-temperature superfluorescence phenomena in perovskites. These insights show promising potential in quantum computing and ultrafast photonics applications [[Biliroglu, M., *et al.* Nature (May 2025)](https://www.nature.com/articles/s41586-025-09030-x)].
+Through a novel $\Delta$-SCF implementation to simulate excited electrons within [FHI-aims](https://fhi-aims.org) and [ELSI](https://wordpress.elsi-interchange.org), I collaborate with experimental teams to investigate spontaneous polaron synchronization driven high-temperature superfluorescence phenomena in perovskites. These insights show promising potential in quantum computing, communications, and photonics applications [[Biliroglu, M., *et al.* Nature (May 2025)](https://www.nature.com/articles/s41586-025-09030-x)].
 
 # Strongly Correlated Materials and DMFT
 
