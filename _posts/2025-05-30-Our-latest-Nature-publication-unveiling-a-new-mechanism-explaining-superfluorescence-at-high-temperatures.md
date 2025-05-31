@@ -28,6 +28,6 @@ Congratulations to a truly multidisciplinary team-**Kenan Gundogdu, Melike Bilir
   
 **Read more**<br>
 Nature article: [https://rdcu.be/eoeUQ](https://rdcu.be/eoeUQ)  
-News release: [https://lnkd.in/e7Jv9Dry](https://lnkd.in/e7Jv9Dry)
+News release: [https://shorturl.at/C39yA](https://shorturl.at/C39yA)
 
 Thanks for reading. Please share any questions or feedback in the comments below, or feel free to reach out to me directly via email.
