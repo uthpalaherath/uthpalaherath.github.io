@@ -1,5 +1,5 @@
 ---
-title: Our latest Nature publication unveiling a new mechanism explaining superfluorescence at high temperatures
+title: Our latest Nature publication unveiling a new mechanism that explains superfluorescence at high temperatures
 excerpt: 
 date: 2025-05-30
 toc: false
