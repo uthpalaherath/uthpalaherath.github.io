@@ -15,7 +15,7 @@ Mean Field Theory) to emerging high-accuracy machine learning interatomic potent
 # Beyond-DFT many-body excited states and quasiparticle methods
 
 <figure style="width: 50%" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/GW-CSC.pdf" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/GW-CSC.png" alt="">
   <figcaption class="figure-caption text-center">A benchmark of GW band gaps of compound semiconductors with varying accuracies computed with the FHI-aims code</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ Through a novel $\Delta$-SCF implementation to simulate excited electrons within
 # Strongly Correlated Materials and DMFT
 
 <figure style="width: 50%" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/impurity.pdf" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/impurity.png" alt="">
   <figcaption class="figure-caption text-center">Mapping of the lattice to an impurity embedded in a bath which is determined self-consistency with DMFT. The impurity is an interacting single site coupled to an effective non-interacting bath representing the residual lattice through a hybridization function. </figcaption>
 </figure>
 
