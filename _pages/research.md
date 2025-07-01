@@ -8,8 +8,8 @@ header:
 ---
 
 <div class="my-custom-notice">
-I am a computational physicist specializing in the development and application of beyond-DFT (Density Functional Theory) methods for the design, discovery and characterization of novel materials. Over the past decade, I have leveraged high-performance computing (HPC) to push the boundaries of electronic structure simulations from GW approximation and DMFT (Dynamical
-Mean Field Theory) to emerging high-accuracy machine learning interatomic potentials for molecular dynamics, alongside the development of open-source frameworks that accelerate materials research for a worldwide user community. My ultimate goal is to combine advanced computational methods, AI and data-driven insights, and collaborative code development to enable next-generation technologies for semiconductors, electronics, and energy applications.
+My research focuses on the development and application of beyond-DFT (Density Functional Theory) methods for the design, discovery and characterization of novel materials. Over the past decade, I have leveraged research computing and high-performance computing (HPC) to push the boundaries of electronic structure simulations from GW approximation and DMFT (Dynamical
+Mean Field Theory) to emerging high-accuracy machine learning interatomic potentials for molecular dynamics, alongside the development of open-source frameworks that accelerate materials research for a worldwide user community. My ultimate goal is to combine advanced computational methods, AI and data-driven insights, and collaborative code development to enable next-generation technologies for semiconductors, electronics, energy applications and beyond.
 </div>
 
 # Beyond-DFT many-body excited states and quasiparticle methods

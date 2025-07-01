@@ -7,7 +7,7 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 
-Hello! I'm Uthpala, a Postdoctoral Associate in the Department of Mechanical Engineering and Materials Science (MEMS) at Duke University. I work with [Dr. Volker Blum's](https://aims.pratt.duke.edu) research group, exploring computational materials science-the fascinating intersection of physics, engineering, chemistry, and computer science.
+Hello! I'm Uthpala. I recently completed a postdoc at Duke University in the Department of Mechanical Engineering and Materials Science (MEMS) where I was a team member in [Dr. Volker Blum's](https://aims.pratt.duke.edu) research group, exploring computational materials science-the fascinating intersection of physics, engineering, chemistry, and computer science.
 
 ## My journey
 
@@ -17,7 +17,9 @@ I earned my bachelor's degree in physics with a minor in mathematics from the Un
 
 To further pursue my research interests, I returned to the United States for graduate studies, earning my Ph.D. in Computational Condensed Matter Physics at West Virginia University under the mentorship of [Dr. Aldo Romero](https://aldoromero.sandbox.wvu.edu). As a graduate student, I was an active member in the Physics and Astronomy Graduate Student Organization (PAGSO) and contributed to physics outreach programs to enhance public literacy in science across West Virginia.
 
-At Duke University, I continue to contribute to advancements in materials science, collaborating with a diverse team of researchers from around the world. Beyond research, I serve on the council of the [Duke University Postdoctoral Association (DUPA)](https://dukepostdocs.org) where I organize and lead events that bring postdocs from different backgrounds together fostering interdisciplinary research collaborations while addressing their needs and celebrating their accomplishments.
+At Duke University, I continued to contribute to advancements in materials science, collaborating with a diverse team of researchers from around the world. Beyond research, I served on the council of the [Duke University Postdoctoral Association (DUPA)](https://dukepostdocs.org) where I organized and led events that bring postdocs from different backgrounds together fostering interdisciplinary research collaborations while addressing their needs and celebrating their accomplishments.
+
+With the completion of my postdoc, I am now exploring opportunities where I can leverage research computing and high-performance computing to push the boundaries of science and technology.
 
 ## Life beyond academia
 

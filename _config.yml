@@ -36,8 +36,9 @@ minimal_mistakes_skin    : "default" #"default" # "air", "aqua", "contrast", "da
 author:
   name             : "Uthpala Herath"
   avatar           : "/assets/images/bio-photo.JPG"
-  bio              : "Computational Physicist <br>
-                     📍 Postdoc at Duke University"
+  bio              : "Computational Physicist"
+  # bio              : "Computational Physicist <br>
+  #                    📍 Postdoc at Duke University"
   location         : "Durham, NC"
   links:
     - label: "Email"
