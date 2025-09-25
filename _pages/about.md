@@ -19,7 +19,7 @@ To further pursue my research interests, I returned to the United States for gra
 
 At Duke University, I continued to contribute to advancements in materials science, collaborating with a diverse team of researchers from around the world. Beyond research, I served on the council of the [Duke University Postdoctoral Association (DUPA)](https://dukepostdocs.org) where I organized and led events that bring postdocs from different backgrounds together fostering interdisciplinary research collaborations while addressing their needs and celebrating their accomplishments.
 
-With the completion of my postdoc, I am now exploring opportunities where I can leverage research computing and high-performance computing to push the boundaries of science and technology.
+In my current position as a Sr. Engagement Specialist with [Duke Research Computing](https://oit.duke.edu/service/research-computing), I help teams across disciplines within the Duke community and greater [North Carolina](http://ncshare.org) harness research computing to turn bold ideas into scalable, high-impact results.
 
 ## Life beyond academia
 
