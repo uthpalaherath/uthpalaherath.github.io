@@ -8,7 +8,7 @@ header:
 ---
 
 <div class="my-custom-notice">
-Hello! I'm Uthpala, a computational physicist currently serving as a Sr. Engagement Specialist with [Duke Research Computing](https://oit.duke.edu/service/research-computing).
+Hello! I'm Uthpala, a computational physicist currently serving as a Sr. Engagement Specialist with Duke Research Computing.
 </div>
 
 ## My journey
