@@ -7,7 +7,7 @@ header:
     caption: "Photo by [Pasindu Dhananjaya](https://unsplash.com/@pasiiijay) on [Unsplash](https://unsplash.com)"
 ---
 
-Hello! I'm Uthpala. I recently completed a postdoc at Duke University in the Department of Mechanical Engineering and Materials Science (MEMS) where I was a team member in [Dr. Volker Blum's](https://aims.pratt.duke.edu) research group, exploring computational materials science-the fascinating intersection of physics, engineering, chemistry, and computer science.
+Hello! I'm Uthpala, a computational physicist currently serving as a Sr. Engagement Specialist with [Duke Research Computing](https://oit.duke.edu/service/research-computing).
 
 ## My journey
 
@@ -15,9 +15,9 @@ Born on the tropical island of Sri Lanka, I moved to the United States at the ag
 
 I earned my bachelor's degree in physics with a minor in mathematics from the University of Peradeniya in Sri Lanka. During my undergraduate years, I was actively involved in the Physics Society, the Astronomy Society, the Ceylon Drama Society, and various charity organizations and outreach programs. I also volunteered in a research project with the Sri Lanka Department of Agriculture, assisting in the development of a computational system for plant disease diagnosis to help farmers across the country.
 
-To further pursue my research interests, I returned to the United States for graduate studies, earning my Ph.D. in Computational Condensed Matter Physics at West Virginia University under the mentorship of [Dr. Aldo Romero](https://aldoromero.sandbox.wvu.edu). As a graduate student, I was an active member in the Physics and Astronomy Graduate Student Organization (PAGSO) and contributed to physics outreach programs to enhance public literacy in science across West Virginia.
+To further pursue my research interests, I returned to the United States for graduate studies, earning my Ph.D. in Computational Condensed Matter Physics at West Virginia University under the mentorship of [Dr. Aldo Romero](https://aldoromero.sandbox.wvu.edu). During this time, I had the opportunity to explore the fascinating intersection of physics, engineering, chemistry, and computer science. As a graduate student, I was an active member in the Physics and Astronomy Graduate Student Organization (PAGSO) and contributed to physics outreach programs to enhance public literacy in science across West Virginia.
 
-At Duke University, I continued to contribute to advancements in materials science, collaborating with a diverse team of researchers from around the world. Beyond research, I served on the council of the [Duke University Postdoctoral Association (DUPA)](https://dukepostdocs.org) where I organized and led events that bring postdocs from different backgrounds together fostering interdisciplinary research collaborations while addressing their needs and celebrating their accomplishments.
+At Duke University, I continued to contribute to advancements in materials science, collaborating with a diverse team of researchers from around the world. I completed my postdoc in the Department of Mechanical Engineering and Materials Science (MEMS) where I worked in [Dr. Volker Blum's](https://aims.pratt.duke.edu) research group, focusing on the development and application of computational methods and frameworks to design, discover and characterize materials for semiconductor and energy applications. Beyond research, I served on the council of the [Duke University Postdoctoral Association (DUPA)](https://dukepostdocs.org) where I organized and led events that bring postdocs from different backgrounds together fostering interdisciplinary research collaborations while addressing their needs and celebrating their accomplishments.
 
 In my current position as a Sr. Engagement Specialist with [Duke Research Computing](https://oit.duke.edu/service/research-computing), I help teams across disciplines within the Duke community and greater [North Carolina](http://ncshare.org) harness research computing to turn bold ideas into scalable, high-impact results.
 
