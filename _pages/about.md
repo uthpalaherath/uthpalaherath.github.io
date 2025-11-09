@@ -8,7 +8,7 @@ header:
 ---
 
 <div class="my-custom-notice">
-Hello! I'm Uthpala, a computational physicist currently serving as a Sr. Engagement Specialist with Duke Research Computing.
+Hello! I’m Uthpala, a computational physicist passionate about empowering researchers to push the boundaries of discovery through advanced computing. With over a decade of experience in research computing, data science, and high-performance computing, I help teams across disciplines turn ambitious ideas into scalable, high-impact research.
 </div>
 
 ## My journey
@@ -19,9 +19,9 @@ I earned my bachelor's degree in physics with a minor in mathematics from the Un
 
 To further pursue my research interests, I returned to the United States for graduate studies, earning my Ph.D. in Computational Condensed Matter Physics at West Virginia University under the mentorship of [Dr. Aldo Romero](https://aldoromero.sandbox.wvu.edu). During this time, I had the opportunity to explore the fascinating intersection of physics, engineering, chemistry, and computer science. As a graduate student, I was an active member in the Physics and Astronomy Graduate Student Organization (PAGSO) and contributed to physics outreach programs to enhance public literacy in science across West Virginia.
 
-At Duke University, I continued to contribute to advancements in materials science, collaborating with a diverse team of researchers from around the world. I completed my postdoc in the Department of Mechanical Engineering and Materials Science (MEMS) where I worked in [Dr. Volker Blum's](https://aims.pratt.duke.edu) research group, focusing on the development and application of computational methods and frameworks to design, discover and characterize materials for semiconductor and energy applications. Beyond research, I served on the council of the [Duke University Postdoctoral Association (DUPA)](https://dukepostdocs.org) where I organized and led events that bring postdocs from different backgrounds together fostering interdisciplinary research collaborations while addressing their needs and celebrating their accomplishments.
+At Duke University, I continued to contribute to advancements in materials science, collaborating with a diverse team of researchers from around the world. I completed my postdoctoral research in the [Ab-Initio Materials Simulations (AIMS)](https://aims.pratt.duke.edu) lab, focusing on the development and application of computational methods to design and characterize materials for semiconductor and energy applications. Beyond research, I served on the council of the [Duke University Postdoctoral Association (DUPA)](https://dukepostdocs.org) where I organized and led events that brought postdocs from different backgrounds together fostering interdisciplinary research collaborations. I was also part of the 2025 Duke [Emerging Leaders Institute](https://gradschool.duke.edu/professional-development/programs/emerging-leaders-institute/) cohort where I had the opportunity to strengthen my leadership skills and connect with other emerging leaders across Duke University. 
 
-In my current position as a Sr. Engagement Specialist with [Duke Research Computing](https://oit.duke.edu/service/research-computing), I help teams across disciplines within the Duke community and greater [North Carolina](http://ncshare.org) harness research computing to turn bold ideas into scalable, high-impact results.
+In my current position as a Sr. Engagement Specialist with [Duke Research Computing](https://oit.duke.edu/service/research-computing), I work with researchers and educators across the Duke community and throughout [North Carolina](http://ncshare.org) to advance discovery through collaboration, innovation, and computational expertise. 
 
 ## Life beyond academia
 
