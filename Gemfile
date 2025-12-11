@@ -4,3 +4,4 @@ gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 gem "jekyll-feed"
 gem "webrick", "~> 1.9"
+gem "openssl", "~> 3.3.1"
