@@ -8,7 +8,7 @@ header:
 ---
 
 <div class="my-custom-notice">
-Hello! I’m Uthpala, a computational physicist passionate about empowering researchers to push the boundaries of discovery through advanced computing. With over a decade of experience in research computing, data science, and high-performance computing, I help teams across disciplines turn ambitious ideas into scalable, high-impact research.
+Hello! I’m Uthpala, a computational physicist passionate about empowering researchers to push the boundaries of discovery through advanced computing. With over a decade of experience in condensed matter physics, research computing, data science, and high-performance computing, I help teams across disciplines turn ambitious ideas into scalable, high-impact research.
 </div>
 
 ## My journey
