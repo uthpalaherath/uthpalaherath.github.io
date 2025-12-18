@@ -25,7 +25,7 @@ The setup discussed here was tested on Duke University's [DCC](https://oit-rc.pa
 1\. Usually, on HPC clusters, you won't have root privileges to install applications, so we are going to first build a simple [Apptainer](https://apptainer.org) container with Ollama in it. If you already have `ollama`, you may skip this setup. Create the `ollama.def` file shown below in some working directory on your cluster. For the purpose of this guide, my working directory where I keep all the files and models mentioned is `/work/ukh/ollama`.
 
 `ollama.def:`
-```apptainer
+```bash
 Bootstrap: docker
 From: ollama/ollama:latest
 ```
