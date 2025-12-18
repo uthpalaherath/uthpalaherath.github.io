@@ -146,7 +146,7 @@ We could run the inference session either by using the `ollama` application dire
 
 ## 1. Using the Ollama application
 
-The inferencing can be done either through the `ollama` application from Apptainer container or the `ollama` binary from the `conda` setup.
+The inferencing can be done either through the `ollama` application from the Apptainer container or the `ollama` binary from the `conda` setup.
 If you are using the `ollama` instance installed form `conda`, from any node on the cluster, you can run, 
 
 ```shell
@@ -155,7 +155,7 @@ export OLLAMA_MODELS=/work/ukh/ollama/models
 ollama run llama4:scout
 ```
 
-Here we download and run the LLM model, [llama4:scout](https://ollama.com/library/llama4:scout), which as 109 billion parameters. With the `ollama` application, it starts a chat session once the download is complete. Chat away,  my friend ...
+Here we download and run the LLM model, [llama4:scout](https://ollama.com/library/llama4:scout), which has 109 billion parameters. With the `ollama` application, it starts a chat session once the download is complete. Chat away,  my friend ...
 
 You could use the `ollama` instance from the Apptainer container as well to achieve this with something like the following, 
 
