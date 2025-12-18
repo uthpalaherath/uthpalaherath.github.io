@@ -14,7 +14,7 @@ related:
 {: .notice--primary}
 *This is a guide on setting up an Ollama server to run LLM models on a HPC cluster with GPUs. The Ollama server is hosted on a GPU node, while the inferencing can be done on any other node on the cluster.*
 
-![2025-12-17-Running-LLMs-on-a-HPC-cluster-20251217211525532](/assets/media/2025-12-17-Running-LLMs-on-a-HPC-cluster/2025-12-17-Running-LLMs-on-a-HPC-cluster-20251217211525532.png)
+![2025-12-17-Running-LLMs-on-a-HPC-cluster-20251217211525532](/assets/media/2025-12-17-Running-LLMs-on-a-HPC-cluster/2025-12-17-Running-LLMs-on-a-HPC-cluster-20251217211525532.jpg)
 
 Large Language Models (LLMs) have become ever so popular, especially with broader access to computational resources such as HPC clusters and GPUs along with tools like [Ollama](https://ollama.com) that allow users to access open-source LLM models. In this guide, I will walk you through how to set up an host Ollama server on a GPU node on a HPC cluster which can be used for inference from other nodes. This post was inspired by an [article](https://medium.com/@afifaniks/running-ollama-with-apptainer-a-step-by-step-guide-to-local-llms-with-gpu-support-on-hpc-3fe98c8af2c8) by [Afif](https://medium.com/@afifaniks/about) so kudos to him for laying down the ground work.
 
@@ -210,7 +210,7 @@ print("\n")
  
 If you want to use the Python API as a chat client, you may use the following code instead,
 
-`ollama_client_chat.py`
+`ollama_client_chat.py:`
 ```python
 #!/usr/bin/env python                                                             
                                          
