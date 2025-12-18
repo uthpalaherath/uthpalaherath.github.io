@@ -12,7 +12,7 @@ created: 2025-12-17 16:36
 related:
 ---
 {: .notice--primary}
-*This is a guide on setting up an Ollama server to run LLM models on a HPC cluster with GPUs. The Ollama server is hosted on a GPU node, while the inferencing can be done on any other node on the cluster.*
+*This is a guide on setting up an Ollama server to run LLM models on a HPC cluster with GPUs. The Ollama server is hosted on a GPU node, while the inferencing can be done from any other node on the cluster.*
 
 ![2025-12-17-Running-LLMs-on-a-HPC-cluster-20251217211525532](/assets/media/2025-12-17-Running-LLMs-on-a-HPC-cluster/2025-12-17-Running-LLMs-on-a-HPC-cluster-20251217211525532.jpg)
 
