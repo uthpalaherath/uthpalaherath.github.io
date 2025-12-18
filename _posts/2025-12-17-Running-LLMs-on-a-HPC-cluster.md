@@ -216,7 +216,7 @@ If you want to use the Python API as a chat client, you may use the following co
                                          
 from ollama import Client       
                                          
-HOST = ""http://dcc-h200-gpu-06.rc.duke.edu:11434"                                             
+HOST = "http://dcc-h200-gpu-06.rc.duke.edu:11434"                                             
 MODEL = "llama4:scout"                 
                                                                                   
 def main():                                                                       
