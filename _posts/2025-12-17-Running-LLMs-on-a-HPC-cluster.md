@@ -7,7 +7,7 @@ tags:
   - hpc
   - gpu
 header:
-  teaser: /assets/media/2025-12-17-Running-LLMs-on-a-HPC-cluster/2025-12-17-Running-LLMs-on-a-HPC-cluster-20251217165942997.png
+  teaser: /assets/media/2025-12-17-Running-LLMs-on-a-HPC-cluster/2025-12-17-Running-LLMs-on-a-HPC-cluster-20251217211525532.jpg
 created: 2025-12-17 16:36
 related:
 ---
