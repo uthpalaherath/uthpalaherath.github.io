@@ -91,7 +91,7 @@ apptainer exec \
 echo "🦙 Ollama is now serving at http://$(hostname -f):$PORT"
 ```
 
-This will use the the Apptainer container, `ollama.sif`, we built earlier to host a server in the background that looks for models stored in `/work/ukh/ollama/models`. It is important to host on `0.0.0.0` so that the server listens on all available network interfaces and not just `localhost`.  Request an interactive session or submit a [SLURM](https://slurm.schedmd.com) job script to request a GPU node. I will request an interactive session on a node with 1 H200 GPU, 300 GB of RAM, for 2 hours with, 
+This will use the Apptainer container, `ollama.sif`, we built earlier to host a server in the background that looks for models stored in `/work/ukh/ollama/models`. It is important to host on `0.0.0.0` so that the server listens on all available network interfaces and not just `localhost`.  Request an interactive session or submit a [SLURM](https://slurm.schedmd.com) job script to request a GPU node. I will request an interactive session on a node with 1 H200 GPU, 300 GB of RAM, for 2 hours with, 
 
 ```shell
 srun -p h200ea -A h200ea --gres=gpu:h200:1 --mem=300G -t 2:00:00 --pty bash -i
