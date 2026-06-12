@@ -42,12 +42,12 @@ The electronic correlations in materials drive a variety of fascinating phenomen
 **The DMFTwDFT framework**<br>
 
 <figure style="width: 50%" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/dmftwdft.png" alt="">
-  <figcaption class="figure-caption text-center">The spectral function of SrVO3 calculated with DMFTwDFT. The band broadening is a measure of quasiparticle lifetimes which is not present in DFT band structures. </figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/dmftwdft-hd.png" alt="">
 </figure>
 
 <figure style="width: 50%" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/dmftwdft-hd.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/dmftwdft.png" alt="">
+  <figcaption class="figure-caption text-center">The spectral function of SrVO3 calculated with DMFTwDFT. The band broadening is a measure of quasiparticle lifetimes which is not present in DFT band structures. </figcaption>
 </figure>
 
 Dynamical Mean Field Theory (DMFT) is a many-body Green's function technique used to study Strongly Correlated Materials (SCM) in which a lattice is mapped onto a local interacting impurity problem and solved numerically using Quantum Monte Carlo methods to capture both itinerant and localized nature of electrons. The initial self-energy ($\Sigma$) is estimated from the self-consistent density obtained from DFT which is then projected into maximally localized Wannier functions (MLWF's) as the basis set which is then used to solve for the interacting DMFT density matrix. Full charge self-consistency is achieved by repeatedly updating the DFT and DMFT charge densities until they are both converged.<br>
