@@ -42,12 +42,12 @@ The electronic correlations in materials drive a variety of fascinating phenomen
 **The DMFTwDFT framework**<br>
 
 <figure style="width: 50%" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/dmftwdft-hd.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/dmftwdft.png" alt="">
+  <figcaption class="figure-caption text-center">The spectral function of SrVO3 calculated with DMFTwDFT. The band broadening is a measure of quasiparticle lifetimes which is not present in DFT band structures. </figcaption>
 </figure>
 
 <figure style="width: 50%" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/dmftwdft.png" alt="">
-  <figcaption class="figure-caption text-center">The spectral function of SrVO3 calculated with DMFTwDFT. The band broadening is a measure of quasiparticle lifetimes which is not present in DFT band structures. </figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/dmftwdft-hd.png" alt="">
 </figure>
 
 Dynamical Mean Field Theory (DMFT) is a many-body Green's function technique used to study Strongly Correlated Materials (SCM) in which a lattice is mapped onto a local interacting impurity problem and solved numerically using Quantum Monte Carlo methods to capture both itinerant and localized nature of electrons. The initial self-energy ($\Sigma$) is estimated from the self-consistent density obtained from DFT which is then projected into maximally localized Wannier functions (MLWF's) as the basis set which is then used to solve for the interacting DMFT density matrix. Full charge self-consistency is achieved by repeatedly updating the DFT and DMFT charge densities until they are both converged.<br>
@@ -55,12 +55,12 @@ I am a developer of the open-source [DMFTwDFT](https://github.com/dmftwdft/DMFTw
 
 **Investigating defects in SCM**<br>
 
-My research has highlighted the effects of oxygen vacancies [U. Herath et al., The Journal of Physical Chemistry C 2026 130 (2), 977-991](https://pubs.acs.org/doi/full/10.1021/acs.jpcc.5c03370)] and hydrogen doping [[S. S. Bhat et al., Phys. Rev. B 109, 205124 (2024)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.205124)] on metal-insulator transitions and diffusion in transition metal and rare-earth nickelate perovskites, with implications for neuromorphic computing and microelectronics.<br>
+My research has highlighted the effects of oxygen vacancies [[U. Herath et al., J. Phys. Chem. C 2026 130 (2), 977-991](https://pubs.acs.org/doi/full/10.1021/acs.jpcc.5c03370)] and hydrogen doping [[S. S. Bhat et al., Phys. Rev. B 109, 205124 (2024)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.205124)] on metal-insulator transitions and diffusion in transition metal and rare-earth nickelate perovskites, with implications for neuromorphic computing and microelectronics.<br>
 I also implemented a symmetry based method to investigate alloying/defects in SCM with higher computational efficiency.
 
 **High-accuracy machine learning interatomic potentials for SCM**<br>
 
-In collaboration with AI/ML experts, I developed neural network-based interatomic potentials capturing DMFT-level accuracy for SCM, enabling large scale MD simulations across diverse time and length scales.
+In collaboration with AI/ML experts, I developed neural network-based interatomic potentials capturing DMFT-level accuracy for SCM, enabling large scale MD simulations across diverse time and length scales. The goal of this work was to enable discovery of novel materials for neuromorphic computing and microelectronics applications by simulating the complex interplay between electronic correlations and lattice dynamics in SCM.
 
 <figure style="width: 80%" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/nc.png" alt="">
