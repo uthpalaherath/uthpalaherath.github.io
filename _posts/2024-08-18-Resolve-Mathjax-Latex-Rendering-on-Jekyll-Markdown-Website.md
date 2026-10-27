@@ -19,7 +19,6 @@ After about a 2 year hiatus, I thought I would try and get back into blogging on
 Anyways, the actual reason that motivated me to write this post was noticing the Latex rendering on my website was broken. After doing a bit of digging[^1] [^2], the reason seemed to be an update to [MathJax](https://www.mathjax.org) v3. The fix was quite simple. Adding the following snippet to `_includes/script.html` did the job. 
 
 ```html
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script>
  MathJax = {
@@ -33,6 +32,9 @@ Anyways, the actual reason that motivated me to write this post was noticing the
 ```
 
 This also ensures that in-line math enclosed within single `'$LaTex$'` renders too. 
+
+{: .notice--warning}
+**Update (October 2026):** An earlier version of this snippet also loaded `polyfill.io/v3/polyfill.min.js`. That domain was taken over in a 2024 supply-chain attack and now serves malicious JavaScript, so remove it if you copied the snippet. MathJax 3 doesn't need the polyfill in modern browsers.
 
 That's it for now. Hope to see you all soon!
 
